@@ -1,0 +1,74 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# SQLite Database
+*.db
+*.sqlite3
+
+# Model Files (Optional)
+# Uncomment if models are large
+# models/*.pkl
+
+# Data Files (Optional)
+# Uncomment if datasets are large
+# data/
+
+# Streamlit Cache
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Testing
+.coverage
+.pytest_cache/
+
+# Docker
+docker-compose.override.yml
+
+# Temporary Files
+*.tmp
+*.bak
+
+# PDF Reports
+data/reports/
+
+# Secrets
+*.pem
+*.key
+*.crt

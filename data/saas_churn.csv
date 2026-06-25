@@ -1,0 +1,1001 @@
+customer_id,name,email,tenure,monthly_charges,total_charges,contract_type,payment_method,paperless_billing,tech_support,online_security,churn_probability,churn,location_lat,location_lon
+CUST-10000,Michael Smith,michael.smith@example.com,30,94.07,2822.1,One year,Electronic check,1,Yes,Yes,0.2463,1,37.65301,-122.4996
+CUST-10001,Karen Smith,karen.smith@example.com,47,64.92,3051.24,One year,Bank transfer,0,No,Yes,0.1156,1,37.86665,-122.35996
+CUST-10002,Mary Rodriguez,mary.rodriguez@example.com,19,29.67,563.73,Month-to-month,Bank transfer,0,No,Yes,0.6517,0,37.84382,-122.40853
+CUST-10003,Jennifer Williams,jennifer.williams@example.com,52,77.74,4042.48,One year,Electronic check,1,No,No,0.1663,0,37.71172,-122.54546
+CUST-10004,Joseph Brown,joseph.brown@example.com,8,55.53,444.24,Month-to-month,Bank transfer,0,No,Yes,0.8673,1,37.64632,-122.37891
+CUST-10005,Jessica Davis,jessica.davis@example.com,7,75.69,529.83,Month-to-month,Bank transfer,0,No internet service,No,0.8857,1,37.69361,-122.55977
+CUST-10006,Mary Gonzalez,mary.gonzalez@example.com,5,51.47,257.35,Month-to-month,Credit card,1,No internet service,No,0.845,0,37.76256,-122.48994
+CUST-10007,Joseph Moore,joseph.moore@example.com,48,56.2,2697.6,One year,Mailed check,1,Yes,Yes,0.0441,0,37.63903,-122.53651
+CUST-10008,David Wilson,david.wilson@example.com,35,45.14,1579.9,One year,Electronic check,0,Yes,Yes,0.0809,0,37.89034,-122.34414
+CUST-10009,Mary Brown,mary.brown@example.com,5,91.97,459.85,Month-to-month,Mailed check,1,Yes,No,0.9246,1,37.81249,-122.3169
+CUST-10010,Susan Martin,susan.martin@example.com,7,112.24,785.68,Month-to-month,Electronic check,1,Yes,No internet service,0.907,1,37.65846,-122.46051
+CUST-10011,Charles Davis,charles.davis@example.com,16,68.6,1097.6,Month-to-month,Electronic check,0,No internet service,Yes,0.6911,1,37.66263,-122.37147
+CUST-10012,Jessica Garcia,jessica.garcia@example.com,16,73.93,1182.88,Month-to-month,Mailed check,0,No,Yes,0.8471,1,37.82641,-122.45737
+CUST-10013,Susan Anderson,susan.anderson@example.com,6,43.01,258.06,Month-to-month,Mailed check,1,No,No,0.9055,1,37.64256,-122.54918
+CUST-10014,John Hernandez,john.hernandez@example.com,6,33.23,199.38,Month-to-month,Credit card,1,No,Yes,0.827,1,37.74702,-122.5411
+CUST-10015,Linda Lopez,linda.lopez@example.com,9,118.42,1065.78,Month-to-month,Electronic check,1,No,No,0.9726,1,37.86508,-122.53662
+CUST-10016,Richard Miller,richard.miller@example.com,26,107.45,2793.7,One year,Electronic check,1,Yes,Yes,0.3579,0,37.79,-122.55422
+CUST-10017,Jessica Smith,jessica.smith@example.com,59,68.56,4045.04,Two year,Mailed check,0,No,Yes,0.0594,0,37.67429,-122.56875
+CUST-10018,Jennifer Rodriguez,jennifer.rodriguez@example.com,50,93.05,4652.5,Two year,Credit card,1,Yes,No,0.1221,0,37.91551,-122.39565
+CUST-10019,Jessica Johnson,jessica.johnson@example.com,21,105.27,2210.67,One year,Mailed check,1,Yes,Yes,0.4269,0,37.8803,-122.54884
+CUST-10020,Robert Davis,robert.davis@example.com,19,23.97,455.43,Month-to-month,Electronic check,1,No,No,0.7336,1,37.78173,-122.28899
+CUST-10021,Richard Hernandez,richard.hernandez@example.com,8,51.62,412.96,Month-to-month,Electronic check,1,No,Yes,0.858,1,37.7938,-122.53941
+CUST-10022,Jessica Miller,jessica.miller@example.com,25,44.43,1110.75,One year,Bank transfer,1,Yes,Yes,0.1445,0,37.83596,-122.3859
+CUST-10023,Susan Smith,susan.smith@example.com,40,107.81,4312.4,One year,Bank transfer,1,No internet service,Yes,0.1809,1,37.79087,-122.4877
+CUST-10024,Karen Miller,karen.miller@example.com,29,68.85,1996.65,One year,Electronic check,1,No,Yes,0.3194,0,37.7079,-122.56834
+CUST-10025,William Rodriguez,william.rodriguez@example.com,8,31.19,249.52,Month-to-month,Mailed check,1,No,No,0.8688,1,37.79965,-122.52497
+CUST-10026,William Johnson,william.johnson@example.com,17,109.89,1868.13,Month-to-month,Mailed check,0,No,No,0.9461,1,37.731,-122.40143
+CUST-10027,Linda Martin,linda.martin@example.com,59,99.99,5899.41,One year,Mailed check,0,Yes,Yes,0.0505,1,37.84587,-122.46974
+CUST-10028,Linda Davis,linda.davis@example.com,14,105.86,1482.04,Month-to-month,Mailed check,1,Yes,No,0.8988,0,37.7298,-122.32324
+CUST-10029,Joseph Davis,joseph.davis@example.com,5,116.69,583.45,Month-to-month,Bank transfer,1,No,No,0.9781,1,37.82876,-122.3163
+CUST-10030,Mary Smith,mary.smith@example.com,20,46.55,931.0,Month-to-month,Electronic check,1,Yes,No internet service,0.5244,1,37.86083,-122.43848
+CUST-10031,Susan Brown,susan.brown@example.com,10,20.17,201.7,Month-to-month,Mailed check,1,Yes,No,0.6763,1,37.82417,-122.47034
+CUST-10032,Mary Brown,mary.brown@example.com,32,60.24,1927.68,One year,Bank transfer,1,Yes,Yes,0.1269,0,37.82438,-122.45566
+CUST-10033,David Martin,david.martin@example.com,36,41.02,1476.72,One year,Bank transfer,1,No,Yes,0.1444,0,37.68901,-122.42744
+CUST-10034,David Williams,david.williams@example.com,12,115.2,1382.4,Month-to-month,Mailed check,0,No,Yes,0.9429,1,37.68464,-122.56207
+CUST-10035,Joseph Thomas,joseph.thomas@example.com,49,77.57,3800.93,One year,Credit card,1,Yes,No,0.0984,0,37.82172,-122.56774
+CUST-10036,Michael Wilson,michael.wilson@example.com,14,75.74,1060.36,Month-to-month,Electronic check,1,No,No,0.9154,1,37.82517,-122.27303
+CUST-10037,Karen Hernandez,karen.hernandez@example.com,56,70.48,3946.88,Two year,Credit card,0,No,No,0.1167,0,37.7673,-122.49164
+CUST-10038,Joseph Rodriguez,joseph.rodriguez@example.com,39,27.75,1082.25,One year,Bank transfer,1,No,Yes,0.0958,0,37.89281,-122.54523
+CUST-10039,William Davis,william.davis@example.com,5,53.09,265.45,Month-to-month,Credit card,1,Yes,No,0.8492,1,37.75094,-122.29795
+CUST-10040,Sarah Smith,sarah.smith@example.com,49,55.18,2703.82,Two year,Credit card,0,Yes,Yes,0.0406,0,37.75061,-122.34515
+CUST-10041,Jessica Martin,jessica.martin@example.com,38,58.89,2237.82,Two year,Credit card,0,Yes,Yes,0.0866,0,37.90076,-122.27518
+CUST-10042,Jessica Smith,jessica.smith@example.com,42,62.86,2640.12,Two year,Credit card,1,No,Yes,0.149,0,37.72311,-122.43299
+CUST-10043,Mary Gonzalez,mary.gonzalez@example.com,19,67.03,1273.57,Month-to-month,Electronic check,0,No,No,0.8669,1,37.81994,-122.33503
+CUST-10044,John Smith,john.smith@example.com,28,32.62,913.36,Two year,Electronic check,1,Yes,Yes,0.0985,0,37.83474,-122.33933
+CUST-10045,David Martin,david.martin@example.com,48,116.47,5590.56,One year,Electronic check,1,Yes,No,0.2025,0,37.79764,-122.29699
+CUST-10046,Jennifer Gonzalez,jennifer.gonzalez@example.com,28,44.28,1239.84,Two year,Bank transfer,0,Yes,No,0.1853,0,37.66122,-122.27425
+CUST-10047,John Lopez,john.lopez@example.com,44,21.27,935.88,One year,Credit card,0,Yes,No,0.0471,0,37.91314,-122.37872
+CUST-10048,Elizabeth Jones,elizabeth.jones@example.com,13,100.82,1310.66,Month-to-month,Credit card,1,No internet service,Yes,0.8389,1,37.80264,-122.47271
+CUST-10049,Joseph Williams,joseph.williams@example.com,8,86.82,694.56,Month-to-month,Bank transfer,1,No,No,0.9527,1,37.67945,-122.50576
+CUST-10050,Thomas Hernandez,thomas.hernandez@example.com,11,71.66,788.26,Month-to-month,Mailed check,1,No,No,0.9241,1,37.77147,-122.34195
+CUST-10051,Barbara Thomas,barbara.thomas@example.com,2,44.33,88.66,Month-to-month,Bank transfer,1,Yes,No,0.8524,1,37.75255,-122.34562
+CUST-10052,Mary Lopez,mary.lopez@example.com,31,39.26,1217.06,One year,Electronic check,0,Yes,Yes,0.0927,0,37.83195,-122.51194
+CUST-10053,Barbara Rodriguez,barbara.rodriguez@example.com,64,30.05,1923.2,One year,Mailed check,1,Yes,Yes,0.0093,0,37.71558,-122.35699
+CUST-10054,William Rodriguez,william.rodriguez@example.com,3,83.79,251.37,Month-to-month,Credit card,1,Yes,No internet service,0.8782,1,37.7102,-122.42579
+CUST-10055,Mary Garcia,mary.garcia@example.com,31,26.53,822.43,Two year,Credit card,1,No,Yes,0.1498,0,37.64098,-122.52464
+CUST-10056,Sarah Martinez,sarah.martinez@example.com,6,79.61,477.66,Month-to-month,Mailed check,0,No,No,0.9522,1,37.89745,-122.48019
+CUST-10057,Sarah Wilson,sarah.wilson@example.com,11,114.76,1262.36,Month-to-month,Mailed check,0,No,No,0.9665,1,37.64926,-122.49744
+CUST-10058,Jessica Williams,jessica.williams@example.com,8,23.26,186.08,Month-to-month,Bank transfer,0,No,No,0.8497,1,37.76111,-122.36318
+CUST-10059,Thomas Jackson,thomas.jackson@example.com,60,84.76,5085.6,One year,Bank transfer,0,Yes,Yes,0.0354,0,37.67468,-122.47712
+CUST-10060,Sarah Martinez,sarah.martinez@example.com,9,47.22,424.98,Month-to-month,Credit card,1,No,No,0.8951,1,37.89173,-122.34904
+CUST-10061,Karen Rodriguez,karen.rodriguez@example.com,6,78.71,472.26,Month-to-month,Electronic check,0,No,No,0.9514,1,37.70575,-122.55733
+CUST-10062,David Thomas,david.thomas@example.com,37,63.59,2352.83,One year,Credit card,0,Yes,No internet service,0.1002,0,37.7474,-122.47308
+CUST-10063,Michael Garcia,michael.garcia@example.com,12,101.36,1216.32,Month-to-month,Electronic check,1,Yes,No internet service,0.8491,1,37.72188,-122.27834
+CUST-10064,Jennifer Taylor,jennifer.taylor@example.com,13,25.42,330.46,Two year,Bank transfer,0,No,Yes,0.3639,0,37.75751,-122.55392
+CUST-10065,Thomas Moore,thomas.moore@example.com,6,22.89,137.34,Month-to-month,Mailed check,0,No,No,0.865,1,37.629,-122.447
+CUST-10066,Joseph Brown,joseph.brown@example.com,4,91.66,366.64,Month-to-month,Bank transfer,1,No,No,0.9666,1,37.76657,-122.43236
+CUST-10067,William Gonzalez,william.gonzalez@example.com,11,26.98,296.78,Month-to-month,Credit card,1,No,Yes,0.7514,0,37.70505,-122.56863
+CUST-10068,Charles Jackson,charles.jackson@example.com,44,68.43,3010.92,One year,Bank transfer,1,No,Yes,0.1462,0,37.7615,-122.47287
+CUST-10069,Richard Davis,richard.davis@example.com,30,94.47,2834.1,One year,Credit card,1,No,Yes,0.423,0,37.87112,-122.27515
+CUST-10070,Barbara Johnson,barbara.johnson@example.com,20,104.5,2090.0,Month-to-month,Electronic check,1,No,Yes,0.8866,1,37.84163,-122.44641
+CUST-10071,William Williams,william.williams@example.com,20,84.98,1699.6,Month-to-month,Bank transfer,0,No,No,0.8972,1,37.7389,-122.4744
+CUST-10072,Barbara Moore,barbara.moore@example.com,3,119.74,359.22,Month-to-month,Electronic check,1,No,No internet service,0.9705,1,37.81502,-122.30763
+CUST-10073,Elizabeth Garcia,elizabeth.garcia@example.com,57,49.34,2812.38,One year,Bank transfer,1,Yes,No,0.0351,0,37.74852,-122.36486
+CUST-10074,David Garcia,david.garcia@example.com,11,69.77,767.47,Month-to-month,Mailed check,1,No,No,0.9214,1,37.76277,-122.36935
+CUST-10075,Elizabeth Martinez,elizabeth.martinez@example.com,27,78.76,2126.52,One year,Credit card,0,Yes,Yes,0.2271,0,37.71554,-122.26959
+CUST-10076,Barbara Brown,barbara.brown@example.com,10,49.52,495.2,Month-to-month,Credit card,1,No,No internet service,0.8353,1,37.83064,-122.346
+CUST-10077,John Martin,john.martin@example.com,52,43.01,2236.52,One year,Bank transfer,1,No internet service,No,0.0428,0,37.70009,-122.34273
+CUST-10078,William Brown,william.brown@example.com,44,77.96,3430.24,Two year,Mailed check,1,Yes,Yes,0.0852,0,37.84914,-122.51671
+CUST-10079,William Moore,william.moore@example.com,34,36.45,1239.3,Two year,Credit card,0,Yes,Yes,0.0733,0,37.88602,-122.32813
+CUST-10080,Elizabeth Williams,elizabeth.williams@example.com,20,117.99,2359.8,Month-to-month,Bank transfer,1,No,No,0.9441,1,37.70424,-122.53232
+CUST-10081,Patricia Rodriguez,patricia.rodriguez@example.com,52,43.38,2255.76,One year,Electronic check,0,No internet service,Yes,0.0266,0,37.7233,-122.38638
+CUST-10082,Robert Anderson,robert.anderson@example.com,32,114.63,3668.16,Two year,Bank transfer,0,Yes,Yes,0.3014,1,37.69534,-122.40814
+CUST-10083,Jennifer Anderson,jennifer.anderson@example.com,19,78.73,1495.87,Month-to-month,Mailed check,0,No,No,0.8917,1,37.87501,-122.3847
+CUST-10084,Thomas Johnson,thomas.johnson@example.com,29,56.27,1631.83,One year,Bank transfer,1,Yes,Yes,0.1409,0,37.7325,-122.44996
+CUST-10085,Richard Brown,richard.brown@example.com,52,83.95,4365.4,Two year,Electronic check,1,Yes,Yes,0.058,0,37.92155,-122.33331
+CUST-10086,Richard Williams,richard.williams@example.com,40,43.3,1732.0,Two year,Mailed check,0,Yes,No,0.0911,0,37.70808,-122.27419
+CUST-10087,William Moore,william.moore@example.com,5,21.49,107.45,Month-to-month,Mailed check,1,No,Yes,0.8016,1,37.70451,-122.53137
+CUST-10088,Linda Taylor,linda.taylor@example.com,3,79.37,238.11,Month-to-month,Credit card,1,No,No,0.9604,1,37.63791,-122.33443
+CUST-10089,Susan Martinez,susan.martinez@example.com,20,60.16,1203.2,Month-to-month,Electronic check,1,Yes,No,0.7047,0,37.64695,-122.54516
+CUST-10090,Karen Jones,karen.jones@example.com,6,52.52,315.12,Month-to-month,Bank transfer,1,No,No,0.9206,1,37.65465,-122.35887
+CUST-10091,Jessica Miller,jessica.miller@example.com,17,59.87,1017.79,Month-to-month,Electronic check,1,No,No,0.8658,1,37.70137,-122.28332
+CUST-10092,Barbara Williams,barbara.williams@example.com,4,57.26,229.04,Month-to-month,Mailed check,1,No,No,0.9357,1,37.79338,-122.47051
+CUST-10093,Michael Wilson,michael.wilson@example.com,12,92.11,1105.32,Month-to-month,Bank transfer,0,No,No,0.9449,1,37.79828,-122.50558
+CUST-10094,Barbara Davis,barbara.davis@example.com,34,47.86,1627.24,Two year,Mailed check,0,Yes,Yes,0.0903,0,37.91726,-122.32387
+CUST-10095,Karen Moore,karen.moore@example.com,18,38.04,684.72,Month-to-month,Bank transfer,0,No,Yes,0.7028,1,37.67932,-122.52642
+CUST-10096,Jennifer Williams,jennifer.williams@example.com,11,41.51,456.61,Month-to-month,Credit card,1,Yes,No,0.7497,1,37.71839,-122.47209
+CUST-10097,Sarah Martin,sarah.martin@example.com,3,87.4,262.2,Month-to-month,Bank transfer,1,Yes,No,0.9274,1,37.80702,-122.44514
+CUST-10098,Richard Taylor,richard.taylor@example.com,8,68.66,549.28,Month-to-month,Bank transfer,1,Yes,No,0.8629,1,37.8047,-122.56709
+CUST-10099,Charles Miller,charles.miller@example.com,49,69.74,3417.26,One year,Credit card,1,Yes,Yes,0.0536,0,37.836,-122.41932
+CUST-10100,Patricia Williams,patricia.williams@example.com,13,27.79,361.27,Month-to-month,Bank transfer,1,No,No,0.8159,1,37.83775,-122.44409
+CUST-10101,Michael Gonzalez,michael.gonzalez@example.com,7,103.2,722.4,Month-to-month,Bank transfer,1,No,No,0.9676,1,37.69789,-122.39274
+CUST-10102,Susan Williams,susan.williams@example.com,7,36.81,257.67,Month-to-month,Electronic check,1,No,No,0.8879,1,37.85777,-122.46407
+CUST-10103,William Davis,william.davis@example.com,6,95.92,575.52,Month-to-month,Electronic check,1,Yes,Yes,0.8827,1,37.77314,-122.34307
+CUST-10104,Sarah Anderson,sarah.anderson@example.com,56,52.32,2929.92,One year,Bank transfer,1,No,No internet service,0.0528,0,37.75756,-122.47855
+CUST-10105,Thomas Jackson,thomas.jackson@example.com,9,25.69,231.21,Month-to-month,Bank transfer,1,No,No,0.8473,0,37.88149,-122.3849
+CUST-10106,Susan Gonzalez,susan.gonzalez@example.com,10,64.97,649.7,Month-to-month,Mailed check,1,No,No,0.9193,1,37.67016,-122.55084
+CUST-10107,Michael Hernandez,michael.hernandez@example.com,23,90.76,2087.48,Two year,Credit card,1,No,Yes,0.5205,0,37.73407,-122.29402
+CUST-10108,Jennifer Wilson,jennifer.wilson@example.com,45,53.46,2405.7,One year,Bank transfer,1,Yes,No,0.0809,0,37.71014,-122.35228
+CUST-10109,Karen Jones,karen.jones@example.com,10,116.77,1167.7,Month-to-month,Credit card,1,Yes,No,0.9352,1,37.65032,-122.40172
+CUST-10110,Mary Jones,mary.jones@example.com,52,72.64,3777.28,One year,Credit card,1,No,No,0.1527,1,37.71756,-122.28405
+CUST-10111,Mary Thomas,mary.thomas@example.com,23,98.81,2272.63,Month-to-month,Electronic check,0,Yes,Yes,0.7197,0,37.81031,-122.39023
+CUST-10112,William Garcia,william.garcia@example.com,12,92.12,1105.44,Month-to-month,Electronic check,1,No,No internet service,0.9123,1,37.69616,-122.43614
+CUST-10113,Charles Anderson,charles.anderson@example.com,6,110.4,662.4,Month-to-month,Mailed check,1,No internet service,No,0.9431,0,37.92023,-122.4309
+CUST-10114,Charles Gonzalez,charles.gonzalez@example.com,36,80.47,2896.92,One year,Bank transfer,1,Yes,Yes,0.143,0,37.73626,-122.28911
+CUST-10115,Susan Brown,susan.brown@example.com,14,34.73,486.22,Month-to-month,Credit card,1,Yes,No internet service,0.5649,0,37.86991,-122.30401
+CUST-10116,James Wilson,james.wilson@example.com,9,57.49,517.41,Month-to-month,Electronic check,1,Yes,No internet service,0.7407,1,37.83931,-122.46881
+CUST-10117,William Jones,william.jones@example.com,18,95.88,1725.84,Month-to-month,Credit card,1,No,No,0.9254,1,37.64867,-122.49262
+CUST-10118,William Moore,william.moore@example.com,42,43.76,1837.92,Two year,Electronic check,1,Yes,No,0.0813,0,37.86307,-122.43227
+CUST-10119,Michael Thomas,michael.thomas@example.com,16,34.36,549.76,One year,Credit card,1,Yes,Yes,0.2011,0,37.7961,-122.51321
+CUST-10120,Robert Taylor,robert.taylor@example.com,21,118.83,2495.43,Two year,Electronic check,1,Yes,Yes,0.4942,1,37.8156,-122.27509
+CUST-10121,Thomas Smith,thomas.smith@example.com,3,30.37,91.11,Month-to-month,Bank transfer,1,Yes,No,0.8034,1,37.72646,-122.37656
+CUST-10122,Elizabeth Thomas,elizabeth.thomas@example.com,51,65.77,3354.27,One year,Bank transfer,1,Yes,No,0.0701,0,37.89064,-122.47472
+CUST-10123,Charles Taylor,charles.taylor@example.com,15,84.69,1270.35,Month-to-month,Bank transfer,1,No,Yes,0.8801,1,37.88464,-122.46982
+CUST-10124,Michael Lopez,michael.lopez@example.com,8,53.9,431.2,Month-to-month,Mailed check,1,No,No internet service,0.8635,1,37.90219,-122.41362
+CUST-10125,Robert Wilson,robert.wilson@example.com,11,52.12,573.32,Month-to-month,Electronic check,1,No,No,0.8918,1,37.75867,-122.3541
+CUST-10126,David Anderson,david.anderson@example.com,3,119.82,359.46,Month-to-month,Bank transfer,0,No,No,0.982,1,37.64211,-122.36804
+CUST-10127,Jennifer Lopez,jennifer.lopez@example.com,48,104.87,5033.76,One year,Credit card,1,Yes,Yes,0.1088,1,37.85845,-122.4595
+CUST-10128,Jennifer Jackson,jennifer.jackson@example.com,5,64.39,321.95,Month-to-month,Electronic check,1,No,No,0.9402,1,37.74431,-122.37453
+CUST-10129,Joseph Brown,joseph.brown@example.com,5,31.78,158.9,Month-to-month,Bank transfer,0,No,No internet service,0.8323,1,37.80846,-122.36121
+CUST-10130,Barbara Miller,barbara.miller@example.com,16,64.51,1032.16,Month-to-month,Electronic check,0,No,No,0.8832,0,37.92087,-122.36905
+CUST-10131,Robert Moore,robert.moore@example.com,56,112.73,6312.88,One year,Mailed check,0,No,No,0.2353,0,37.66131,-122.50911
+CUST-10132,William Davis,william.davis@example.com,18,100.37,1806.66,One year,Mailed check,0,Yes,Yes,0.452,1,37.71769,-122.26952
+CUST-10133,Barbara Taylor,barbara.taylor@example.com,8,51.7,413.6,Month-to-month,Electronic check,1,No,Yes,0.8582,1,37.72825,-122.30601
+CUST-10134,Jessica Jackson,jessica.jackson@example.com,20,25.54,510.8,Month-to-month,Electronic check,1,No,No internet service,0.6171,1,37.67349,-122.28898
+CUST-10135,Joseph Lopez,joseph.lopez@example.com,39,39.63,1545.57,Two year,Bank transfer,1,Yes,Yes,0.0569,0,37.78494,-122.41863
+CUST-10136,David Jackson,david.jackson@example.com,26,80.51,2093.26,Two year,Electronic check,0,No,No,0.5441,1,37.63854,-122.37696
+CUST-10137,Sarah Rodriguez,sarah.rodriguez@example.com,49,69.8,3420.2,One year,Bank transfer,0,Yes,No,0.0854,0,37.69836,-122.3272
+CUST-10138,Jennifer Martinez,jennifer.martinez@example.com,12,66.44,797.28,Month-to-month,Bank transfer,0,Yes,No,0.8218,1,37.84041,-122.34914
+CUST-10139,Patricia Gonzalez,patricia.gonzalez@example.com,7,66.65,466.55,Month-to-month,Bank transfer,1,No,No,0.935,1,37.64008,-122.28578
+CUST-10140,Karen Wilson,karen.wilson@example.com,16,77.77,1244.32,Month-to-month,Bank transfer,1,Yes,No,0.8159,1,37.92369,-122.42936
+CUST-10141,Charles Thomas,charles.thomas@example.com,19,41.51,788.69,Month-to-month,Bank transfer,1,No,No internet service,0.7034,1,37.80416,-122.31655
+CUST-10142,Barbara Martinez,barbara.martinez@example.com,53,92.75,4915.75,One year,Credit card,1,Yes,No,0.1017,0,37.79598,-122.511
+CUST-10143,Jessica Martinez,jessica.martinez@example.com,9,118.91,1070.19,Month-to-month,Electronic check,1,No,Yes,0.956,1,37.73686,-122.27336
+CUST-10144,Jessica Lopez,jessica.lopez@example.com,28,24.53,686.84,One year,Mailed check,0,Yes,Yes,0.085,0,37.7807,-122.52472
+CUST-10145,Susan Jones,susan.jones@example.com,11,93.93,1033.23,Month-to-month,Bank transfer,1,Yes,No internet service,0.8383,1,37.77781,-122.42245
+CUST-10146,Sarah Martinez,sarah.martinez@example.com,2,61.65,123.3,Month-to-month,Bank transfer,0,No,Yes,0.9168,1,37.83131,-122.56141
+CUST-10147,Barbara Rodriguez,barbara.rodriguez@example.com,50,92.14,4607.0,Two year,Credit card,1,No,Yes,0.1557,0,37.81082,-122.31705
+CUST-10148,William Davis,william.davis@example.com,19,51.37,976.03,Month-to-month,Mailed check,1,Yes,Yes,0.5648,1,37.77545,-122.38596
+CUST-10149,Barbara Johnson,barbara.johnson@example.com,39,67.84,2645.76,One year,Credit card,1,Yes,No internet service,0.0959,0,37.89854,-122.4667
+CUST-10150,Patricia Rodriguez,patricia.rodriguez@example.com,28,42.49,1189.72,One year,Bank transfer,0,Yes,Yes,0.1174,0,37.83197,-122.4227
+CUST-10151,Barbara Lopez,barbara.lopez@example.com,60,77.35,4641.0,One year,Credit card,0,No,Yes,0.0658,0,37.72844,-122.33748
+CUST-10152,William Martinez,william.martinez@example.com,19,85.6,1626.4,Month-to-month,Credit card,1,Yes,No internet service,0.7202,0,37.70624,-122.40079
+CUST-10153,Thomas Jones,thomas.jones@example.com,13,110.52,1436.76,Month-to-month,Mailed check,0,Yes,Yes,0.8634,1,37.74889,-122.35419
+CUST-10154,Michael Jones,michael.jones@example.com,10,113.5,1135.0,Month-to-month,Credit card,1,No internet service,No,0.9311,1,37.91407,-122.47305
+CUST-10155,John Williams,john.williams@example.com,30,23.73,711.9,One year,Mailed check,1,No,No,0.227,0,37.90508,-122.5585
+CUST-10156,Jennifer Thomas,jennifer.thomas@example.com,13,23.75,308.75,Month-to-month,Bank transfer,1,No,Yes,0.7127,1,37.9198,-122.48403
+CUST-10157,Jessica Taylor,jessica.taylor@example.com,18,39.28,707.04,Month-to-month,Electronic check,1,No,No,0.7999,1,37.81939,-122.35382
+CUST-10158,James Hernandez,james.hernandez@example.com,41,105.61,4330.01,One year,Credit card,0,No,Yes,0.3055,0,37.65092,-122.36862
+CUST-10159,David Jones,david.jones@example.com,18,64.67,1164.06,Month-to-month,Bank transfer,0,Yes,No,0.749,1,37.84176,-122.56597
+CUST-10160,Patricia Davis,patricia.davis@example.com,4,70.25,281.0,Month-to-month,Bank transfer,0,No,No,0.9497,1,37.90709,-122.45914
+CUST-10161,Joseph Davis,joseph.davis@example.com,38,57.36,2179.68,Two year,Credit card,0,Yes,No internet service,0.0842,0,37.87258,-122.34084
+CUST-10162,Karen Williams,karen.williams@example.com,40,31.22,1248.8,One year,Mailed check,1,Yes,No internet service,0.0456,0,37.72334,-122.4133
+CUST-10163,Michael Miller,michael.miller@example.com,38,25.56,971.28,One year,Mailed check,1,No,Yes,0.0978,0,37.64222,-122.43069
+CUST-10164,Charles Smith,charles.smith@example.com,15,24.53,367.95,Month-to-month,Bank transfer,0,No,No,0.7842,1,37.64298,-122.30113
+CUST-10165,Barbara Johnson,barbara.johnson@example.com,5,92.93,464.65,Month-to-month,Credit card,1,Yes,No,0.9259,1,37.75946,-122.29427
+CUST-10166,Jennifer Gonzalez,jennifer.gonzalez@example.com,20,106.03,2120.6,Month-to-month,Electronic check,1,No,Yes,0.8897,1,37.78355,-122.35104
+CUST-10167,Joseph Smith,joseph.smith@example.com,65,62.41,4056.65,One year,Credit card,0,Yes,No,0.027,0,37.72875,-122.48671
+CUST-10168,Michael Johnson,michael.johnson@example.com,36,21.56,776.16,Two year,Mailed check,1,No,No,0.1586,0,37.75883,-122.36779
+CUST-10169,John Davis,john.davis@example.com,36,106.37,3829.32,One year,Electronic check,1,Yes,Yes,0.2188,0,37.69515,-122.29448
+CUST-10170,Sarah Hernandez,sarah.hernandez@example.com,49,107.63,5273.87,One year,Mailed check,1,No,Yes,0.2118,0,37.79192,-122.3919
+CUST-10171,David Wilson,david.wilson@example.com,20,58.12,1162.4,One year,Bank transfer,0,Yes,No,0.3383,0,37.71487,-122.51424
+CUST-10172,Jessica Thomas,jessica.thomas@example.com,6,66.3,397.8,Month-to-month,Electronic check,1,No,Yes,0.9026,0,37.79209,-122.52917
+CUST-10173,Joseph Rodriguez,joseph.rodriguez@example.com,11,29.25,321.75,Month-to-month,Mailed check,1,No internet service,No,0.7009,1,37.80639,-122.55754
+CUST-10174,Robert Miller,robert.miller@example.com,42,40.89,1717.38,Two year,Bank transfer,1,No,Yes,0.1014,0,37.68844,-122.51239
+CUST-10175,Michael Thomas,michael.thomas@example.com,46,43.93,2020.78,Two year,Bank transfer,0,No,Yes,0.0841,0,37.785,-122.46162
+CUST-10176,Thomas Lopez,thomas.lopez@example.com,39,66.95,2611.05,One year,Bank transfer,0,Yes,No internet service,0.0944,0,37.74908,-122.40064
+CUST-10177,Joseph Jones,joseph.jones@example.com,10,49.52,495.2,Month-to-month,Mailed check,1,No,No,0.8932,1,37.87491,-122.41961
+CUST-10178,Mary Rodriguez,mary.rodriguez@example.com,38,66.08,2511.04,One year,Bank transfer,1,No,No,0.2866,0,37.77139,-122.29433
+CUST-10179,Jessica Johnson,jessica.johnson@example.com,53,24.85,1317.05,One year,Electronic check,1,Yes,No,0.0283,0,37.69433,-122.35725
+CUST-10180,James Miller,james.miller@example.com,35,81.65,2857.75,One year,Credit card,0,No,No,0.4012,1,37.78456,-122.446
+CUST-10181,James Taylor,james.taylor@example.com,40,89.79,3591.6,One year,Credit card,0,Yes,Yes,0.1334,0,37.657,-122.54051
+CUST-10182,William Davis,william.davis@example.com,9,59.69,537.21,Month-to-month,Bank transfer,0,No,Yes,0.8692,1,37.69786,-122.36023
+CUST-10183,Charles Williams,charles.williams@example.com,54,57.93,3128.22,One year,Credit card,1,No,Yes,0.0665,1,37.67632,-122.41944
+CUST-10184,Linda Hernandez,linda.hernandez@example.com,54,24.26,1310.04,One year,Mailed check,0,Yes,Yes,0.0161,0,37.79494,-122.48807
+CUST-10185,Robert Rodriguez,robert.rodriguez@example.com,41,51.45,2109.45,Two year,Mailed check,1,Yes,No internet service,0.0627,0,37.83871,-122.44991
+CUST-10186,Robert Martinez,robert.martinez@example.com,6,109.65,657.9,Month-to-month,Bank transfer,1,No,No,0.9732,1,37.86205,-122.36261
+CUST-10187,Robert Taylor,robert.taylor@example.com,34,27.6,938.4,One year,Credit card,0,Yes,Yes,0.0621,0,37.81514,-122.33434
+CUST-10188,Elizabeth Thomas,elizabeth.thomas@example.com,10,78.59,785.9,Month-to-month,Credit card,1,No,Yes,0.9007,1,37.86432,-122.35547
+CUST-10189,Robert Rodriguez,robert.rodriguez@example.com,13,51.67,671.71,Month-to-month,Electronic check,1,No,No,0.8773,0,37.75832,-122.341
+CUST-10190,Michael Jones,michael.jones@example.com,8,30.33,242.64,Month-to-month,Electronic check,1,No,No,0.8668,1,37.80431,-122.47207
+CUST-10191,Jennifer Smith,jennifer.smith@example.com,8,110.52,884.16,Month-to-month,Mailed check,1,Yes,No internet service,0.8982,1,37.73912,-122.52775
+CUST-10192,Charles Rodriguez,charles.rodriguez@example.com,3,68.42,205.26,Month-to-month,Electronic check,1,No,No,0.9511,1,37.84117,-122.42066
+CUST-10193,Karen Miller,karen.miller@example.com,4,104.16,416.64,Month-to-month,Credit card,0,Yes,No,0.9436,1,37.72532,-122.32476
+CUST-10194,Karen Jones,karen.jones@example.com,11,37.76,415.36,Month-to-month,Credit card,0,No,No,0.8608,1,37.83339,-122.4221
+CUST-10195,Sarah Davis,sarah.davis@example.com,6,113.21,679.26,Month-to-month,Mailed check,1,No,No,0.975,1,37.82941,-122.40437
+CUST-10196,Elizabeth Miller,elizabeth.miller@example.com,6,99.57,597.42,Month-to-month,Credit card,0,No,No,0.9674,1,37.71575,-122.4936
+CUST-10197,William Wilson,william.wilson@example.com,22,60.08,1321.76,One year,Credit card,1,No internet service,Yes,0.2201,0,37.73276,-122.30075
+CUST-10198,Jessica Martin,jessica.martin@example.com,23,55.5,1276.5,One year,Electronic check,1,No,No,0.4692,0,37.81892,-122.27936
+CUST-10199,Mary Wilson,mary.wilson@example.com,4,75.8,303.2,Month-to-month,Mailed check,1,Yes,No,0.9046,1,37.8566,-122.39282
+CUST-10200,Susan Jones,susan.jones@example.com,2,116.17,232.34,Month-to-month,Electronic check,0,Yes,No,0.9605,1,37.7294,-122.46648
+CUST-10201,Richard Taylor,richard.taylor@example.com,9,51.89,467.01,Month-to-month,Bank transfer,1,No,No,0.9036,1,37.63168,-122.46648
+CUST-10202,Michael Garcia,michael.garcia@example.com,48,53.1,2548.8,Two year,Credit card,0,Yes,Yes,0.0416,0,37.74641,-122.51406
+CUST-10203,Linda Gonzalez,linda.gonzalez@example.com,11,58.88,647.68,Month-to-month,Mailed check,1,Yes,No,0.8091,1,37.86752,-122.55063
+CUST-10204,Michael Moore,michael.moore@example.com,7,106.26,743.82,Month-to-month,Bank transfer,1,No,Yes,0.9507,1,37.801,-122.46502
+CUST-10205,Elizabeth Martin,elizabeth.martin@example.com,12,79.02,948.24,Month-to-month,Mailed check,1,No,No internet service,0.889,1,37.65998,-122.45741
+CUST-10206,William Taylor,william.taylor@example.com,11,68.67,755.37,Month-to-month,Mailed check,1,No,No,0.9198,1,37.66699,-122.47503
+CUST-10207,Elizabeth Martin,elizabeth.martin@example.com,7,101.52,710.64,Month-to-month,Credit card,1,Yes,Yes,0.8873,1,37.83794,-122.43624
+CUST-10208,David Williams,david.williams@example.com,51,42.48,2166.48,One year,Bank transfer,1,Yes,Yes,0.0279,0,37.84766,-122.33962
+CUST-10209,Jessica Taylor,jessica.taylor@example.com,4,56.69,226.76,Month-to-month,Electronic check,0,No,No,0.9351,1,37.69046,-122.44185
+CUST-10210,Joseph Martinez,joseph.martinez@example.com,18,28.7,516.6,Two year,Electronic check,0,Yes,No,0.2449,1,37.86811,-122.39302
+CUST-10211,Patricia Martin,patricia.martin@example.com,27,40.69,1098.63,One year,Electronic check,1,Yes,Yes,0.1207,0,37.80396,-122.51889
+CUST-10212,Charles Martinez,charles.martinez@example.com,61,101.52,6192.72,One year,Mailed check,0,Yes,No internet service,0.0458,0,37.90053,-122.27165
+CUST-10213,William Jones,william.jones@example.com,13,87.62,1139.06,Month-to-month,Credit card,1,No,No,0.9362,1,37.81324,-122.45685
+CUST-10214,Robert Williams,robert.williams@example.com,13,65.47,851.11,Month-to-month,Credit card,1,No,No,0.904,1,37.85714,-122.34958
+CUST-10215,Elizabeth Lopez,elizabeth.lopez@example.com,50,102.48,5124.0,Two year,Credit card,1,Yes,No internet service,0.0925,0,37.72623,-122.39602
+CUST-10216,Sarah Thomas,sarah.thomas@example.com,56,82.62,4626.72,One year,Credit card,1,No,Yes,0.0927,0,37.6723,-122.43244
+CUST-10217,Linda Miller,linda.miller@example.com,58,107.44,6231.52,Two year,Bank transfer,1,No,Yes,0.1281,0,37.64963,-122.37005
+CUST-10218,David Johnson,david.johnson@example.com,7,85.55,598.85,Month-to-month,Electronic check,1,No,Yes,0.9272,1,37.66471,-122.50154
+CUST-10219,Elizabeth Smith,elizabeth.smith@example.com,7,89.4,625.8,Month-to-month,Credit card,1,Yes,No,0.9106,1,37.84413,-122.53867
+CUST-10220,Mary Lopez,mary.lopez@example.com,26,33.31,866.06,Two year,Mailed check,1,No,No,0.3171,0,37.808,-122.52017
+CUST-10221,Patricia Miller,patricia.miller@example.com,26,106.0,2756.0,One year,Electronic check,0,Yes,No,0.4717,1,37.66185,-122.3504
+CUST-10222,Patricia Wilson,patricia.wilson@example.com,5,75.34,376.7,Month-to-month,Bank transfer,0,Yes,Yes,0.842,1,37.87927,-122.37188
+CUST-10223,Charles Miller,charles.miller@example.com,39,25.46,992.94,One year,Mailed check,1,No,Yes,0.0919,0,37.77477,-122.39122
+CUST-10224,Susan Smith,susan.smith@example.com,60,76.84,4610.4,Two year,Bank transfer,1,Yes,No,0.0491,0,37.7662,-122.27319
+CUST-10225,Robert Smith,robert.smith@example.com,16,114.87,1837.92,One year,Credit card,1,Yes,No internet service,0.5574,0,37.77521,-122.44477
+CUST-10226,Jennifer Williams,jennifer.williams@example.com,40,27.9,1116.0,One year,Mailed check,0,Yes,Yes,0.0428,0,37.72293,-122.39347
+CUST-10227,Robert Martinez,robert.martinez@example.com,47,28.62,1345.14,One year,Credit card,1,No,Yes,0.0595,0,37.64141,-122.36958
+CUST-10228,David Brown,david.brown@example.com,4,54.67,218.68,Month-to-month,Bank transfer,1,Yes,No,0.8614,1,37.85924,-122.48877
+CUST-10229,Michael Smith,michael.smith@example.com,8,117.51,940.08,Month-to-month,Electronic check,1,No,Yes,0.9576,1,37.64153,-122.31159
+CUST-10230,David Lopez,david.lopez@example.com,14,31.53,441.42,Month-to-month,Electronic check,1,No,No,0.8172,0,37.69827,-122.42787
+CUST-10231,Jennifer Jones,jennifer.jones@example.com,19,91.4,1736.6,Month-to-month,Credit card,1,Yes,No,0.8265,1,37.89966,-122.47342
+CUST-10232,Robert Jackson,robert.jackson@example.com,9,100.43,903.87,Month-to-month,Electronic check,0,No internet service,Yes,0.8709,1,37.76443,-122.48471
+CUST-10233,Charles Hernandez,charles.hernandez@example.com,9,98.45,886.05,Month-to-month,Mailed check,1,No,Yes,0.9352,1,37.77291,-122.33762
+CUST-10234,Richard Moore,richard.moore@example.com,30,43.3,1299.0,One year,Bank transfer,0,Yes,Yes,0.1058,0,37.62778,-122.46889
+CUST-10235,Jennifer Martinez,jennifer.martinez@example.com,10,25.99,259.9,Month-to-month,Mailed check,0,Yes,No,0.7012,1,37.90128,-122.30021
+CUST-10236,Susan Wilson,susan.wilson@example.com,35,29.56,1034.6,One year,Mailed check,0,No internet service,Yes,0.0605,0,37.80247,-122.55072
+CUST-10237,William Davis,william.davis@example.com,16,103.19,1651.04,Month-to-month,Bank transfer,1,No internet service,No,0.8805,1,37.64731,-122.50859
+CUST-10238,Sarah Brown,sarah.brown@example.com,5,73.59,367.95,Month-to-month,Mailed check,1,No,No,0.9497,1,37.88064,-122.54227
+CUST-10239,Charles Martin,charles.martin@example.com,15,44.82,672.3,Month-to-month,Bank transfer,1,No,Yes,0.7679,1,37.71455,-122.32337
+CUST-10240,David Smith,david.smith@example.com,54,29.47,1591.38,Two year,Electronic check,0,Yes,Yes,0.0178,0,37.62849,-122.32029
+CUST-10241,Joseph Jones,joseph.jones@example.com,8,28.4,227.2,Month-to-month,Bank transfer,0,No,No internet service,0.7916,1,37.92405,-122.51007
+CUST-10242,Elizabeth Jones,elizabeth.jones@example.com,16,114.23,1827.68,Month-to-month,Electronic check,1,No,Yes,0.9254,1,37.87141,-122.4509
+CUST-10243,James Gonzalez,james.gonzalez@example.com,27,47.99,1295.73,One year,Mailed check,1,Yes,Yes,0.137,0,37.69864,-122.48087
+CUST-10244,Linda Moore,linda.moore@example.com,4,84.27,337.08,Month-to-month,Mailed check,0,No,No,0.9615,1,37.86335,-122.27258
+CUST-10245,Patricia Thomas,patricia.thomas@example.com,38,58.84,2235.92,One year,Mailed check,1,No internet service,Yes,0.0865,0,37.63369,-122.32619
+CUST-10246,Thomas Johnson,thomas.johnson@example.com,38,43.28,1644.64,Two year,Mailed check,1,Yes,Yes,0.0649,0,37.70486,-122.32451
+CUST-10247,John Davis,john.davis@example.com,65,119.15,7744.75,One year,Mailed check,1,Yes,No internet service,0.0497,0,37.86676,-122.36011
+CUST-10248,Sarah Smith,sarah.smith@example.com,34,114.84,3904.56,One year,Credit card,1,Yes,Yes,0.2749,1,37.63629,-122.55255
+CUST-10249,Karen Davis,karen.davis@example.com,9,100.64,905.76,Month-to-month,Bank transfer,0,No,No,0.9613,1,37.87819,-122.47232
+CUST-10250,James Jones,james.jones@example.com,58,106.07,6152.06,One year,Electronic check,1,No,No,0.1907,0,37.74358,-122.53909
+CUST-10251,Charles Hernandez,charles.hernandez@example.com,5,116.07,580.35,Month-to-month,Bank transfer,1,No internet service,No,0.952,0,37.83297,-122.29075
+CUST-10252,Patricia Davis,patricia.davis@example.com,51,49.45,2521.95,One year,Mailed check,0,Yes,No,0.0516,0,37.90951,-122.45192
+CUST-10253,Sarah Johnson,sarah.johnson@example.com,7,83.96,587.72,Month-to-month,Electronic check,0,No,No,0.9531,1,37.8485,-122.498
+CUST-10254,Mary Garcia,mary.garcia@example.com,63,92.93,5854.59,One year,Bank transfer,1,No,No,0.1149,0,37.69976,-122.54906
+CUST-10255,Thomas Brown,thomas.brown@example.com,20,36.63,732.6,One year,Credit card,1,Yes,Yes,0.1679,0,37.78871,-122.53897
+CUST-10256,Barbara Jackson,barbara.jackson@example.com,46,104.58,4810.68,One year,Bank transfer,1,Yes,Yes,0.1218,0,37.65632,-122.46686
+CUST-10257,Jennifer Garcia,jennifer.garcia@example.com,40,79.4,3176.0,One year,Credit card,0,No,Yes,0.2178,0,37.82099,-122.3872
+CUST-10258,Linda Garcia,linda.garcia@example.com,7,75.41,527.87,Month-to-month,Bank transfer,0,No internet service,No,0.8851,1,37.65367,-122.45153
+CUST-10259,Jessica Thomas,jessica.thomas@example.com,7,86.2,603.4,Month-to-month,Credit card,1,No,Yes,0.9281,1,37.67615,-122.48186
+CUST-10260,Robert Thomas,robert.thomas@example.com,33,86.1,2841.3,Two year,Electronic check,0,Yes,Yes,0.1857,0,37.73621,-122.45497
+CUST-10261,David Anderson,david.anderson@example.com,8,76.42,611.36,Month-to-month,Mailed check,0,Yes,No,0.8803,1,37.65061,-122.46626
+CUST-10262,Jessica Wilson,jessica.wilson@example.com,42,101.84,4277.28,Two year,Credit card,0,Yes,No,0.2204,0,37.90581,-122.39759
+CUST-10263,Joseph Thomas,joseph.thomas@example.com,8,77.12,616.96,Month-to-month,Mailed check,1,No,Yes,0.9096,1,37.67676,-122.27409
+CUST-10264,Richard Miller,richard.miller@example.com,8,119.73,957.84,Month-to-month,Mailed check,0,No internet service,No,0.9459,1,37.89814,-122.29515
+CUST-10265,Robert Williams,robert.williams@example.com,8,65.82,526.56,Month-to-month,Electronic check,0,No,Yes,0.8892,1,37.78167,-122.44352
+CUST-10266,Linda Jones,linda.jones@example.com,10,112.49,1124.9,Month-to-month,Electronic check,0,No,No internet service,0.947,1,37.88894,-122.30603
+CUST-10267,Thomas Gonzalez,thomas.gonzalez@example.com,41,60.3,2472.3,One year,Credit card,1,Yes,Yes,0.074,0,37.72435,-122.49813
+CUST-10268,Barbara Rodriguez,barbara.rodriguez@example.com,17,48.03,816.51,Two year,Credit card,0,No,Yes,0.4079,0,37.91665,-122.50101
+CUST-10269,Charles Anderson,charles.anderson@example.com,33,28.93,954.69,One year,Credit card,1,No,No,0.2106,0,37.84718,-122.34155
+CUST-10270,Patricia Johnson,patricia.johnson@example.com,27,33.56,906.12,One year,Electronic check,1,Yes,Yes,0.1063,0,37.68512,-122.55211
+CUST-10271,John Anderson,john.anderson@example.com,7,66.42,464.94,Month-to-month,Credit card,0,Yes,No,0.8655,1,37.63407,-122.45766
+CUST-10272,Karen Anderson,karen.anderson@example.com,16,36.35,581.6,Month-to-month,Bank transfer,0,No,No,0.8116,1,37.71042,-122.45343
+CUST-10273,David Jackson,david.jackson@example.com,29,40.67,1179.43,One year,Credit card,1,Yes,Yes,0.1072,0,37.91504,-122.36474
+CUST-10274,Barbara Jones,barbara.jones@example.com,42,100.51,4221.42,One year,Bank transfer,0,Yes,Yes,0.1431,0,37.70751,-122.30076
+CUST-10275,Patricia Anderson,patricia.anderson@example.com,9,59.72,537.48,Month-to-month,Electronic check,1,No,No,0.9164,0,37.91485,-122.31759
+CUST-10276,Jessica Martin,jessica.martin@example.com,32,118.84,3802.88,One year,Bank transfer,0,Yes,Yes,0.3194,1,37.83823,-122.30169
+CUST-10277,Charles Miller,charles.miller@example.com,14,100.24,1403.36,Month-to-month,Credit card,0,No,No,0.9464,1,37.84128,-122.37278
+CUST-10278,Charles Rodriguez,charles.rodriguez@example.com,36,119.48,4301.28,Two year,Mailed check,1,No,Yes,0.4476,0,37.8308,-122.37791
+CUST-10279,Barbara Lopez,barbara.lopez@example.com,53,38.11,2019.83,One year,Electronic check,1,No,No,0.0779,0,37.84246,-122.40169
+CUST-10280,David Hernandez,david.hernandez@example.com,29,62.05,1799.45,One year,Bank transfer,1,Yes,No,0.2328,0,37.76403,-122.53407
+CUST-10281,John Jackson,john.jackson@example.com,43,31.98,1375.14,One year,Credit card,1,Yes,Yes,0.0382,0,37.88615,-122.52417
+CUST-10282,Richard Hernandez,richard.hernandez@example.com,10,51.64,516.4,Month-to-month,Mailed check,0,No internet service,No,0.7968,1,37.81421,-122.51635
+CUST-10283,John Smith,john.smith@example.com,5,35.84,179.2,Month-to-month,Electronic check,1,No,No,0.8988,1,37.75372,-122.44069
+CUST-10284,Barbara Gonzalez,barbara.gonzalez@example.com,10,109.2,1092.0,Month-to-month,Mailed check,1,No,No internet service,0.9436,1,37.84498,-122.50152
+CUST-10285,Patricia Martinez,patricia.martinez@example.com,8,102.38,819.04,Month-to-month,Bank transfer,0,No,Yes,0.9434,1,37.78099,-122.41216
+CUST-10286,Linda Jones,linda.jones@example.com,17,114.81,1951.77,Month-to-month,Credit card,1,No,Yes,0.9215,1,37.92036,-122.50604
+CUST-10287,James Jackson,james.jackson@example.com,25,57.52,1438.0,One year,Bank transfer,0,No,No,0.4461,0,37.80308,-122.55501
+CUST-10288,Michael Smith,michael.smith@example.com,4,45.27,181.08,Month-to-month,Mailed check,1,No,Yes,0.8742,1,37.62769,-122.44314
+CUST-10289,Michael Taylor,michael.taylor@example.com,11,30.49,335.39,Month-to-month,Electronic check,1,Yes,No,0.7061,0,37.77422,-122.3867
+CUST-10290,Thomas Taylor,thomas.taylor@example.com,34,74.81,2543.54,Two year,Mailed check,0,Yes,Yes,0.1455,0,37.69525,-122.56558
+CUST-10291,Robert Brown,robert.brown@example.com,45,71.17,3202.65,Two year,Electronic check,0,Yes,Yes,0.0707,0,37.76193,-122.27621
+CUST-10292,Thomas Anderson,thomas.anderson@example.com,15,56.02,840.3,Month-to-month,Bank transfer,1,No,No,0.8722,1,37.88027,-122.30231
+CUST-10293,James Jones,james.jones@example.com,27,82.18,2218.86,One year,Electronic check,1,Yes,Yes,0.2393,0,37.65905,-122.44932
+CUST-10294,Elizabeth Rodriguez,elizabeth.rodriguez@example.com,46,108.61,4996.06,Two year,Mailed check,1,Yes,Yes,0.1307,0,37.64249,-122.28666
+CUST-10295,David Brown,david.brown@example.com,10,38.13,381.3,Month-to-month,Credit card,0,No,No,0.8694,1,37.88367,-122.30541
+CUST-10296,William Thomas,william.thomas@example.com,24,46.16,1107.84,Two year,Bank transfer,1,Yes,Yes,0.1575,0,37.78235,-122.34631
+CUST-10297,Sarah Davis,sarah.davis@example.com,45,90.06,4052.7,Two year,Electronic check,1,Yes,Yes,0.0999,0,37.76948,-122.37029
+CUST-10298,Jennifer Jones,jennifer.jones@example.com,41,84.34,3457.94,Two year,Mailed check,1,No internet service,Yes,0.1144,0,37.77365,-122.51978
+CUST-10299,Barbara Hernandez,barbara.hernandez@example.com,20,84.33,1686.6,Month-to-month,Credit card,0,Yes,Yes,0.7013,1,37.75816,-122.39749
+CUST-10300,Robert Thomas,robert.thomas@example.com,4,30.26,121.04,Month-to-month,Credit card,1,No,No,0.8946,1,37.87267,-122.33187
+CUST-10301,Karen Martinez,karen.martinez@example.com,41,54.09,2217.69,Two year,Electronic check,0,No,Yes,0.1357,0,37.72449,-122.33918
+CUST-10302,Karen Thomas,karen.thomas@example.com,34,85.89,2920.26,One year,Electronic check,1,Yes,Yes,0.1753,0,37.91423,-122.4818
+CUST-10303,Susan Lopez,susan.lopez@example.com,20,91.69,1833.8,One year,Credit card,1,Yes,Yes,0.3777,0,37.68116,-122.29034
+CUST-10304,Jennifer Miller,jennifer.miller@example.com,14,61.45,860.3,Month-to-month,Electronic check,0,No,Yes,0.8314,1,37.82244,-122.28254
+CUST-10305,William Thomas,william.thomas@example.com,13,78.51,1020.63,Month-to-month,Mailed check,0,No,No,0.9244,1,37.86947,-122.53833
+CUST-10306,Karen Martin,karen.martin@example.com,39,111.59,4352.01,Two year,Mailed check,1,Yes,No internet service,0.2029,0,37.91605,-122.43355
+CUST-10307,William Jones,william.jones@example.com,12,90.15,1081.8,Month-to-month,Bank transfer,0,No,Yes,0.9091,0,37.81467,-122.50913
+CUST-10308,Karen Martinez,karen.martinez@example.com,58,117.52,6816.16,One year,Mailed check,1,Yes,No,0.1175,0,37.72161,-122.53478
+CUST-10309,Patricia Moore,patricia.moore@example.com,10,94.79,947.9,Month-to-month,Bank transfer,0,No,No,0.9539,1,37.62873,-122.53746
+CUST-10310,Jennifer Jones,jennifer.jones@example.com,3,118.35,355.05,Month-to-month,Bank transfer,1,Yes,No,0.9596,1,37.86021,-122.5082
+CUST-10311,Jessica Johnson,jessica.johnson@example.com,8,76.19,609.52,Month-to-month,Mailed check,0,No,No,0.9422,1,37.69618,-122.33411
+CUST-10312,Charles Johnson,charles.johnson@example.com,35,51.27,1794.45,Two year,Electronic check,1,No internet service,No internet service,0.0905,0,37.81107,-122.33512
+CUST-10313,Elizabeth Davis,elizabeth.davis@example.com,46,74.66,3434.36,Two year,Mailed check,0,No,No,0.2187,0,37.71315,-122.51617
+CUST-10314,Robert Garcia,robert.garcia@example.com,48,47.91,2299.68,Two year,Bank transfer,1,Yes,Yes,0.0376,0,37.7014,-122.47023
+CUST-10315,William Johnson,william.johnson@example.com,7,81.56,570.92,Month-to-month,Bank transfer,1,Yes,No internet service,0.8408,1,37.73233,-122.33419
+CUST-10316,Mary Taylor,mary.taylor@example.com,5,61.59,307.95,Month-to-month,Credit card,1,Yes,No,0.8697,1,37.68891,-122.46983
+CUST-10317,Patricia Martinez,patricia.martinez@example.com,13,102.37,1330.81,Month-to-month,Electronic check,1,No,No internet service,0.9228,1,37.697,-122.37672
+CUST-10318,Karen Davis,karen.davis@example.com,45,114.5,5152.5,Two year,Credit card,1,Yes,No internet service,0.1532,0,37.63231,-122.41434
+CUST-10319,Patricia Taylor,patricia.taylor@example.com,37,39.25,1452.25,Two year,Electronic check,0,Yes,No,0.1014,0,37.91178,-122.40801
+CUST-10320,James Williams,james.williams@example.com,11,103.57,1139.27,Month-to-month,Mailed check,1,Yes,No,0.912,1,37.91777,-122.33684
+CUST-10321,Robert Jones,robert.jones@example.com,13,37.8,491.4,Month-to-month,Bank transfer,1,Yes,Yes,0.5961,1,37.69319,-122.49181
+CUST-10322,Jennifer Anderson,jennifer.anderson@example.com,37,73.48,2718.76,One year,Electronic check,0,Yes,No,0.1829,0,37.83516,-122.54762
+CUST-10323,Susan Brown,susan.brown@example.com,12,112.67,1352.04,Month-to-month,Credit card,1,No,Yes,0.9401,1,37.7671,-122.40936
+CUST-10324,William Gonzalez,william.gonzalez@example.com,53,49.81,2639.93,One year,Bank transfer,0,Yes,No,0.0458,1,37.88733,-122.52699
+CUST-10325,John Smith,john.smith@example.com,35,41.01,1435.35,One year,Bank transfer,1,Yes,Yes,0.0749,0,37.88034,-122.52666
+CUST-10326,David Davis,david.davis@example.com,31,76.73,2378.63,One year,Electronic check,0,Yes,No,0.2627,0,37.92319,-122.43102
+CUST-10327,Jessica Williams,jessica.williams@example.com,3,68.72,206.16,Month-to-month,Bank transfer,1,Yes,No,0.8979,1,37.69526,-122.48386
+CUST-10328,Robert Miller,robert.miller@example.com,8,78.42,627.36,Month-to-month,Bank transfer,0,No,No,0.9445,0,37.67549,-122.47544
+CUST-10329,Joseph Wilson,joseph.wilson@example.com,7,68.0,476.0,Month-to-month,Credit card,1,No,No,0.9366,1,37.7904,-122.51667
+CUST-10330,Karen Williams,karen.williams@example.com,54,46.32,2501.28,Two year,Electronic check,0,Yes,Yes,0.0248,0,37.87978,-122.37991
+CUST-10331,Sarah Jackson,sarah.jackson@example.com,10,74.35,743.5,Month-to-month,Credit card,0,No internet service,No,0.8606,1,37.74265,-122.30197
+CUST-10332,Sarah Martinez,sarah.martinez@example.com,9,21.06,189.54,Month-to-month,Mailed check,0,Yes,No,0.6945,0,37.80911,-122.51965
+CUST-10333,Susan Jones,susan.jones@example.com,5,116.77,583.85,Month-to-month,Credit card,0,No internet service,No,0.9527,1,37.85334,-122.49988
+CUST-10334,Thomas Lopez,thomas.lopez@example.com,12,58.81,705.72,Month-to-month,Credit card,0,No,No,0.8981,1,37.81946,-122.53843
+CUST-10335,Susan Rodriguez,susan.rodriguez@example.com,31,85.37,2646.47,Two year,Bank transfer,1,Yes,Yes,0.2044,0,37.64825,-122.49392
+CUST-10336,Joseph Taylor,joseph.taylor@example.com,15,108.72,1630.8,Month-to-month,Electronic check,1,No,No,0.9514,1,37.67458,-122.54627
+CUST-10337,Thomas Miller,thomas.miller@example.com,5,86.11,430.55,Month-to-month,Credit card,0,No,No,0.9604,1,37.76935,-122.42576
+CUST-10338,Richard Jackson,richard.jackson@example.com,15,77.35,1160.25,Month-to-month,Mailed check,1,Yes,Yes,0.7402,1,37.89214,-122.52534
+CUST-10339,David Rodriguez,david.rodriguez@example.com,39,83.76,3266.64,Two year,Bank transfer,0,Yes,No internet service,0.1273,0,37.80686,-122.42798
+CUST-10340,Barbara Garcia,barbara.garcia@example.com,8,96.75,774.0,Month-to-month,Bank transfer,1,Yes,No,0.917,1,37.90161,-122.39044
+CUST-10341,Robert Davis,robert.davis@example.com,4,110.93,443.72,Month-to-month,Credit card,0,Yes,No,0.9504,1,37.67813,-122.29892
+CUST-10342,Karen Johnson,karen.johnson@example.com,40,85.94,3437.6,Two year,Electronic check,0,No,Yes,0.2409,0,37.81967,-122.41279
+CUST-10343,Patricia Johnson,patricia.johnson@example.com,36,96.87,3487.32,One year,Bank transfer,1,No internet service,Yes,0.1881,0,37.85336,-122.36039
+CUST-10344,Michael Wilson,michael.wilson@example.com,9,48.33,434.97,Month-to-month,Credit card,1,Yes,No,0.7968,1,37.84799,-122.56727
+CUST-10345,Susan Brown,susan.brown@example.com,35,60.88,2130.8,One year,Electronic check,1,Yes,No,0.1658,0,37.70099,-122.31291
+CUST-10346,Linda Jackson,linda.jackson@example.com,6,61.32,367.92,Month-to-month,Credit card,1,No,No,0.9325,1,37.77003,-122.27285
+CUST-10347,Sarah Lopez,sarah.lopez@example.com,35,31.91,1116.85,One year,Mailed check,1,Yes,No,0.1002,0,37.67344,-122.50506
+CUST-10348,Jennifer Hernandez,jennifer.hernandez@example.com,43,58.91,2533.13,Two year,Electronic check,0,No,Yes,0.1314,0,37.7664,-122.38933
+CUST-10349,Robert Williams,robert.williams@example.com,7,113.07,791.49,Month-to-month,Credit card,0,No,No,0.9733,1,37.83838,-122.39016
+CUST-10350,David Thomas,david.thomas@example.com,5,48.6,243.0,Month-to-month,Electronic check,0,No,No,0.9197,1,37.83443,-122.38484
+CUST-10351,John Lopez,john.lopez@example.com,1,97.97,97.97,Month-to-month,Bank transfer,0,Yes,No internet service,0.9163,1,37.68499,-122.56479
+CUST-10352,Robert Williams,robert.williams@example.com,47,54.75,2573.25,One year,Bank transfer,1,Yes,Yes,0.0457,0,37.76133,-122.44821
+CUST-10353,James Rodriguez,james.rodriguez@example.com,9,54.0,486.0,Month-to-month,Electronic check,0,No,No,0.9072,0,37.88773,-122.32546
+CUST-10354,Sarah Rodriguez,sarah.rodriguez@example.com,63,95.75,6032.25,One year,Credit card,0,Yes,No,0.0581,0,37.88351,-122.42481
+CUST-10355,Thomas Williams,thomas.williams@example.com,14,100.02,1400.28,Month-to-month,Credit card,0,Yes,No,0.8877,1,37.62782,-122.31975
+CUST-10356,Joseph Martinez,joseph.martinez@example.com,12,113.14,1357.68,Month-to-month,Credit card,1,No,Yes,0.9406,1,37.79701,-122.51456
+CUST-10357,Richard Thomas,richard.thomas@example.com,30,42.92,1287.6,One year,Mailed check,0,Yes,Yes,0.1051,0,37.85858,-122.53344
+CUST-10358,Robert Thomas,robert.thomas@example.com,49,68.23,3343.27,One year,Bank transfer,1,Yes,Yes,0.0521,0,37.894,-122.30877
+CUST-10359,Barbara Garcia,barbara.garcia@example.com,58,77.67,4504.86,Two year,Electronic check,1,Yes,Yes,0.0351,0,37.9068,-122.55963
+CUST-10360,Patricia Gonzalez,patricia.gonzalez@example.com,49,71.82,3519.18,Two year,Bank transfer,0,Yes,Yes,0.0557,1,37.68813,-122.3951
+CUST-10361,Mary Lopez,mary.lopez@example.com,31,67.13,2081.03,One year,Bank transfer,1,Yes,Yes,0.1513,0,37.68806,-122.35919
+CUST-10362,Patricia Lopez,patricia.lopez@example.com,32,77.59,2482.88,Two year,Mailed check,0,Yes,Yes,0.1706,0,37.86613,-122.4028
+CUST-10363,Jennifer Miller,jennifer.miller@example.com,19,37.66,715.54,Month-to-month,Credit card,1,Yes,No,0.6193,0,37.8141,-122.40921
+CUST-10364,Mary Thomas,mary.thomas@example.com,10,89.05,890.5,Month-to-month,Electronic check,1,No,No,0.9486,1,37.87659,-122.54051
+CUST-10365,Mary Rodriguez,mary.rodriguez@example.com,10,21.98,219.8,Month-to-month,Electronic check,1,No internet service,Yes,0.5678,0,37.80657,-122.39634
+CUST-10366,Jessica Garcia,jessica.garcia@example.com,32,97.47,3119.04,Two year,Credit card,0,Yes,Yes,0.2343,0,37.71086,-122.37989
+CUST-10367,William Garcia,william.garcia@example.com,59,60.48,3568.32,One year,Electronic check,1,Yes,No,0.0383,0,37.71894,-122.3735
+CUST-10368,Thomas Martin,thomas.martin@example.com,31,56.32,1745.92,One year,Credit card,1,Yes,No,0.1915,1,37.63183,-122.35107
+CUST-10369,Thomas Williams,thomas.williams@example.com,8,67.32,538.56,Month-to-month,Electronic check,1,Yes,No internet service,0.788,1,37.8544,-122.54442
+CUST-10370,Thomas Martin,thomas.martin@example.com,12,44.74,536.88,Month-to-month,Bank transfer,1,No,No,0.8693,1,37.78292,-122.51822
+CUST-10371,John Lopez,john.lopez@example.com,33,74.06,2443.98,Two year,Bank transfer,1,Yes,No internet service,0.152,1,37.90945,-122.40761
+CUST-10372,Sarah Martin,sarah.martin@example.com,13,83.98,1091.74,Month-to-month,Bank transfer,0,No,No,0.9317,1,37.69304,-122.54253
+CUST-10373,Charles Lopez,charles.lopez@example.com,5,95.83,479.15,Month-to-month,Mailed check,1,Yes,No,0.9298,1,37.6274,-122.29277
+CUST-10374,Barbara Martinez,barbara.martinez@example.com,8,20.72,165.76,Month-to-month,Bank transfer,1,Yes,Yes,0.5941,0,37.75603,-122.49443
+CUST-10375,Jennifer Gonzalez,jennifer.gonzalez@example.com,4,100.0,400.0,Month-to-month,Bank transfer,1,No,No,0.9716,1,37.86754,-122.44553
+CUST-10376,Robert Garcia,robert.garcia@example.com,4,90.05,360.2,Month-to-month,Credit card,1,No,No,0.9656,1,37.63979,-122.40891
+CUST-10377,David Brown,david.brown@example.com,4,29.02,116.08,Month-to-month,Electronic check,1,No,Yes,0.8339,1,37.71837,-122.32956
+CUST-10378,Patricia Anderson,patricia.anderson@example.com,18,34.61,622.98,One year,Bank transfer,0,Yes,No,0.2674,1,37.76594,-122.51174
+CUST-10379,Thomas Gonzalez,thomas.gonzalez@example.com,25,97.12,2428.0,Two year,Credit card,1,No,Yes,0.5189,0,37.68465,-122.3488
+CUST-10380,Michael Taylor,michael.taylor@example.com,29,113.62,3294.98,One year,Mailed check,0,Yes,No internet service,0.3405,1,37.90613,-122.41312
+CUST-10381,Thomas Thomas,thomas.thomas@example.com,28,41.78,1169.84,One year,Electronic check,1,No,No,0.325,0,37.62942,-122.33108
+CUST-10382,Sarah Brown,sarah.brown@example.com,6,89.08,534.48,Month-to-month,Mailed check,1,No internet service,No,0.9154,1,37.67221,-122.54198
+CUST-10383,Karen Hernandez,karen.hernandez@example.com,69,84.46,5827.74,Two year,Electronic check,1,No,Yes,0.0427,0,37.9194,-122.33283
+CUST-10384,Patricia Anderson,patricia.anderson@example.com,17,45.07,766.19,One year,Electronic check,1,Yes,No,0.3248,0,37.71331,-122.36029
+CUST-10385,Richard Jackson,richard.jackson@example.com,7,103.13,721.91,Month-to-month,Mailed check,1,No,Yes,0.9476,1,37.7136,-122.4904
+CUST-10386,Patricia Anderson,patricia.anderson@example.com,11,21.87,240.57,Month-to-month,Bank transfer,0,No,Yes,0.7319,1,37.8412,-122.37191
+CUST-10387,Jessica Gonzalez,jessica.gonzalez@example.com,12,48.31,579.72,Month-to-month,Credit card,0,No,Yes,0.8125,1,37.78186,-122.5494
+CUST-10388,William Garcia,william.garcia@example.com,29,77.1,2235.9,Two year,Credit card,0,Yes,Yes,0.1992,0,37.83529,-122.49262
+CUST-10389,Patricia Davis,patricia.davis@example.com,22,69.14,1521.08,One year,Electronic check,1,No internet service,Yes,0.2528,0,37.73318,-122.34636
+CUST-10390,Linda Lopez,linda.lopez@example.com,21,93.43,1962.03,One year,Bank transfer,1,No,Yes,0.5667,1,37.78075,-122.53903
+CUST-10391,Joseph Moore,joseph.moore@example.com,5,114.75,573.75,Month-to-month,Credit card,0,No,No,0.9773,1,37.79787,-122.36705
+CUST-10392,Linda Brown,linda.brown@example.com,5,35.82,179.1,Month-to-month,Credit card,0,No,No,0.8987,0,37.78992,-122.27034
+CUST-10393,Patricia Wilson,patricia.wilson@example.com,36,76.31,2747.16,One year,Mailed check,1,No,No,0.3604,0,37.84827,-122.4614
+CUST-10394,Elizabeth Anderson,elizabeth.anderson@example.com,12,21.63,259.56,Two year,Mailed check,0,Yes,Yes,0.203,0,37.715,-122.50283
+CUST-10395,Mary Smith,mary.smith@example.com,60,71.13,4267.8,One year,Mailed check,1,No,No internet service,0.0586,0,37.67173,-122.4899
+CUST-10396,Sarah Davis,sarah.davis@example.com,15,111.79,1676.85,Month-to-month,Electronic check,0,Yes,No,0.9034,1,37.67677,-122.32169
+CUST-10397,Sarah Brown,sarah.brown@example.com,32,27.85,891.2,One year,Electronic check,0,No,Yes,0.1448,0,37.88884,-122.43911
+CUST-10398,Michael Davis,michael.davis@example.com,53,83.22,4410.66,One year,Electronic check,1,No internet service,No,0.0856,1,37.78688,-122.52453
+CUST-10399,Susan Davis,susan.davis@example.com,12,95.28,1143.36,Month-to-month,Electronic check,1,No internet service,No internet service,0.8328,1,37.7432,-122.52974
+CUST-10400,Robert Thomas,robert.thomas@example.com,20,70.18,1403.6,One year,Mailed check,0,Yes,Yes,0.283,0,37.68433,-122.4508
+CUST-10401,Sarah Miller,sarah.miller@example.com,69,46.63,3217.47,One year,Credit card,1,Yes,Yes,0.0093,0,37.65178,-122.36788
+CUST-10402,Linda Lopez,linda.lopez@example.com,7,50.48,353.36,Month-to-month,Bank transfer,0,No,Yes,0.8633,0,37.75756,-122.52565
+CUST-10403,John Davis,john.davis@example.com,7,31.24,218.68,Month-to-month,Electronic check,1,No,No,0.8763,1,37.6692,-122.31967
+CUST-10404,Charles Smith,charles.smith@example.com,14,53.19,744.66,Month-to-month,Mailed check,1,No,No,0.8733,1,37.7025,-122.42449
+CUST-10405,William Smith,william.smith@example.com,17,26.01,442.17,Month-to-month,Mailed check,0,No,Yes,0.6653,1,37.64083,-122.37297
+CUST-10406,James Williams,james.williams@example.com,6,106.43,638.58,Month-to-month,Electronic check,1,No,No,0.9715,1,37.74086,-122.27546
+CUST-10407,Susan Brown,susan.brown@example.com,38,39.89,1515.82,Two year,Credit card,1,Yes,Yes,0.0609,0,37.63683,-122.29272
+CUST-10408,Charles Hernandez,charles.hernandez@example.com,13,55.54,722.02,Month-to-month,Bank transfer,1,Yes,No,0.7763,0,37.77528,-122.32583
+CUST-10409,Thomas Gonzalez,thomas.gonzalez@example.com,52,48.02,2497.04,Two year,Mailed check,1,Yes,Yes,0.0291,0,37.66608,-122.35043
+CUST-10410,Susan Martin,susan.martin@example.com,45,62.65,2819.25,Two year,Bank transfer,0,Yes,Yes,0.0603,0,37.78757,-122.50737
+CUST-10411,William Jackson,william.jackson@example.com,51,90.51,4616.01,One year,Mailed check,1,No,Yes,0.1431,0,37.85591,-122.37253
+CUST-10412,Sarah Garcia,sarah.garcia@example.com,10,51.76,517.6,Month-to-month,Mailed check,0,No internet service,Yes,0.7044,0,37.88894,-122.44519
+CUST-10413,Linda Martinez,linda.martinez@example.com,18,47.38,852.84,Month-to-month,Mailed check,1,No,No internet service,0.7403,1,37.85363,-122.38581
+CUST-10414,Thomas Martin,thomas.martin@example.com,30,55.93,1677.9,One year,Credit card,1,Yes,No,0.2008,0,37.76553,-122.37453
+CUST-10415,David Gonzalez,david.gonzalez@example.com,4,96.45,385.8,Month-to-month,Electronic check,0,Yes,Yes,0.8968,0,37.69167,-122.368
+CUST-10416,Richard Miller,richard.miller@example.com,18,68.99,1241.82,Month-to-month,Bank transfer,0,No internet service,No,0.7649,0,37.75317,-122.33654
+CUST-10417,Karen Gonzalez,karen.gonzalez@example.com,35,73.62,2576.7,One year,Electronic check,1,No internet service,Yes,0.1346,0,37.873,-122.55668
+CUST-10418,Joseph Taylor,joseph.taylor@example.com,66,96.52,6370.32,One year,Electronic check,1,Yes,Yes,0.0302,0,37.89022,-122.3373
+CUST-10419,Charles Anderson,charles.anderson@example.com,6,110.37,662.22,Month-to-month,Credit card,0,No internet service,No,0.9431,1,37.84169,-122.53545
+CUST-10420,Sarah Moore,sarah.moore@example.com,8,79.03,632.24,Month-to-month,Mailed check,0,No,Yes,0.9127,1,37.72212,-122.37483
+CUST-10421,David Brown,david.brown@example.com,12,90.73,1088.76,Month-to-month,Mailed check,1,No,Yes,0.9101,1,37.85538,-122.29572
+CUST-10422,Sarah Jones,sarah.jones@example.com,5,50.81,254.05,Month-to-month,Credit card,1,No,Yes,0.879,1,37.89446,-122.28127
+CUST-10423,James Martin,james.martin@example.com,16,100.75,1612.0,One year,Credit card,1,Yes,Yes,0.4871,0,37.76761,-122.44635
+CUST-10424,Robert Martin,robert.martin@example.com,30,75.75,2272.5,One year,Mailed check,1,Yes,No,0.2719,1,37.82088,-122.55838
+CUST-10425,John Jackson,john.jackson@example.com,32,61.7,1974.4,Two year,Mailed check,1,No internet service,Yes,0.1302,0,37.82318,-122.35945
+CUST-10426,Sarah Moore,sarah.moore@example.com,8,29.31,234.48,Month-to-month,Bank transfer,1,No,No internet service,0.7946,0,37.87098,-122.34187
+CUST-10427,Jessica Williams,jessica.williams@example.com,4,72.71,290.84,Month-to-month,Mailed check,0,No,Yes,0.9233,1,37.65769,-122.35048
+CUST-10428,Susan Williams,susan.williams@example.com,12,48.72,584.64,Month-to-month,Bank transfer,1,No internet service,No internet service,0.6625,1,37.81187,-122.29127
+CUST-10429,Karen Jackson,karen.jackson@example.com,13,108.37,1408.81,Month-to-month,Mailed check,0,No,No,0.9569,0,37.62537,-122.5622
+CUST-10430,Michael Miller,michael.miller@example.com,70,76.04,5322.8,One year,Mailed check,1,Yes,Yes,0.0156,0,37.70939,-122.33234
+CUST-10431,Charles Martinez,charles.martinez@example.com,33,54.14,1786.62,One year,Electronic check,0,Yes,No,0.1656,0,37.87505,-122.29272
+CUST-10432,Barbara Thomas,barbara.thomas@example.com,44,109.21,4805.24,One year,Bank transfer,1,Yes,No,0.2229,0,37.90324,-122.55259
+CUST-10433,Susan Martinez,susan.martinez@example.com,45,77.74,3498.3,One year,Bank transfer,0,Yes,Yes,0.0798,0,37.73098,-122.27852
+CUST-10434,Thomas Smith,thomas.smith@example.com,7,80.57,563.99,Month-to-month,Mailed check,1,No,Yes,0.9202,1,37.85036,-122.35782
+CUST-10435,Mary Johnson,mary.johnson@example.com,4,102.95,411.8,Month-to-month,Bank transfer,1,No,No,0.9732,1,37.65857,-122.33392
+CUST-10436,Richard Williams,richard.williams@example.com,2,39.02,78.04,Month-to-month,Credit card,0,No,No,0.9203,1,37.85756,-122.52641
+CUST-10437,Michael Taylor,michael.taylor@example.com,25,91.37,2284.25,One year,Electronic check,1,No,Yes,0.4902,0,37.83102,-122.39111
+CUST-10438,Robert Hernandez,robert.hernandez@example.com,3,51.25,153.75,Month-to-month,Bank transfer,0,No,No,0.9325,1,37.68507,-122.48343
+CUST-10439,Jessica Hernandez,jessica.hernandez@example.com,45,31.45,1415.25,One year,Electronic check,1,Yes,Yes,0.0332,0,37.72045,-122.52693
+CUST-10440,Charles Jackson,charles.jackson@example.com,3,64.36,193.08,Month-to-month,Mailed check,1,No,No,0.9472,1,37.64004,-122.45432
+CUST-10441,Robert Wilson,robert.wilson@example.com,12,89.01,1068.12,Month-to-month,Credit card,0,No,No,0.9416,1,37.87013,-122.35553
+CUST-10442,Jessica Williams,jessica.williams@example.com,49,101.29,4963.21,Two year,Credit card,1,Yes,Yes,0.0961,0,37.81823,-122.33945
+CUST-10443,Barbara Davis,barbara.davis@example.com,26,56.34,1464.84,Two year,Mailed check,0,No,Yes,0.3086,0,37.86153,-122.30468
+CUST-10444,Elizabeth Thomas,elizabeth.thomas@example.com,9,37.08,333.72,Month-to-month,Bank transfer,0,No,No,0.8745,1,37.65578,-122.32413
+CUST-10445,Michael Hernandez,michael.hernandez@example.com,22,79.05,1739.1,One year,Mailed check,0,Yes,Yes,0.292,0,37.91707,-122.45426
+CUST-10446,Mary Miller,mary.miller@example.com,42,98.73,4146.66,Two year,Mailed check,1,No,Yes,0.264,0,37.84671,-122.35583
+CUST-10447,Barbara Brown,barbara.brown@example.com,37,37.62,1391.94,One year,Credit card,1,Yes,No,0.0985,0,37.86912,-122.338
+CUST-10448,Jennifer Hernandez,jennifer.hernandez@example.com,12,108.73,1304.76,Month-to-month,Electronic check,0,Yes,No,0.9149,1,37.76079,-122.48195
+CUST-10449,Karen Jackson,karen.jackson@example.com,5,99.43,497.15,Month-to-month,Bank transfer,0,No,Yes,0.9505,1,37.84024,-122.29486
+CUST-10450,Robert Jackson,robert.jackson@example.com,21,49.42,1037.82,Month-to-month,Bank transfer,0,No,Yes,0.7086,0,37.62515,-122.40139
+CUST-10451,Patricia Brown,patricia.brown@example.com,54,59.43,3209.22,Two year,Bank transfer,0,Yes,No,0.0516,0,37.75546,-122.50604
+CUST-10452,David Thomas,david.thomas@example.com,10,61.72,617.2,Month-to-month,Bank transfer,0,No,No,0.9143,1,37.66518,-122.54788
+CUST-10453,James Jones,james.jones@example.com,38,28.47,1081.86,One year,Credit card,0,Yes,No internet service,0.0491,0,37.83352,-122.29031
+CUST-10454,Karen Garcia,karen.garcia@example.com,8,42.57,340.56,Month-to-month,Credit card,0,No,No,0.8926,1,37.87894,-122.49838
+CUST-10455,Susan Rodriguez,susan.rodriguez@example.com,10,76.81,768.1,Month-to-month,Bank transfer,1,No,No internet service,0.8975,1,37.83205,-122.52677
+CUST-10456,Susan Rodriguez,susan.rodriguez@example.com,3,67.25,201.75,Month-to-month,Electronic check,0,No,Yes,0.9202,1,37.79879,-122.38549
+CUST-10457,Mary Moore,mary.moore@example.com,38,93.38,3548.44,One year,Credit card,1,Yes,Yes,0.159,0,37.71329,-122.51915
+CUST-10458,Karen Martinez,karen.martinez@example.com,41,36.91,1513.31,One year,Electronic check,0,Yes,Yes,0.0476,0,37.84611,-122.56121
+CUST-10459,Barbara Williams,barbara.williams@example.com,3,81.58,244.74,Month-to-month,Bank transfer,0,No,Yes,0.9389,1,37.65836,-122.51702
+CUST-10460,Sarah Jones,sarah.jones@example.com,35,43.62,1526.7,One year,Mailed check,0,Yes,No,0.1234,0,37.72775,-122.54408
+CUST-10461,William Martin,william.martin@example.com,26,97.04,2523.04,Two year,Mailed check,0,Yes,No internet service,0.3116,0,37.67508,-122.39607
+CUST-10462,Patricia Johnson,patricia.johnson@example.com,49,59.87,2933.63,One year,Bank transfer,1,Yes,Yes,0.0444,0,37.90164,-122.4993
+CUST-10463,Jennifer Thomas,jennifer.thomas@example.com,10,99.73,997.3,Month-to-month,Credit card,0,No,Yes,0.9326,0,37.82976,-122.55709
+CUST-10464,Jessica Lopez,jessica.lopez@example.com,36,53.5,1926.0,Two year,Bank transfer,0,No internet service,No,0.1382,0,37.80015,-122.43107
+CUST-10465,Joseph Jackson,joseph.jackson@example.com,39,51.33,2001.87,One year,Electronic check,0,No,No internet service,0.1451,0,37.62849,-122.54009
+CUST-10466,Michael Anderson,michael.anderson@example.com,13,81.94,1065.22,Month-to-month,Electronic check,0,Yes,Yes,0.7811,1,37.87554,-122.28425
+CUST-10467,Michael Brown,michael.brown@example.com,11,84.79,932.69,Month-to-month,Mailed check,0,No,No,0.9406,1,37.7009,-122.42931
+CUST-10468,Robert Anderson,robert.anderson@example.com,31,96.99,3006.69,Two year,Bank transfer,1,Yes,No internet service,0.2447,0,37.70809,-122.55068
+CUST-10469,Jennifer Hernandez,jennifer.hernandez@example.com,31,26.94,835.14,Two year,Mailed check,0,No,Yes,0.1509,0,37.77252,-122.52624
+CUST-10470,Linda Miller,linda.miller@example.com,24,23.49,563.76,One year,Electronic check,1,Yes,Yes,0.1062,0,37.75866,-122.30045
+CUST-10471,William Smith,william.smith@example.com,45,110.46,4970.7,Two year,Electronic check,1,Yes,No,0.2157,0,37.7721,-122.43858
+CUST-10472,Robert Moore,robert.moore@example.com,8,32.12,256.96,Month-to-month,Bank transfer,1,No,No,0.8709,1,37.64146,-122.2703
+CUST-10473,Robert Lopez,robert.lopez@example.com,62,96.65,5992.3,One year,Mailed check,1,Yes,Yes,0.0392,0,37.74015,-122.5121
+CUST-10474,Jennifer Brown,jennifer.brown@example.com,34,93.53,3180.02,One year,Mailed check,1,Yes,No,0.2899,1,37.92382,-122.49785
+CUST-10475,Jennifer Williams,jennifer.williams@example.com,44,101.18,4451.92,One year,Electronic check,1,Yes,No internet service,0.129,1,37.86123,-122.55656
+CUST-10476,Michael Miller,michael.miller@example.com,45,107.43,4834.35,Two year,Mailed check,0,Yes,No,0.2056,0,37.64651,-122.34876
+CUST-10477,Barbara Smith,barbara.smith@example.com,18,33.05,594.9,Month-to-month,Mailed check,0,Yes,No,0.6133,0,37.87112,-122.54021
+CUST-10478,Karen Garcia,karen.garcia@example.com,21,79.5,1669.5,Two year,Mailed check,1,No,Yes,0.4975,1,37.7261,-122.31863
+CUST-10479,Jennifer Hernandez,jennifer.hernandez@example.com,12,116.47,1397.64,Month-to-month,Mailed check,0,No,No,0.9654,1,37.72555,-122.53318
+CUST-10480,William Wilson,william.wilson@example.com,7,78.2,547.4,Month-to-month,Mailed check,1,Yes,Yes,0.8316,0,37.80863,-122.3361
+CUST-10481,James Thomas,james.thomas@example.com,1,79.37,79.37,Month-to-month,Bank transfer,1,No internet service,No,0.9256,1,37.85667,-122.36169
+CUST-10482,Richard Jones,richard.jones@example.com,39,81.05,3160.95,One year,Electronic check,1,Yes,No internet service,0.1214,0,37.80851,-122.54299
+CUST-10483,Charles Lopez,charles.lopez@example.com,10,117.68,1176.8,Month-to-month,Bank transfer,0,Yes,No internet service,0.8991,0,37.77716,-122.43014
+CUST-10484,Richard Rodriguez,richard.rodriguez@example.com,4,111.15,444.6,Month-to-month,Credit card,1,Yes,No,0.9506,1,37.63783,-122.37594
+CUST-10485,Charles Miller,charles.miller@example.com,7,24.33,170.31,Month-to-month,Electronic check,0,No,No,0.8606,1,37.86055,-122.42388
+CUST-10486,Michael Williams,michael.williams@example.com,47,39.88,1874.36,Two year,Bank transfer,1,Yes,Yes,0.0344,0,37.69323,-122.49826
+CUST-10487,Linda Miller,linda.miller@example.com,6,109.05,654.3,Month-to-month,Mailed check,1,No,No,0.9729,1,37.67832,-122.45735
+CUST-10488,Elizabeth Miller,elizabeth.miller@example.com,64,89.22,5710.08,One year,Electronic check,1,Yes,Yes,0.0298,0,37.76456,-122.44393
+CUST-10489,Mary Davis,mary.davis@example.com,42,81.15,3408.3,Two year,Mailed check,1,No,No,0.2938,0,37.69381,-122.44589
+CUST-10490,Susan Thomas,susan.thomas@example.com,29,21.45,622.05,Two year,Credit card,0,Yes,Yes,0.0756,0,37.72309,-122.39556
+CUST-10491,Sarah Jones,sarah.jones@example.com,57,119.13,6790.41,Two year,Electronic check,1,Yes,Yes,0.0819,0,37.86781,-122.3604
+CUST-10492,Michael Anderson,michael.anderson@example.com,4,60.66,242.64,Month-to-month,Mailed check,1,No,No,0.9397,1,37.81919,-122.54218
+CUST-10493,Barbara Martinez,barbara.martinez@example.com,9,117.64,1058.76,Month-to-month,Credit card,0,No,No,0.9722,1,37.74651,-122.33244
+CUST-10494,Patricia Anderson,patricia.anderson@example.com,13,89.08,1158.04,One year,Electronic check,1,No,Yes,0.6715,0,37.83432,-122.38565
+CUST-10495,Sarah Miller,sarah.miller@example.com,22,25.48,560.56,One year,Bank transfer,0,No,No,0.3414,1,37.73458,-122.38366
+CUST-10496,Patricia Lopez,patricia.lopez@example.com,10,40.47,404.7,Month-to-month,Bank transfer,1,Yes,No,0.7582,1,37.76845,-122.28766
+CUST-10497,Sarah Miller,sarah.miller@example.com,49,70.36,3447.64,One year,Credit card,1,Yes,No,0.0863,1,37.72847,-122.42353
+CUST-10498,Susan Brown,susan.brown@example.com,10,65.2,652.0,Month-to-month,Bank transfer,0,No,No,0.9196,0,37.86754,-122.28714
+CUST-10499,Robert Miller,robert.miller@example.com,37,48.84,1807.08,Two year,Electronic check,1,Yes,No,0.1203,0,37.83402,-122.4205
+CUST-10500,Richard Taylor,richard.taylor@example.com,17,113.17,1923.89,Two year,Credit card,1,Yes,No,0.6525,1,37.81831,-122.48194
+CUST-10501,Robert Smith,robert.smith@example.com,30,61.17,1835.1,Two year,Bank transfer,0,No internet service,No,0.2181,0,37.77074,-122.36964
+CUST-10502,Susan Moore,susan.moore@example.com,7,37.17,260.19,Month-to-month,Bank transfer,1,Yes,No,0.7819,1,37.71134,-122.31575
+CUST-10503,William Lopez,william.lopez@example.com,19,73.53,1397.07,Month-to-month,Mailed check,0,No,Yes,0.8182,0,37.83276,-122.36949
+CUST-10504,William Garcia,william.garcia@example.com,3,46.04,138.12,Month-to-month,Mailed check,1,No,Yes,0.883,1,37.82457,-122.27599
+CUST-10505,William Lopez,william.lopez@example.com,20,22.49,449.8,Month-to-month,Credit card,0,No,Yes,0.6026,0,37.90324,-122.52258
+CUST-10506,Jessica Taylor,jessica.taylor@example.com,12,114.4,1372.8,Month-to-month,Mailed check,0,No,Yes,0.942,1,37.90159,-122.46779
+CUST-10507,Michael Thomas,michael.thomas@example.com,26,60.16,1564.16,Two year,Mailed check,1,Yes,Yes,0.178,1,37.64141,-122.37701
+CUST-10508,Sarah Taylor,sarah.taylor@example.com,18,73.84,1329.12,Month-to-month,Credit card,0,Yes,Yes,0.685,0,37.91765,-122.45107
+CUST-10509,Barbara Hernandez,barbara.hernandez@example.com,39,59.76,2330.64,One year,Credit card,1,Yes,No,0.1296,0,37.7103,-122.46399
+CUST-10510,Elizabeth Moore,elizabeth.moore@example.com,13,100.37,1304.81,Month-to-month,Bank transfer,1,No,No internet service,0.9199,1,37.89422,-122.35082
+CUST-10511,Linda Jones,linda.jones@example.com,42,118.84,4991.28,Two year,Bank transfer,1,Yes,Yes,0.1942,0,37.85173,-122.54287
+CUST-10512,Linda Rodriguez,linda.rodriguez@example.com,10,33.69,336.9,Month-to-month,Mailed check,0,No,No,0.859,1,37.77208,-122.32256
+CUST-10513,Charles Jackson,charles.jackson@example.com,10,20.24,202.4,Month-to-month,Bank transfer,1,No,Yes,0.7385,1,37.81587,-122.53215
+CUST-10514,Charles Wilson,charles.wilson@example.com,17,96.47,1639.99,Month-to-month,Credit card,0,No,Yes,0.8905,1,37.84857,-122.39508
+CUST-10515,Sarah Wilson,sarah.wilson@example.com,43,31.96,1374.28,Two year,Electronic check,0,Yes,No,0.0614,0,37.64245,-122.4735
+CUST-10516,William Lopez,william.lopez@example.com,6,55.6,333.6,Month-to-month,Bank transfer,1,No,No internet service,0.8821,1,37.64795,-122.51126
+CUST-10517,David Brown,david.brown@example.com,27,104.5,2821.5,One year,Bank transfer,1,Yes,Yes,0.3296,0,37.73366,-122.40907
+CUST-10518,Patricia Jones,patricia.jones@example.com,9,54.03,486.27,Month-to-month,Mailed check,1,No,No,0.9073,1,37.69123,-122.51287
+CUST-10519,Jessica Martin,jessica.martin@example.com,61,90.23,5504.03,One year,Electronic check,1,No,No,0.1232,0,37.65987,-122.53003
+CUST-10520,James Thomas,james.thomas@example.com,12,118.76,1425.12,Month-to-month,Bank transfer,1,Yes,No,0.9292,1,37.84824,-122.53382
+CUST-10521,William Jones,william.jones@example.com,33,62.48,2061.84,One year,Electronic check,1,Yes,No internet service,0.1245,0,37.8521,-122.55664
+CUST-10522,Michael Johnson,michael.johnson@example.com,39,45.3,1766.7,One year,Electronic check,1,Yes,Yes,0.0633,1,37.65385,-122.53226
+CUST-10523,Karen Miller,karen.miller@example.com,28,34.56,967.68,One year,Bank transfer,0,No,Yes,0.2017,0,37.67307,-122.41921
+CUST-10524,Karen Davis,karen.davis@example.com,21,72.88,1530.48,One year,Mailed check,0,No,No,0.5885,1,37.85111,-122.5681
+CUST-10525,Michael Miller,michael.miller@example.com,54,38.51,2079.54,Two year,Electronic check,1,Yes,No,0.0346,0,37.73878,-122.50512
+CUST-10526,Joseph Wilson,joseph.wilson@example.com,21,33.59,705.39,Month-to-month,Bank transfer,0,Yes,Yes,0.4432,0,37.63708,-122.47097
+CUST-10527,Michael Gonzalez,michael.gonzalez@example.com,11,64.4,708.4,Month-to-month,Credit card,1,No,No internet service,0.8647,1,37.68154,-122.54852
+CUST-10528,Barbara Lopez,barbara.lopez@example.com,23,63.81,1467.63,Month-to-month,Electronic check,1,No,Yes,0.7394,1,37.83341,-122.27613
+CUST-10529,David Williams,david.williams@example.com,5,60.43,302.15,Month-to-month,Mailed check,0,Yes,No,0.8671,1,37.70846,-122.35535
+CUST-10530,Sarah Jackson,sarah.jackson@example.com,14,67.58,946.12,Month-to-month,Credit card,0,No,No,0.9019,1,37.66911,-122.43301
+CUST-10531,Michael Rodriguez,michael.rodriguez@example.com,6,93.78,562.68,Month-to-month,Electronic check,1,No internet service,Yes,0.8782,1,37.67863,-122.38802
+CUST-10532,Mary Jones,mary.jones@example.com,11,71.99,791.89,Month-to-month,Credit card,0,No,No,0.9246,1,37.82353,-122.42232
+CUST-10533,Thomas Moore,thomas.moore@example.com,16,23.16,370.56,Month-to-month,Credit card,0,No,No internet service,0.6674,1,37.75993,-122.31354
+CUST-10534,Elizabeth Anderson,elizabeth.anderson@example.com,5,108.47,542.35,Month-to-month,Mailed check,1,No,No,0.9743,1,37.83962,-122.42316
+CUST-10535,Michael Jackson,michael.jackson@example.com,44,67.59,2973.96,One year,Mailed check,1,No,Yes,0.1441,0,37.77331,-122.27814
+CUST-10536,Karen Lopez,karen.lopez@example.com,32,32.82,1050.24,One year,Bank transfer,1,Yes,Yes,0.0775,0,37.63297,-122.302
+CUST-10537,Mary Gonzalez,mary.gonzalez@example.com,7,86.12,602.84,Month-to-month,Mailed check,1,No,No,0.955,1,37.65038,-122.363
+CUST-10538,Charles Brown,charles.brown@example.com,2,106.34,212.68,Month-to-month,Credit card,1,No,No,0.978,1,37.8013,-122.27367
+CUST-10539,Jennifer Jackson,jennifer.jackson@example.com,10,87.51,875.1,Month-to-month,Bank transfer,1,No,Yes,0.9156,1,37.82512,-122.51941
+CUST-10540,Charles Lopez,charles.lopez@example.com,29,27.53,798.37,Two year,Mailed check,1,No,No internet service,0.1704,1,37.92377,-122.44879
+CUST-10541,Joseph Martin,joseph.martin@example.com,23,53.68,1234.64,One year,Electronic check,1,No,Yes,0.3408,0,37.75303,-122.46521
+CUST-10542,Robert Martinez,robert.martinez@example.com,32,61.43,1965.76,One year,Bank transfer,0,No,Yes,0.2489,0,37.85393,-122.51522
+CUST-10543,James Taylor,james.taylor@example.com,41,94.22,3863.02,Two year,Credit card,1,Yes,No internet service,0.136,0,37.86758,-122.31357
+CUST-10544,Linda Jackson,linda.jackson@example.com,21,44.04,924.84,One year,Bank transfer,0,Yes,Yes,0.1796,0,37.88296,-122.29606
+CUST-10545,Richard Wilson,richard.wilson@example.com,6,43.61,261.66,Month-to-month,Mailed check,1,Yes,No,0.8134,1,37.69858,-122.32123
+CUST-10546,Elizabeth Thomas,elizabeth.thomas@example.com,37,35.94,1329.78,One year,Mailed check,1,No,Yes,0.1248,0,37.70823,-122.40419
+CUST-10547,John Thomas,john.thomas@example.com,20,49.8,996.0,One year,Electronic check,0,No,Yes,0.3688,0,37.73393,-122.37217
+CUST-10548,Robert Gonzalez,robert.gonzalez@example.com,47,93.45,4392.15,Two year,Electronic check,1,Yes,Yes,0.0941,0,37.9098,-122.28993
+CUST-10549,Thomas Thomas,thomas.thomas@example.com,30,52.93,1587.9,Two year,Credit card,0,Yes,No,0.1913,0,37.90555,-122.504
+CUST-10550,Michael Garcia,michael.garcia@example.com,6,25.59,153.54,Month-to-month,Bank transfer,0,No,No,0.8712,1,37.78862,-122.42694
+CUST-10551,Joseph Rodriguez,joseph.rodriguez@example.com,60,102.14,6128.4,Two year,Electronic check,0,Yes,No,0.0789,0,37.63534,-122.34757
+CUST-10552,John Davis,john.davis@example.com,8,110.32,882.56,Month-to-month,Electronic check,1,No,No,0.9699,1,37.75762,-122.56704
+CUST-10553,Jennifer Rodriguez,jennifer.rodriguez@example.com,18,105.94,1906.92,Month-to-month,Mailed check,0,No,Yes,0.9019,1,37.88874,-122.33938
+CUST-10554,Linda Johnson,linda.johnson@example.com,4,93.69,374.76,Month-to-month,Bank transfer,0,No,No,0.9679,1,37.87097,-122.32208
+CUST-10555,Thomas Taylor,thomas.taylor@example.com,8,52.68,421.44,Month-to-month,Electronic check,0,No,No,0.9105,1,37.68002,-122.43638
+CUST-10556,William Smith,william.smith@example.com,11,35.78,393.58,Month-to-month,Mailed check,0,No,Yes,0.7828,1,37.86269,-122.47358
+CUST-10557,Barbara Jones,barbara.jones@example.com,12,39.87,478.44,Month-to-month,Credit card,1,No,No,0.8578,1,37.7381,-122.319
+CUST-10558,Sarah Davis,sarah.davis@example.com,2,42.87,85.74,Month-to-month,Electronic check,0,No,No,0.9258,1,37.83528,-122.51877
+CUST-10559,Jennifer Martin,jennifer.martin@example.com,6,114.72,688.32,Month-to-month,Electronic check,1,Yes,No,0.9476,1,37.85691,-122.29091
+CUST-10560,Barbara Brown,barbara.brown@example.com,5,46.62,233.1,Month-to-month,Credit card,1,No internet service,No,0.8319,1,37.68688,-122.50473
+CUST-10561,Charles Miller,charles.miller@example.com,8,46.18,369.44,Month-to-month,Credit card,0,Yes,Yes,0.7089,1,37.83018,-122.43195
+CUST-10562,James Thomas,james.thomas@example.com,7,91.33,639.31,Month-to-month,Credit card,0,No,No,0.9593,1,37.65348,-122.55177
+CUST-10563,Mary Davis,mary.davis@example.com,7,100.22,701.54,Month-to-month,Electronic check,1,No,No,0.9657,1,37.73918,-122.27614
+CUST-10564,Patricia Jones,patricia.jones@example.com,41,70.37,2885.17,Two year,Bank transfer,0,Yes,Yes,0.089,0,37.7201,-122.41027
+CUST-10565,William Rodriguez,william.rodriguez@example.com,3,103.48,310.44,Month-to-month,Bank transfer,0,Yes,No,0.9463,1,37.88798,-122.38552
+CUST-10566,Thomas Taylor,thomas.taylor@example.com,17,96.37,1638.29,Month-to-month,Mailed check,1,No,No internet service,0.8903,0,37.8159,-122.4374
+CUST-10567,Richard Jones,richard.jones@example.com,5,66.71,333.55,Month-to-month,Electronic check,0,No,Yes,0.9089,0,37.63714,-122.46244
+CUST-10568,Jessica Thomas,jessica.thomas@example.com,4,54.96,219.84,Month-to-month,Mailed check,0,No,Yes,0.894,1,37.67539,-122.41678
+CUST-10569,Thomas Jackson,thomas.jackson@example.com,42,72.6,3049.2,Two year,Mailed check,1,Yes,No internet service,0.0872,1,37.85538,-122.36633
+CUST-10570,Mary Smith,mary.smith@example.com,21,112.91,2371.11,Month-to-month,Electronic check,0,Yes,No,0.8651,1,37.64922,-122.32019
+CUST-10571,Barbara Anderson,barbara.anderson@example.com,31,24.38,755.78,One year,Credit card,1,No,Yes,0.1444,0,37.8452,-122.28218
+CUST-10572,Sarah Jones,sarah.jones@example.com,3,25.55,76.65,Month-to-month,Electronic check,1,No,No,0.892,1,37.65267,-122.49285
+CUST-10573,Joseph Gonzalez,joseph.gonzalez@example.com,16,48.49,775.84,Month-to-month,Mailed check,1,Yes,No,0.7116,1,37.75461,-122.32749
+CUST-10574,Charles Martin,charles.martin@example.com,12,68.96,827.52,Month-to-month,Credit card,1,No,No,0.9152,1,37.75182,-122.34245
+CUST-10575,Patricia Martin,patricia.martin@example.com,11,117.33,1290.63,Month-to-month,Mailed check,0,Yes,No,0.9317,1,37.9041,-122.41122
+CUST-10576,Susan Williams,susan.williams@example.com,8,34.86,278.88,Month-to-month,Mailed check,0,No internet service,No,0.762,1,37.6995,-122.44108
+CUST-10577,Sarah Johnson,sarah.johnson@example.com,58,61.3,3555.4,One year,Credit card,0,Yes,Yes,0.0256,0,37.70091,-122.49294
+CUST-10578,Robert Taylor,robert.taylor@example.com,13,104.29,1355.77,Month-to-month,Electronic check,1,No,No,0.9534,1,37.71419,-122.39324
+CUST-10579,Elizabeth Anderson,elizabeth.anderson@example.com,31,38.72,1200.32,One year,Mailed check,1,No internet service,No,0.1428,0,37.7027,-122.36738
+CUST-10580,Linda Moore,linda.moore@example.com,8,66.02,528.16,Month-to-month,Credit card,0,Yes,No,0.8566,0,37.80547,-122.42338
+CUST-10581,Karen Martin,karen.martin@example.com,12,50.27,603.24,Month-to-month,Mailed check,1,No,No,0.8814,1,37.86969,-122.36059
+CUST-10582,Richard Smith,richard.smith@example.com,11,82.61,908.71,Month-to-month,Mailed check,1,No,No,0.9381,1,37.66935,-122.44284
+CUST-10583,Michael Garcia,michael.garcia@example.com,48,21.96,1054.08,Two year,Credit card,1,Yes,Yes,0.0227,0,37.79573,-122.31925
+CUST-10584,John Hernandez,john.hernandez@example.com,11,104.86,1153.46,Month-to-month,Bank transfer,1,No,No internet service,0.9349,1,37.77891,-122.35202
+CUST-10585,Barbara Davis,barbara.davis@example.com,40,26.35,1054.0,One year,Credit card,0,Yes,Yes,0.0415,0,37.81171,-122.37555
+CUST-10586,Elizabeth Wilson,elizabeth.wilson@example.com,6,43.21,259.26,Month-to-month,Mailed check,1,Yes,No,0.8122,1,37.90142,-122.31336
+CUST-10587,Elizabeth Jones,elizabeth.jones@example.com,47,114.12,5363.64,Two year,Bank transfer,0,Yes,Yes,0.1358,0,37.87826,-122.38285
+CUST-10588,Charles Williams,charles.williams@example.com,25,30.09,752.25,One year,Credit card,0,Yes,No,0.1729,0,37.69532,-122.40235
+CUST-10589,James Lopez,james.lopez@example.com,34,109.45,3721.3,Two year,Electronic check,0,Yes,No,0.3595,1,37.65909,-122.50139
+CUST-10590,Jessica Davis,jessica.davis@example.com,22,97.01,2134.22,Month-to-month,Bank transfer,0,No,No,0.9067,1,37.88701,-122.38811
+CUST-10591,Michael Johnson,michael.johnson@example.com,37,31.09,1150.33,Two year,Electronic check,0,Yes,No,0.0875,0,37.88242,-122.53884
+CUST-10592,Jessica Johnson,jessica.johnson@example.com,27,56.16,1516.32,One year,Bank transfer,0,Yes,Yes,0.1575,0,37.77442,-122.30825
+CUST-10593,William Lopez,william.lopez@example.com,4,61.57,246.28,Month-to-month,Electronic check,1,No,No,0.9407,1,37.7273,-122.41789
+CUST-10594,Robert Rodriguez,robert.rodriguez@example.com,13,35.16,457.08,Month-to-month,Credit card,0,No,No,0.8371,1,37.75355,-122.29399
+CUST-10595,Elizabeth Taylor,elizabeth.taylor@example.com,34,20.99,713.66,One year,Electronic check,1,Yes,Yes,0.0548,0,37.91948,-122.5201
+CUST-10596,John Gonzalez,john.gonzalez@example.com,44,25.78,1134.32,One year,Bank transfer,1,No,No internet service,0.068,0,37.83514,-122.30734
+CUST-10597,Mary Lopez,mary.lopez@example.com,6,90.03,540.18,Month-to-month,Credit card,0,No,No internet service,0.9371,1,37.81221,-122.38394
+CUST-10598,Elizabeth Lopez,elizabeth.lopez@example.com,50,50.15,2507.5,Two year,Electronic check,1,Yes,Yes,0.0345,0,37.84056,-122.30544
+CUST-10599,Susan Moore,susan.moore@example.com,4,95.7,382.8,Month-to-month,Mailed check,1,No,No,0.9692,1,37.78688,-122.49179
+CUST-10600,Charles Wilson,charles.wilson@example.com,24,82.7,1984.8,Two year,Bank transfer,1,Yes,Yes,0.2797,0,37.9073,-122.43478
+CUST-10601,Sarah Smith,sarah.smith@example.com,21,76.56,1607.76,Month-to-month,Mailed check,1,No,No internet service,0.8071,1,37.86034,-122.35494
+CUST-10602,William Gonzalez,william.gonzalez@example.com,30,102.28,3068.4,One year,Bank transfer,1,Yes,Yes,0.278,1,37.75261,-122.44578
+CUST-10603,Robert Johnson,robert.johnson@example.com,4,87.68,350.72,Month-to-month,Credit card,1,Yes,Yes,0.8794,1,37.74333,-122.49029
+CUST-10604,Barbara Wilson,barbara.wilson@example.com,46,61.69,2837.74,Two year,Mailed check,1,No internet service,No,0.0884,0,37.83825,-122.53058
+CUST-10605,Susan Taylor,susan.taylor@example.com,5,114.41,572.05,Month-to-month,Bank transfer,0,No,No,0.9771,1,37.8806,-122.5363
+CUST-10606,Patricia Jackson,patricia.jackson@example.com,9,57.45,517.05,Month-to-month,Bank transfer,1,Yes,No,0.8248,1,37.66754,-122.39251
+CUST-10607,John Martinez,john.martinez@example.com,29,32.23,934.67,Two year,Bank transfer,1,No,Yes,0.1841,1,37.76925,-122.47649
+CUST-10608,Elizabeth Hernandez,elizabeth.hernandez@example.com,38,96.2,3655.6,One year,Credit card,0,No,No,0.4233,0,37.66959,-122.35104
+CUST-10609,Robert Martin,robert.martin@example.com,36,74.1,2667.6,One year,Credit card,0,Yes,Yes,0.1281,0,37.88469,-122.35724
+CUST-10610,Sarah Martinez,sarah.martinez@example.com,25,81.87,2046.75,One year,Electronic check,0,Yes,Yes,0.2632,0,37.85007,-122.41861
+CUST-10611,James Brown,james.brown@example.com,40,40.58,1623.2,One year,Credit card,1,No internet service,Yes,0.0544,0,37.72103,-122.39273
+CUST-10612,Barbara Smith,barbara.smith@example.com,5,58.2,291.0,Month-to-month,Electronic check,1,Yes,No,0.8618,1,37.67535,-122.52619
+CUST-10613,Thomas Williams,thomas.williams@example.com,19,116.11,2206.09,Month-to-month,Mailed check,1,No,Yes,0.9134,1,37.74188,-122.47339
+CUST-10614,Linda Hernandez,linda.hernandez@example.com,19,43.96,835.24,Month-to-month,Mailed check,1,No,Yes,0.7135,0,37.74041,-122.53488
+CUST-10615,John Hernandez,john.hernandez@example.com,8,43.37,346.96,Month-to-month,Electronic check,1,No,No,0.8942,0,37.82743,-122.49551
+CUST-10616,Jessica Jones,jessica.jones@example.com,8,40.35,322.8,Month-to-month,Mailed check,1,Yes,No,0.7814,0,37.85951,-122.40814
+CUST-10617,Linda Moore,linda.moore@example.com,1,48.92,48.92,Month-to-month,Mailed check,1,No,No,0.9377,1,37.76956,-122.39004
+CUST-10618,Jennifer Lopez,jennifer.lopez@example.com,29,36.14,1048.06,Two year,Electronic check,1,No,Yes,0.1961,0,37.66179,-122.5275
+CUST-10619,Jessica Rodriguez,jessica.rodriguez@example.com,29,108.39,3143.31,Two year,Bank transfer,0,Yes,No,0.434,0,37.83723,-122.4875
+CUST-10620,Mary Hernandez,mary.hernandez@example.com,19,33.37,634.03,Month-to-month,Electronic check,0,No,No internet service,0.6684,1,37.62777,-122.51734
+CUST-10621,Jessica Thomas,jessica.thomas@example.com,40,27.75,1110.0,One year,Electronic check,0,No,No,0.1404,0,37.75845,-122.53238
+CUST-10622,Jennifer Martin,jennifer.martin@example.com,5,20.84,104.2,Month-to-month,Credit card,1,No,No,0.868,1,37.62771,-122.34646
+CUST-10623,Thomas Lopez,thomas.lopez@example.com,15,42.11,631.65,Month-to-month,Credit card,0,No,No,0.8378,1,37.77275,-122.35819
+CUST-10624,Karen Miller,karen.miller@example.com,21,47.73,1002.33,Month-to-month,Credit card,1,No,Yes,0.7015,1,37.84654,-122.36775
+CUST-10625,Karen Jackson,karen.jackson@example.com,10,113.36,1133.6,Month-to-month,Mailed check,0,No,Yes,0.9479,1,37.7072,-122.3151
+CUST-10626,James Moore,james.moore@example.com,45,62.71,2821.95,One year,Electronic check,0,No,Yes,0.125,0,37.8782,-122.44734
+CUST-10627,Michael Taylor,michael.taylor@example.com,7,42.45,297.15,Month-to-month,Bank transfer,0,No,No,0.8987,1,37.71977,-122.45184
+CUST-10628,Mary Williams,mary.williams@example.com,51,88.95,4536.45,Two year,Electronic check,0,No internet service,Yes,0.0678,0,37.72367,-122.55055
+CUST-10629,Michael Smith,michael.smith@example.com,15,53.43,801.45,Month-to-month,Bank transfer,1,No,No,0.8663,1,37.91254,-122.31964
+CUST-10630,Mary Taylor,mary.taylor@example.com,60,96.41,5784.6,One year,Credit card,1,No,No,0.1453,1,37.64311,-122.5594
+CUST-10631,Mary Williams,mary.williams@example.com,21,81.07,1702.47,One year,Credit card,1,No,Yes,0.5053,0,37.79268,-122.48092
+CUST-10632,Jennifer Gonzalez,jennifer.gonzalez@example.com,13,85.97,1117.61,Month-to-month,Electronic check,1,Yes,No,0.8644,1,37.75333,-122.38334
+CUST-10633,Michael Hernandez,michael.hernandez@example.com,45,78.78,3545.1,One year,Electronic check,1,Yes,Yes,0.0813,0,37.64516,-122.33258
+CUST-10634,Richard Jackson,richard.jackson@example.com,9,82.09,738.81,Month-to-month,Mailed check,1,No,No,0.9449,1,37.64305,-122.4759
+CUST-10635,Linda Taylor,linda.taylor@example.com,48,97.55,4682.4,Two year,Mailed check,1,Yes,No,0.1482,0,37.71222,-122.27832
+CUST-10636,Susan Jackson,susan.jackson@example.com,26,75.94,1974.44,One year,Electronic check,1,Yes,No,0.3286,1,37.68501,-122.29685
+CUST-10637,Robert Hernandez,robert.hernandez@example.com,9,89.24,803.16,Month-to-month,Bank transfer,0,No,No,0.9519,1,37.67358,-122.43311
+CUST-10638,John Thomas,john.thomas@example.com,1,82.39,82.39,Month-to-month,Mailed check,1,Yes,Yes,0.8891,1,37.8693,-122.32722
+CUST-10639,Jennifer Miller,jennifer.miller@example.com,15,55.79,836.85,Month-to-month,Electronic check,1,Yes,Yes,0.6493,1,37.8143,-122.29559
+CUST-10640,Patricia Johnson,patricia.johnson@example.com,28,46.2,1293.6,Two year,Mailed check,1,Yes,Yes,0.1254,0,37.67846,-122.56295
+CUST-10641,Thomas Brown,thomas.brown@example.com,12,31.1,373.2,Month-to-month,Mailed check,1,No,No,0.8351,1,37.86775,-122.37113
+CUST-10642,Susan Martin,susan.martin@example.com,55,112.42,6183.1,Two year,Mailed check,1,Yes,Yes,0.0818,0,37.73718,-122.38954
+CUST-10643,Joseph Johnson,joseph.johnson@example.com,42,34.86,1464.12,One year,Mailed check,1,No,Yes,0.0909,0,37.88676,-122.31395
+CUST-10644,Sarah Thomas,sarah.thomas@example.com,4,26.49,105.96,Month-to-month,Credit card,0,No,No,0.8873,1,37.77765,-122.41982
+CUST-10645,Elizabeth Garcia,elizabeth.garcia@example.com,7,69.48,486.36,Month-to-month,Bank transfer,1,No,No,0.9384,1,37.86209,-122.37448
+CUST-10646,Richard Davis,richard.davis@example.com,37,62.5,2312.5,Two year,Credit card,1,Yes,Yes,0.0983,0,37.73713,-122.40423
+CUST-10647,William Williams,william.williams@example.com,9,71.23,641.07,Month-to-month,Bank transfer,1,Yes,Yes,0.7899,1,37.74759,-122.32805
+CUST-10648,Mary Rodriguez,mary.rodriguez@example.com,5,55.91,279.55,Month-to-month,Electronic check,1,Yes,No,0.8563,1,37.7889,-122.54595
+CUST-10649,Thomas Davis,thomas.davis@example.com,3,39.66,118.98,Month-to-month,Bank transfer,1,Yes,Yes,0.749,1,37.85544,-122.31577
+CUST-10650,Richard Martin,richard.martin@example.com,70,111.24,7786.8,Two year,Electronic check,0,No,No,0.1051,0,37.72889,-122.27035
+CUST-10651,Jennifer Jackson,jennifer.jackson@example.com,16,115.15,1842.4,One year,Credit card,1,No,No internet service,0.7381,1,37.68786,-122.49928
+CUST-10652,Sarah Moore,sarah.moore@example.com,47,51.31,2411.57,One year,Mailed check,1,Yes,No,0.0687,0,37.75021,-122.4378
+CUST-10653,Jessica Smith,jessica.smith@example.com,10,20.97,209.7,Month-to-month,Bank transfer,1,Yes,No internet service,0.5628,1,37.83063,-122.44839
+CUST-10654,Jessica Martinez,jessica.martinez@example.com,2,35.37,70.74,Month-to-month,Bank transfer,1,No,No internet service,0.8669,1,37.89903,-122.39724
+CUST-10655,Jennifer Gonzalez,jennifer.gonzalez@example.com,8,30.86,246.88,Month-to-month,Credit card,0,No,Yes,0.7996,1,37.67633,-122.36693
+CUST-10656,David Johnson,david.johnson@example.com,42,111.13,4667.46,Two year,Credit card,1,Yes,Yes,0.1712,0,37.82277,-122.54841
+CUST-10657,John Lopez,john.lopez@example.com,27,35.7,963.9,One year,Electronic check,1,No,Yes,0.2165,0,37.84784,-122.4527
+CUST-10658,Richard Jones,richard.jones@example.com,33,35.88,1184.04,Two year,Bank transfer,1,No,No,0.2346,0,37.83035,-122.48677
+CUST-10659,James Jones,james.jones@example.com,15,52.89,793.35,Month-to-month,Credit card,1,No,Yes,0.7954,1,37.84609,-122.48303
+CUST-10660,Elizabeth Lopez,elizabeth.lopez@example.com,47,101.0,4747.0,One year,Mailed check,1,Yes,No,0.1661,0,37.81022,-122.43978
+CUST-10661,Jennifer Garcia,jennifer.garcia@example.com,23,108.55,2496.65,One year,Mailed check,1,No,Yes,0.6077,0,37.71247,-122.29451
+CUST-10662,Richard Thomas,richard.thomas@example.com,14,95.54,1337.56,Month-to-month,Bank transfer,1,Yes,No,0.8784,1,37.68711,-122.55601
+CUST-10663,James Williams,james.williams@example.com,45,59.93,2696.85,One year,Mailed check,1,Yes,Yes,0.0572,1,37.6593,-122.29426
+CUST-10664,Mary Anderson,mary.anderson@example.com,3,115.0,345.0,Month-to-month,Mailed check,1,No,Yes,0.9677,1,37.67331,-122.31785
+CUST-10665,Karen Brown,karen.brown@example.com,4,87.14,348.56,Month-to-month,Electronic check,0,No,Yes,0.9414,1,37.73233,-122.5044
+CUST-10666,John Moore,john.moore@example.com,12,84.1,1009.2,Month-to-month,Electronic check,1,No,No,0.936,1,37.64062,-122.568
+CUST-10667,Jennifer Miller,jennifer.miller@example.com,35,62.17,2175.95,Two year,Electronic check,1,Yes,Yes,0.1101,0,37.82558,-122.50323
+CUST-10668,Michael Garcia,michael.garcia@example.com,19,52.27,993.13,One year,Mailed check,0,Yes,No,0.3271,0,37.74342,-122.44104
+CUST-10669,Joseph Miller,joseph.miller@example.com,7,21.2,148.4,Month-to-month,Mailed check,1,Yes,No,0.7226,1,37.86943,-122.37442
+CUST-10670,Patricia Johnson,patricia.johnson@example.com,6,118.31,709.86,Month-to-month,Electronic check,0,No,No,0.9774,1,37.90157,-122.39864
+CUST-10671,Thomas Brown,thomas.brown@example.com,65,117.24,7620.6,One year,Mailed check,1,No,No,0.156,0,37.89009,-122.47401
+CUST-10672,Barbara Williams,barbara.williams@example.com,11,84.06,924.66,Month-to-month,Mailed check,1,No,No,0.9398,1,37.62889,-122.56304
+CUST-10673,Michael Martinez,michael.martinez@example.com,8,33.76,270.08,Month-to-month,Credit card,1,Yes,Yes,0.6552,1,37.68622,-122.55803
+CUST-10674,Karen Anderson,karen.anderson@example.com,33,96.05,3169.65,One year,Credit card,0,Yes,No,0.3145,1,37.63201,-122.31532
+CUST-10675,Mary Hernandez,mary.hernandez@example.com,10,44.83,448.3,Month-to-month,Mailed check,0,No internet service,No,0.7738,1,37.72139,-122.43669
+CUST-10676,James Williams,james.williams@example.com,22,34.15,751.3,Two year,Mailed check,1,Yes,No,0.2169,1,37.78955,-122.33083
+CUST-10677,Richard Davis,richard.davis@example.com,36,39.75,1431.0,One year,Credit card,1,Yes,Yes,0.0688,0,37.71051,-122.43492
+CUST-10678,Richard Rodriguez,richard.rodriguez@example.com,38,57.77,2195.26,Two year,Credit card,1,No internet service,Yes,0.0849,0,37.84538,-122.3413
+CUST-10679,Barbara Smith,barbara.smith@example.com,36,50.02,1800.72,One year,Mailed check,1,Yes,No internet service,0.0832,0,37.73904,-122.47765
+CUST-10680,Charles Gonzalez,charles.gonzalez@example.com,38,39.57,1503.66,One year,Mailed check,1,Yes,No,0.096,0,37.84401,-122.45712
+CUST-10681,Jennifer Wilson,jennifer.wilson@example.com,64,84.1,5382.4,Two year,Electronic check,1,Yes,Yes,0.027,0,37.90138,-122.45395
+CUST-10682,Sarah Garcia,sarah.garcia@example.com,8,92.22,737.76,Month-to-month,Credit card,0,Yes,No internet service,0.8595,1,37.64221,-122.4538
+CUST-10683,Linda Davis,linda.davis@example.com,2,87.64,175.28,Month-to-month,Mailed check,1,No,No,0.9683,1,37.82922,-122.49311
+CUST-10684,Karen Jackson,karen.jackson@example.com,53,84.44,4475.32,Two year,Credit card,1,Yes,No,0.0875,0,37.8952,-122.41384
+CUST-10685,Richard Wilson,richard.wilson@example.com,8,73.32,586.56,Month-to-month,Credit card,1,No,No,0.9389,1,37.85064,-122.2921
+CUST-10686,Robert Brown,robert.brown@example.com,50,94.87,4743.5,One year,Credit card,0,Yes,Yes,0.0805,1,37.67542,-122.42188
+CUST-10687,Michael Williams,michael.williams@example.com,36,63.09,2271.24,One year,Mailed check,1,Yes,Yes,0.1054,0,37.68431,-122.5148
+CUST-10688,Michael Anderson,michael.anderson@example.com,29,100.92,2926.68,One year,Mailed check,1,Yes,No,0.3977,0,37.74754,-122.38135
+CUST-10689,Karen Brown,karen.brown@example.com,27,47.68,1287.36,Two year,Bank transfer,1,Yes,Yes,0.1363,0,37.77046,-122.34124
+CUST-10690,James Johnson,james.johnson@example.com,19,24.19,459.61,Month-to-month,Mailed check,1,No,No,0.7344,1,37.8058,-122.27333
+CUST-10691,Thomas Thomas,thomas.thomas@example.com,7,109.02,763.14,Month-to-month,Bank transfer,0,No,No,0.9711,1,37.82442,-122.45587
+CUST-10692,John Lopez,john.lopez@example.com,51,60.18,3069.18,Two year,Mailed check,1,Yes,No,0.0632,0,37.78409,-122.28408
+CUST-10693,Joseph Lopez,joseph.lopez@example.com,12,86.02,1032.24,Month-to-month,Electronic check,0,No,No,0.9382,0,37.86869,-122.56441
+CUST-10694,Patricia Johnson,patricia.johnson@example.com,48,68.45,3285.6,Two year,Electronic check,1,No,Yes,0.116,0,37.90734,-122.42656
+CUST-10695,Michael Gonzalez,michael.gonzalez@example.com,5,77.19,385.95,Month-to-month,Electronic check,1,Yes,No,0.9012,1,37.7153,-122.36748
+CUST-10696,Jessica Anderson,jessica.anderson@example.com,8,44.09,352.72,Month-to-month,Mailed check,1,Yes,No,0.7939,0,37.83487,-122.53776
+CUST-10697,James Garcia,james.garcia@example.com,33,91.92,3033.36,Two year,Credit card,0,Yes,Yes,0.204,0,37.82454,-122.29258
+CUST-10698,Barbara Williams,barbara.williams@example.com,33,112.38,3708.54,One year,Electronic check,0,Yes,Yes,0.2784,0,37.84013,-122.3486
+CUST-10699,Jennifer Moore,jennifer.moore@example.com,37,49.1,1816.7,Two year,Electronic check,1,Yes,Yes,0.0769,0,37.90606,-122.34601
+CUST-10700,Michael Jackson,michael.jackson@example.com,16,20.17,322.72,Month-to-month,Electronic check,1,No internet service,No,0.5834,1,37.74134,-122.44229
+CUST-10701,Patricia Jones,patricia.jones@example.com,42,73.83,3100.86,One year,Credit card,1,Yes,Yes,0.0892,0,37.71395,-122.50373
+CUST-10702,Elizabeth Jones,elizabeth.jones@example.com,26,90.3,2347.8,One year,Bank transfer,1,No,No,0.5921,0,37.66194,-122.27035
+CUST-10703,Sarah Thomas,sarah.thomas@example.com,29,25.88,750.52,One year,Bank transfer,1,Yes,No internet service,0.082,0,37.87932,-122.28907
+CUST-10704,Joseph Johnson,joseph.johnson@example.com,50,49.91,2495.5,Two year,Mailed check,0,No,No,0.1156,0,37.72612,-122.36603
+CUST-10705,Patricia Gonzalez,patricia.gonzalez@example.com,10,39.51,395.1,Month-to-month,Credit card,1,Yes,No,0.7546,1,37.86228,-122.30964
+CUST-10706,John Martinez,john.martinez@example.com,5,49.11,245.55,Month-to-month,Mailed check,1,Yes,No,0.8387,1,37.6836,-122.37403
+CUST-10707,Patricia Jackson,patricia.jackson@example.com,14,118.27,1655.78,Month-to-month,Mailed check,0,No,No,0.962,1,37.91715,-122.51551
+CUST-10708,John Brown,john.brown@example.com,44,82.7,3638.8,Two year,Credit card,1,Yes,No internet service,0.0928,0,37.74389,-122.47859
+CUST-10709,Karen Garcia,karen.garcia@example.com,35,85.85,3004.75,One year,Credit card,0,No,No,0.4216,0,37.70746,-122.37344
+CUST-10710,Patricia Smith,patricia.smith@example.com,4,70.97,283.88,Month-to-month,Electronic check,1,No,No,0.9504,0,37.76875,-122.36128
+CUST-10711,Michael Jackson,michael.jackson@example.com,9,77.14,694.26,Month-to-month,Electronic check,1,No,No,0.9395,1,37.88356,-122.40815
+CUST-10712,Jennifer Smith,jennifer.smith@example.com,15,26.39,395.85,Month-to-month,Electronic check,0,No,No,0.7905,1,37.82247,-122.5342
+CUST-10713,Karen Garcia,karen.garcia@example.com,8,77.51,620.08,Month-to-month,Mailed check,1,No,Yes,0.9103,1,37.85082,-122.54402
+CUST-10714,Michael Taylor,michael.taylor@example.com,20,85.82,1716.4,Month-to-month,Mailed check,1,Yes,No internet service,0.7075,0,37.78073,-122.33456
+CUST-10715,Jessica Anderson,jessica.anderson@example.com,9,119.68,1077.12,Month-to-month,Mailed check,0,No,No internet service,0.9566,1,37.63832,-122.55838
+CUST-10716,William Martinez,william.martinez@example.com,29,79.18,2296.22,Two year,Bank transfer,1,Yes,Yes,0.2059,0,37.64721,-122.49291
+CUST-10717,Jennifer Garcia,jennifer.garcia@example.com,4,89.45,357.8,Month-to-month,Mailed check,1,Yes,No,0.9257,1,37.92351,-122.36036
+CUST-10718,Richard Lopez,richard.lopez@example.com,44,102.16,4495.04,One year,Bank transfer,0,Yes,Yes,0.1312,0,37.63267,-122.38832
+CUST-10719,Robert Rodriguez,robert.rodriguez@example.com,4,84.02,336.08,Month-to-month,Bank transfer,0,No,Yes,0.9378,1,37.6688,-122.32997
+CUST-10720,Thomas Smith,thomas.smith@example.com,21,98.27,2063.67,Month-to-month,Electronic check,1,Yes,No internet service,0.7437,1,37.71686,-122.323
+CUST-10721,Barbara Brown,barbara.brown@example.com,46,80.75,3714.5,One year,Electronic check,1,No,Yes,0.1609,0,37.74177,-122.46585
+CUST-10722,Jessica Moore,jessica.moore@example.com,53,20.95,1110.35,One year,Mailed check,0,Yes,Yes,0.0161,0,37.79517,-122.48919
+CUST-10723,Patricia Davis,patricia.davis@example.com,36,55.4,1994.4,One year,Credit card,1,Yes,Yes,0.0918,0,37.75323,-122.2869
+CUST-10724,Joseph Martinez,joseph.martinez@example.com,23,104.52,2403.96,One year,Electronic check,1,Yes,No,0.5143,1,37.65299,-122.3968
+CUST-10725,Robert Martinez,robert.martinez@example.com,38,62.4,2371.2,One year,Mailed check,1,No,No internet service,0.1846,0,37.92429,-122.30298
+CUST-10726,Michael Gonzalez,michael.gonzalez@example.com,5,62.5,312.5,Month-to-month,Bank transfer,1,No,Yes,0.9017,1,37.91016,-122.32239
+CUST-10727,Susan Martin,susan.martin@example.com,8,96.37,770.96,Month-to-month,Mailed check,1,Yes,No internet service,0.8692,1,37.6649,-122.46341
+CUST-10728,John Wilson,john.wilson@example.com,5,87.91,439.55,Month-to-month,Electronic check,1,No internet service,No,0.9187,1,37.70433,-122.56873
+CUST-10729,Sarah Gonzalez,sarah.gonzalez@example.com,7,102.57,717.99,Month-to-month,Electronic check,0,No internet service,No,0.9299,1,37.87941,-122.55215
+CUST-10730,James Martin,james.martin@example.com,6,92.24,553.44,Month-to-month,Credit card,1,Yes,No,0.9202,1,37.77251,-122.54398
+CUST-10731,Susan Jones,susan.jones@example.com,18,45.01,810.18,Month-to-month,Credit card,1,Yes,No,0.6682,1,37.7534,-122.51475
+CUST-10732,Thomas Brown,thomas.brown@example.com,44,94.71,4167.24,Two year,Electronic check,1,Yes,Yes,0.1152,0,37.68444,-122.51253
+CUST-10733,John Jones,john.jones@example.com,13,39.9,518.7,Month-to-month,Credit card,0,No internet service,Yes,0.6062,0,37.66054,-122.42268
+CUST-10734,Barbara Jones,barbara.jones@example.com,14,112.36,1573.04,Month-to-month,Credit card,1,No,No,0.9575,0,37.86271,-122.53156
+CUST-10735,Patricia Taylor,patricia.taylor@example.com,12,62.97,755.64,Month-to-month,Electronic check,1,Yes,No,0.8114,1,37.77068,-122.34113
+CUST-10736,Joseph Martin,joseph.martin@example.com,9,106.42,957.78,Month-to-month,Mailed check,0,Yes,No,0.9261,1,37.76707,-122.33458
+CUST-10737,Michael Taylor,michael.taylor@example.com,28,34.87,976.36,One year,Electronic check,1,No,No,0.2954,1,37.92202,-122.29067
+CUST-10738,Linda Smith,linda.smith@example.com,23,50.64,1164.72,One year,Mailed check,1,Yes,Yes,0.1794,0,37.6433,-122.44128
+CUST-10739,John Martinez,john.martinez@example.com,7,44.7,312.9,Month-to-month,Electronic check,1,No internet service,No,0.8065,1,37.82303,-122.47291
+CUST-10740,Charles Thomas,charles.thomas@example.com,11,69.13,760.43,Month-to-month,Bank transfer,1,No,Yes,0.8754,1,37.629,-122.40387
+CUST-10741,William Hernandez,william.hernandez@example.com,15,80.47,1207.05,Month-to-month,Mailed check,0,No,No,0.9175,1,37.74011,-122.30324
+CUST-10742,William Martin,william.martin@example.com,10,39.04,390.4,Month-to-month,Credit card,0,No internet service,No,0.7529,1,37.78887,-122.46653
+CUST-10743,Barbara Miller,barbara.miller@example.com,26,91.16,2370.16,One year,Bank transfer,0,Yes,Yes,0.287,0,37.8401,-122.29615
+CUST-10744,Robert Thomas,robert.thomas@example.com,18,79.92,1438.56,Month-to-month,Mailed check,1,No,Yes,0.8453,0,37.64314,-122.27766
+CUST-10745,Richard Gonzalez,richard.gonzalez@example.com,10,63.77,637.7,Month-to-month,Credit card,1,No,Yes,0.8709,1,37.80707,-122.50732
+CUST-10746,James Garcia,james.garcia@example.com,42,71.28,2993.76,One year,Bank transfer,1,Yes,No internet service,0.0851,0,37.83738,-122.40375
+CUST-10747,David Davis,david.davis@example.com,6,108.36,650.16,Month-to-month,Mailed check,1,Yes,Yes,0.9061,1,37.81762,-122.4947
+CUST-10748,Richard Moore,richard.moore@example.com,11,52.46,577.06,Month-to-month,Bank transfer,0,No,No internet service,0.8342,1,37.80834,-122.47201
+CUST-10749,John Smith,john.smith@example.com,29,117.16,3397.64,Two year,Electronic check,0,No internet service,Yes,0.3566,0,37.9086,-122.4922
+CUST-10750,Karen Moore,karen.moore@example.com,8,82.98,663.84,Month-to-month,Credit card,1,No,Yes,0.9188,1,37.84279,-122.45881
+CUST-10751,Barbara Williams,barbara.williams@example.com,9,76.97,692.73,Month-to-month,Mailed check,0,No,Yes,0.9037,1,37.67378,-122.51608
+CUST-10752,Jennifer Martin,jennifer.martin@example.com,5,84.51,422.55,Month-to-month,Credit card,1,No,No,0.9592,1,37.84293,-122.327
+CUST-10753,Karen Brown,karen.brown@example.com,2,84.45,168.9,Month-to-month,Electronic check,1,No,No,0.9663,1,37.7052,-122.28782
+CUST-10754,Karen Smith,karen.smith@example.com,15,101.83,1527.45,One year,Electronic check,1,No,Yes,0.6977,1,37.79376,-122.4361
+CUST-10755,David Martinez,david.martinez@example.com,5,82.75,413.75,Month-to-month,Electronic check,1,Yes,No,0.9107,1,37.78829,-122.53863
+CUST-10756,Linda Jones,linda.jones@example.com,6,55.33,331.98,Month-to-month,Bank transfer,1,Yes,No,0.8464,0,37.74032,-122.30413
+CUST-10757,Michael Thomas,michael.thomas@example.com,4,55.73,222.92,Month-to-month,Bank transfer,1,Yes,No internet service,0.7938,0,37.90086,-122.30072
+CUST-10758,Karen Jones,karen.jones@example.com,10,35.02,350.2,Month-to-month,Bank transfer,0,No,No,0.8622,1,37.88752,-122.48807
+CUST-10759,Barbara Lopez,barbara.lopez@example.com,51,20.22,1031.22,Two year,Mailed check,0,No,Yes,0.0393,0,37.66923,-122.43539
+CUST-10760,Barbara Williams,barbara.williams@example.com,8,52.31,418.48,Month-to-month,Mailed check,1,No,Yes,0.8597,1,37.72069,-122.44225
+CUST-10761,Linda Martin,linda.martin@example.com,33,44.59,1471.47,One year,Credit card,1,No,No,0.2673,0,37.77268,-122.40854
+CUST-10762,Joseph Gonzalez,joseph.gonzalez@example.com,13,101.13,1314.69,Month-to-month,Mailed check,0,No,No,0.9505,1,37.62576,-122.27123
+CUST-10763,James Lopez,james.lopez@example.com,62,54.93,3405.66,One year,Mailed check,1,No internet service,Yes,0.0174,0,37.88089,-122.27785
+CUST-10764,Linda Davis,linda.davis@example.com,6,89.58,537.48,Month-to-month,Mailed check,1,No,Yes,0.9365,1,37.91437,-122.45789
+CUST-10765,Michael Jackson,michael.jackson@example.com,15,56.52,847.8,Month-to-month,Electronic check,1,No,Yes,0.807,1,37.87422,-122.44445
+CUST-10766,David Thomas,david.thomas@example.com,48,61.15,2935.2,One year,Bank transfer,1,No,Yes,0.1018,0,37.62886,-122.53602
+CUST-10767,John Johnson,john.johnson@example.com,27,62.36,1683.72,One year,Credit card,1,Yes,Yes,0.1747,0,37.90065,-122.41884
+CUST-10768,Joseph Wilson,joseph.wilson@example.com,31,115.11,3568.41,Two year,Mailed check,1,Yes,Yes,0.3177,1,37.74259,-122.32265
+CUST-10769,Jessica Martin,jessica.martin@example.com,52,84.19,4377.88,Two year,Credit card,1,Yes,Yes,0.0583,0,37.81889,-122.51098
+CUST-10770,Michael Brown,michael.brown@example.com,11,48.22,530.42,Month-to-month,Electronic check,1,No,Yes,0.8222,1,37.85186,-122.47666
+CUST-10771,Jessica Miller,jessica.miller@example.com,18,76.48,1376.64,One year,Credit card,1,Yes,No internet service,0.3384,1,37.90795,-122.56686
+CUST-10772,Patricia Martinez,patricia.martinez@example.com,39,55.58,2167.62,Two year,Mailed check,0,Yes,Yes,0.0767,0,37.74709,-122.34696
+CUST-10773,Michael Taylor,michael.taylor@example.com,26,78.64,2044.64,Two year,Electronic check,1,Yes,Yes,0.2386,1,37.76383,-122.30384
+CUST-10774,Robert Davis,robert.davis@example.com,51,36.1,1841.1,Two year,Bank transfer,1,No,No,0.0849,0,37.71215,-122.38236
+CUST-10775,Linda Johnson,linda.johnson@example.com,49,81.04,3970.96,Two year,Electronic check,0,Yes,Yes,0.0662,0,37.92322,-122.54018
+CUST-10776,James Jones,james.jones@example.com,33,109.51,3613.83,One year,Credit card,1,No,No,0.572,1,37.90512,-122.52096
+CUST-10777,Thomas Jackson,thomas.jackson@example.com,4,45.79,183.16,Month-to-month,Credit card,0,Yes,No,0.8388,1,37.75751,-122.29215
+CUST-10778,Michael Jackson,michael.jackson@example.com,7,81.97,573.79,Month-to-month,Mailed check,1,Yes,No,0.8978,1,37.81229,-122.47531
+CUST-10779,Robert Wilson,robert.wilson@example.com,31,82.06,2543.86,One year,Electronic check,0,No,No,0.4687,1,37.87127,-122.56702
+CUST-10780,Michael Martinez,michael.martinez@example.com,10,107.42,1074.2,Month-to-month,Electronic check,1,No,Yes,0.9417,1,37.78543,-122.32391
+CUST-10781,Michael Williams,michael.williams@example.com,4,63.31,253.24,Month-to-month,Credit card,1,No internet service,No,0.8807,1,37.92383,-122.42351
+CUST-10782,Barbara Brown,barbara.brown@example.com,3,84.02,252.06,Month-to-month,Bank transfer,1,Yes,No,0.9228,0,37.85716,-122.55068
+CUST-10783,Patricia Wilson,patricia.wilson@example.com,29,95.86,2779.94,Two year,Credit card,1,Yes,Yes,0.2658,0,37.64998,-122.54862
+CUST-10784,Jennifer Williams,jennifer.williams@example.com,13,86.96,1130.48,Month-to-month,Bank transfer,1,No,No,0.9354,1,37.89339,-122.44084
+CUST-10785,Charles Garcia,charles.garcia@example.com,19,98.39,1869.41,Month-to-month,Credit card,1,No,No,0.9242,1,37.74164,-122.56642
+CUST-10786,Karen Miller,karen.miller@example.com,12,118.64,1423.68,Month-to-month,Bank transfer,1,No,No,0.9668,1,37.90505,-122.41957
+CUST-10787,Mary Brown,mary.brown@example.com,45,118.82,5346.9,One year,Mailed check,0,Yes,No,0.2453,0,37.79841,-122.55845
+CUST-10788,Richard Wilson,richard.wilson@example.com,49,40.98,2008.02,One year,Mailed check,0,No,Yes,0.0662,0,37.62921,-122.32527
+CUST-10789,James Martinez,james.martinez@example.com,39,84.89,3310.71,Two year,Credit card,1,No,No,0.3538,1,37.87336,-122.44165
+CUST-10790,Mary Brown,mary.brown@example.com,37,36.27,1341.99,Two year,Credit card,1,Yes,Yes,0.0606,0,37.83147,-122.43815
+CUST-10791,Charles Martin,charles.martin@example.com,57,103.72,5912.04,Two year,Electronic check,0,Yes,Yes,0.0615,0,37.74828,-122.42048
+CUST-10792,Karen Moore,karen.moore@example.com,8,48.99,391.92,Month-to-month,Credit card,1,No,Yes,0.8515,1,37.79038,-122.53505
+CUST-10793,Barbara Brown,barbara.brown@example.com,14,84.49,1182.86,Month-to-month,Credit card,1,No,No internet service,0.8866,1,37.69208,-122.48432
+CUST-10794,Thomas Martinez,thomas.martinez@example.com,50,110.02,5501.0,Two year,Credit card,1,Yes,Yes,0.1059,1,37.86205,-122.31717
+CUST-10795,Susan Martin,susan.martin@example.com,5,75.57,377.85,Month-to-month,Credit card,1,No,No,0.9516,1,37.87346,-122.329
+CUST-10796,Sarah Wilson,sarah.wilson@example.com,11,110.42,1214.62,Month-to-month,Mailed check,1,No internet service,Yes,0.8782,1,37.86525,-122.41812
+CUST-10797,Sarah Gonzalez,sarah.gonzalez@example.com,43,114.87,4939.41,Two year,Mailed check,1,Yes,Yes,0.1723,1,37.62836,-122.33839
+CUST-10798,William Smith,william.smith@example.com,40,22.53,901.2,One year,Mailed check,0,No internet service,Yes,0.0386,0,37.85818,-122.51343
+CUST-10799,Joseph Martinez,joseph.martinez@example.com,15,57.81,867.15,Month-to-month,Bank transfer,0,No,No,0.8761,1,37.90539,-122.38117
+CUST-10800,Sarah Brown,sarah.brown@example.com,18,46.2,831.6,Month-to-month,Mailed check,1,Yes,Yes,0.5558,1,37.73332,-122.31791
+CUST-10801,Jennifer Brown,jennifer.brown@example.com,2,27.63,55.26,Month-to-month,Credit card,1,Yes,No internet service,0.7149,1,37.89739,-122.32684
+CUST-10802,David Martinez,david.martinez@example.com,5,23.15,115.75,Month-to-month,Bank transfer,0,No,No,0.8732,1,37.8091,-122.40546
+CUST-10803,David Taylor,david.taylor@example.com,59,22.3,1315.7,One year,Mailed check,1,Yes,Yes,0.0111,0,37.89447,-122.56055
+CUST-10804,William Davis,william.davis@example.com,12,39.92,479.04,Month-to-month,Electronic check,1,Yes,Yes,0.6221,1,37.7132,-122.34584
+CUST-10805,Barbara Wilson,barbara.wilson@example.com,35,88.71,3104.85,One year,Bank transfer,0,Yes,Yes,0.1738,1,37.86285,-122.39313
+CUST-10806,David Miller,david.miller@example.com,38,94.71,3598.98,Two year,Bank transfer,0,No,Yes,0.3017,0,37.75369,-122.39926
+CUST-10807,Patricia Williams,patricia.williams@example.com,17,60.98,1036.66,Month-to-month,Bank transfer,1,No internet service,Yes,0.6425,1,37.86761,-122.44058
+CUST-10808,David Lopez,david.lopez@example.com,5,51.45,257.25,Month-to-month,Electronic check,1,No,Yes,0.8803,1,37.72356,-122.42979
+CUST-10809,Mary Davis,mary.davis@example.com,35,30.29,1060.15,One year,Bank transfer,0,No,Yes,0.127,0,37.86713,-122.368
+CUST-10810,Sarah Wilson,sarah.wilson@example.com,37,24.97,923.89,One year,Credit card,1,No,Yes,0.1027,0,37.75127,-122.53217
+CUST-10811,David Martin,david.martin@example.com,8,84.37,674.96,Month-to-month,Electronic check,0,No,Yes,0.9209,1,37.87739,-122.44856
+CUST-10812,Jessica Taylor,jessica.taylor@example.com,11,100.25,1102.75,Month-to-month,Bank transfer,1,Yes,Yes,0.8547,1,37.745,-122.40246
+CUST-10813,Mary Thomas,mary.thomas@example.com,35,104.87,3670.45,One year,Electronic check,0,No,Yes,0.3927,0,37.65572,-122.5022
+CUST-10814,James Jones,james.jones@example.com,7,37.02,259.14,Month-to-month,Mailed check,0,No,No,0.8883,1,37.86974,-122.40813
+CUST-10815,James Johnson,james.johnson@example.com,14,27.5,385.0,Month-to-month,Bank transfer,0,Yes,No internet service,0.5291,0,37.73877,-122.3598
+CUST-10816,William Jackson,william.jackson@example.com,4,108.78,435.12,Month-to-month,Credit card,0,No,No,0.9761,1,37.78143,-122.49724
+CUST-10817,Barbara Thomas,barbara.thomas@example.com,33,46.38,1530.54,Two year,Bank transfer,0,No,Yes,0.1866,0,37.87556,-122.49669
+CUST-10818,Richard Williams,richard.williams@example.com,9,66.82,601.38,Month-to-month,Credit card,1,Yes,No,0.8502,1,37.6875,-122.39224
+CUST-10819,Susan Taylor,susan.taylor@example.com,49,35.4,1734.6,Two year,Electronic check,0,Yes,Yes,0.0277,0,37.73399,-122.27688
+CUST-10820,Karen Taylor,karen.taylor@example.com,8,88.63,709.04,Month-to-month,Electronic check,1,Yes,No,0.9037,1,37.84841,-122.49723
+CUST-10821,Elizabeth Garcia,elizabeth.garcia@example.com,9,31.83,286.47,Month-to-month,Electronic check,1,No,No,0.8625,1,37.74398,-122.44015
+CUST-10822,Mary Johnson,mary.johnson@example.com,7,112.8,789.6,Month-to-month,Mailed check,1,Yes,No,0.9421,1,37.80311,-122.41053
+CUST-10823,Barbara Taylor,barbara.taylor@example.com,12,41.96,503.52,Month-to-month,Electronic check,0,No,No internet service,0.7924,1,37.69653,-122.40976
+CUST-10824,Thomas Davis,thomas.davis@example.com,46,41.99,1931.54,Two year,Bank transfer,1,Yes,Yes,0.0382,0,37.68597,-122.37833
+CUST-10825,Karen Martinez,karen.martinez@example.com,23,67.68,1556.64,One year,Bank transfer,0,Yes,No,0.3363,0,37.67597,-122.36497
+CUST-10826,David Garcia,david.garcia@example.com,8,62.79,502.32,Month-to-month,Electronic check,1,No internet service,No,0.8484,1,37.64799,-122.36564
+CUST-10827,James Martin,james.martin@example.com,9,67.26,605.34,Month-to-month,Electronic check,0,Yes,No,0.8513,1,37.92202,-122.31879
+CUST-10828,Susan Taylor,susan.taylor@example.com,5,93.62,468.1,Month-to-month,Credit card,1,Yes,No,0.9268,1,37.78861,-122.37038
+CUST-10829,Thomas Lopez,thomas.lopez@example.com,15,71.78,1076.7,Month-to-month,Credit card,1,No,No,0.9034,1,37.84336,-122.56318
+CUST-10830,Linda Davis,linda.davis@example.com,26,94.1,2446.6,One year,Credit card,1,Yes,Yes,0.2992,0,37.68305,-122.28296
+CUST-10831,Michael Rodriguez,michael.rodriguez@example.com,45,115.83,5212.35,Two year,Mailed check,1,No,Yes,0.2925,0,37.8913,-122.45209
+CUST-10832,Linda Rodriguez,linda.rodriguez@example.com,3,81.24,243.72,Month-to-month,Credit card,0,No,No,0.9618,1,37.86266,-122.4653
+CUST-10833,Michael Smith,michael.smith@example.com,12,116.67,1400.04,Month-to-month,Mailed check,1,No,Yes,0.9445,1,37.86484,-122.56472
+CUST-10834,John Miller,john.miller@example.com,11,63.03,693.33,Month-to-month,Electronic check,1,Yes,No,0.8216,1,37.88852,-122.33382
+CUST-10835,Susan Moore,susan.moore@example.com,4,39.67,158.68,Month-to-month,Electronic check,1,Yes,No internet service,0.7363,1,37.90478,-122.49478
+CUST-10836,Jennifer Wilson,jennifer.wilson@example.com,17,79.7,1354.9,Month-to-month,Mailed check,1,No,No internet service,0.8533,1,37.72164,-122.39595
+CUST-10837,Richard Rodriguez,richard.rodriguez@example.com,10,76.67,766.7,Month-to-month,Credit card,1,No,Yes,0.8972,1,37.88768,-122.43833
+CUST-10838,William Taylor,william.taylor@example.com,7,66.84,467.88,Month-to-month,Credit card,1,No internet service,No,0.8665,0,37.76329,-122.29563
+CUST-10839,James Wilson,james.wilson@example.com,5,78.03,390.15,Month-to-month,Bank transfer,1,No internet service,No,0.9027,1,37.79457,-122.4814
+CUST-10840,Jennifer Jones,jennifer.jones@example.com,1,66.02,66.02,Month-to-month,Electronic check,1,No,No,0.9549,1,37.92075,-122.53729
+CUST-10841,Karen Brown,karen.brown@example.com,41,32.14,1317.74,Two year,Electronic check,0,No,No,0.143,0,37.79351,-122.27922
+CUST-10842,William Davis,william.davis@example.com,44,91.91,4044.04,Two year,Electronic check,0,Yes,No,0.1687,0,37.68511,-122.54926
+CUST-10843,William Martin,william.martin@example.com,39,22.47,876.33,Two year,Credit card,1,Yes,Yes,0.0411,0,37.71488,-122.42428
+CUST-10844,David Davis,david.davis@example.com,40,105.93,4237.2,Two year,Electronic check,1,No,No,0.4383,0,37.68034,-122.32383
+CUST-10845,Joseph Garcia,joseph.garcia@example.com,46,48.94,2251.24,One year,Electronic check,0,Yes,Yes,0.0436,0,37.82521,-122.45204
+CUST-10846,Michael Anderson,michael.anderson@example.com,8,76.42,611.36,Month-to-month,Electronic check,1,Yes,No,0.8803,1,37.82003,-122.37224
+CUST-10847,Elizabeth Johnson,elizabeth.johnson@example.com,34,65.84,2238.56,Two year,Electronic check,0,Yes,No,0.19,0,37.88165,-122.41844
+CUST-10848,Patricia Taylor,patricia.taylor@example.com,3,91.92,275.76,Month-to-month,Bank transfer,1,No,No,0.9689,1,37.66691,-122.33391
+CUST-10849,Charles Gonzalez,charles.gonzalez@example.com,15,80.58,1208.7,Month-to-month,Mailed check,1,No,No internet service,0.8712,0,37.85752,-122.41177
+CUST-10850,William Hernandez,william.hernandez@example.com,41,26.76,1097.16,One year,Electronic check,0,Yes,No,0.0631,0,37.65386,-122.53753
+CUST-10851,Barbara Hernandez,barbara.hernandez@example.com,65,43.66,2837.9,One year,Mailed check,0,No,No,0.0407,0,37.9169,-122.29269
+CUST-10852,John Martin,john.martin@example.com,3,57.43,172.29,Month-to-month,Electronic check,0,No,No,0.9398,1,37.83452,-122.45611
+CUST-10853,Sarah Moore,sarah.moore@example.com,6,40.12,240.72,Month-to-month,Mailed check,1,No,Yes,0.8458,1,37.8619,-122.54359
+CUST-10854,James Brown,james.brown@example.com,15,60.8,912.0,Month-to-month,Electronic check,1,No,No,0.8825,1,37.91222,-122.35091
+CUST-10855,Susan Thomas,susan.thomas@example.com,5,55.65,278.25,Month-to-month,Mailed check,0,No,No,0.9295,1,37.81254,-122.30721
+CUST-10856,Sarah Williams,sarah.williams@example.com,9,25.15,226.35,Month-to-month,Bank transfer,1,Yes,No,0.7116,0,37.71187,-122.32096
+CUST-10857,Jennifer Lopez,jennifer.lopez@example.com,16,77.54,1240.64,Month-to-month,Bank transfer,1,No internet service,Yes,0.7279,1,37.83416,-122.53614
+CUST-10858,Barbara Rodriguez,barbara.rodriguez@example.com,18,108.8,1958.4,One year,Electronic check,1,Yes,Yes,0.494,0,37.84506,-122.29215
+CUST-10859,John Davis,john.davis@example.com,15,103.5,1552.5,Month-to-month,Electronic check,1,No,No,0.9463,1,37.74977,-122.34761
+CUST-10860,Robert Moore,robert.moore@example.com,4,69.66,278.64,Month-to-month,Mailed check,0,No,Yes,0.9188,1,37.71593,-122.31445
+CUST-10861,Joseph Smith,joseph.smith@example.com,18,80.81,1454.58,Two year,Credit card,0,No,Yes,0.5538,0,37.79065,-122.55376
+CUST-10862,Jennifer Jones,jennifer.jones@example.com,8,109.71,877.68,Month-to-month,Bank transfer,1,Yes,No,0.9347,1,37.90032,-122.49795
+CUST-10863,Robert Jackson,robert.jackson@example.com,8,73.62,588.96,Month-to-month,Electronic check,0,No,No,0.9393,1,37.84085,-122.32561
+CUST-10864,Robert Johnson,robert.johnson@example.com,5,85.52,427.6,Month-to-month,Mailed check,0,Yes,No,0.9151,1,37.74425,-122.37213
+CUST-10865,Robert Williams,robert.williams@example.com,10,55.7,557.0,Month-to-month,Mailed check,1,No,No,0.9044,1,37.73498,-122.40398
+CUST-10866,Joseph Taylor,joseph.taylor@example.com,33,54.66,1803.78,Two year,Credit card,0,Yes,Yes,0.1084,0,37.70884,-122.50833
+CUST-10867,William Taylor,william.taylor@example.com,13,101.64,1321.32,Month-to-month,Mailed check,1,Yes,No,0.8972,1,37.75698,-122.34014
+CUST-10868,Michael Smith,michael.smith@example.com,2,102.72,205.44,Month-to-month,Electronic check,1,Yes,No,0.9489,1,37.74008,-122.56375
+CUST-10869,Jennifer Gonzalez,jennifer.gonzalez@example.com,6,73.25,439.5,Month-to-month,Bank transfer,1,No,No,0.9461,1,37.90607,-122.29638
+CUST-10870,Mary Rodriguez,mary.rodriguez@example.com,42,102.92,4322.64,Two year,Credit card,0,No,Yes,0.2806,0,37.90347,-122.34368
+CUST-10871,Michael Moore,michael.moore@example.com,13,113.8,1479.4,Month-to-month,Credit card,1,No,No,0.9612,1,37.8556,-122.49137
+CUST-10872,Jennifer Anderson,jennifer.anderson@example.com,59,99.96,5897.64,One year,Bank transfer,1,Yes,Yes,0.0505,0,37.78774,-122.46814
+CUST-10873,Jennifer Johnson,jennifer.johnson@example.com,34,101.03,3435.02,One year,Electronic check,1,No,No,0.5135,0,37.7212,-122.49004
+CUST-10874,David Anderson,david.anderson@example.com,8,68.02,544.16,Month-to-month,Mailed check,1,No,No internet service,0.8935,1,37.64876,-122.30029
+CUST-10875,Jessica Hernandez,jessica.hernandez@example.com,37,45.95,1700.15,Two year,Credit card,1,Yes,No,0.1143,0,37.66897,-122.38402
+CUST-10876,John Davis,john.davis@example.com,3,77.99,233.97,Month-to-month,Electronic check,1,No,No,0.9593,1,37.91041,-122.27181
+CUST-10877,Thomas Smith,thomas.smith@example.com,54,80.06,4323.24,One year,Bank transfer,1,Yes,No,0.0759,0,37.65885,-122.54616
+CUST-10878,Richard Hernandez,richard.hernandez@example.com,52,62.65,3257.8,One year,Bank transfer,1,No,Yes,0.0821,0,37.86135,-122.4689
+CUST-10879,Linda Lopez,linda.lopez@example.com,20,24.46,489.2,Month-to-month,Mailed check,0,No,Yes,0.612,1,37.80761,-122.32699
+CUST-10880,Susan Taylor,susan.taylor@example.com,47,78.27,3678.69,One year,Mailed check,1,No internet service,Yes,0.0712,0,37.64843,-122.54621
+CUST-10881,Joseph Jackson,joseph.jackson@example.com,41,93.3,3825.3,One year,Electronic check,0,Yes,Yes,0.1339,0,37.781,-122.47432
+CUST-10882,Richard Jackson,richard.jackson@example.com,6,56.2,337.2,Month-to-month,Credit card,1,Yes,No,0.8486,0,37.83282,-122.4359
+CUST-10883,Linda Lopez,linda.lopez@example.com,10,68.42,684.2,Month-to-month,Mailed check,1,Yes,No,0.8458,1,37.7957,-122.32136
+CUST-10884,William Moore,william.moore@example.com,17,80.55,1369.35,Month-to-month,Bank transfer,1,No,No,0.907,1,37.74745,-122.41789
+CUST-10885,William Jackson,william.jackson@example.com,16,65.41,1046.56,Month-to-month,Mailed check,1,Yes,Yes,0.6773,1,37.79127,-122.29036
+CUST-10886,Michael Jones,michael.jones@example.com,53,27.3,1446.9,Two year,Credit card,0,Yes,Yes,0.0182,0,37.7456,-122.40232
+CUST-10887,Charles Brown,charles.brown@example.com,15,30.78,461.7,Month-to-month,Electronic check,1,No,No,0.8046,0,37.90988,-122.2962
+CUST-10888,Elizabeth Wilson,elizabeth.wilson@example.com,9,96.6,869.4,Month-to-month,Electronic check,1,Yes,Yes,0.862,1,37.80281,-122.36723
+CUST-10889,Elizabeth Gonzalez,elizabeth.gonzalez@example.com,5,97.3,486.5,Month-to-month,Mailed check,1,No,Yes,0.9485,1,37.79414,-122.30021
+CUST-10890,Sarah Taylor,sarah.taylor@example.com,36,37.84,1362.24,Two year,Mailed check,1,Yes,Yes,0.0664,0,37.88962,-122.3501
+CUST-10891,Linda Taylor,linda.taylor@example.com,16,36.56,584.96,Month-to-month,Bank transfer,1,No,No,0.8122,1,37.8905,-122.48286
+CUST-10892,Thomas Martin,thomas.martin@example.com,59,40.68,2400.12,One year,Mailed check,1,No,Yes,0.0349,0,37.91286,-122.40745
+CUST-10893,Richard Smith,richard.smith@example.com,15,114.79,1721.85,Month-to-month,Credit card,0,No,Yes,0.9306,1,37.87421,-122.48092
+CUST-10894,Michael Brown,michael.brown@example.com,8,119.31,954.48,Month-to-month,Electronic check,0,Yes,No,0.9455,1,37.84818,-122.50267
+CUST-10895,Robert Hernandez,robert.hernandez@example.com,7,87.21,610.47,Month-to-month,Electronic check,0,No,No,0.956,1,37.90232,-122.43939
+CUST-10896,Susan Hernandez,susan.hernandez@example.com,10,114.92,1149.2,Month-to-month,Electronic check,1,No,No,0.9687,1,37.88653,-122.50334
+CUST-10897,Richard Rodriguez,richard.rodriguez@example.com,9,33.18,298.62,Month-to-month,Electronic check,0,Yes,No,0.7434,0,37.84973,-122.56844
+CUST-10898,Robert Thomas,robert.thomas@example.com,29,46.31,1342.99,One year,Credit card,0,Yes,Yes,0.1185,0,37.72951,-122.41026
+CUST-10899,David Martinez,david.martinez@example.com,55,83.0,4565.0,Two year,Bank transfer,1,No,Yes,0.0992,0,37.69058,-122.28052
+CUST-10900,Charles Wilson,charles.wilson@example.com,33,66.47,2193.51,Two year,Bank transfer,0,No,Yes,0.2553,0,37.74433,-122.53098
+CUST-10901,Barbara Thomas,barbara.thomas@example.com,46,41.51,1909.46,One year,Credit card,1,Yes,Yes,0.0378,0,37.70338,-122.47411
+CUST-10902,Jennifer Anderson,jennifer.anderson@example.com,6,41.89,251.34,Month-to-month,Electronic check,1,Yes,No,0.8081,1,37.79665,-122.51944
+CUST-10903,Richard Brown,richard.brown@example.com,43,21.99,945.57,Two year,Electronic check,0,Yes,No,0.0508,0,37.83632,-122.29573
+CUST-10904,Jessica Williams,jessica.williams@example.com,39,35.7,1392.3,One year,Credit card,0,Yes,Yes,0.0528,0,37.86529,-122.2962
+CUST-10905,Mary Wilson,mary.wilson@example.com,13,22.0,286.0,Month-to-month,Electronic check,1,No internet service,Yes,0.5183,0,37.63759,-122.48447
+CUST-10906,James Davis,james.davis@example.com,46,101.3,4659.8,One year,Credit card,0,Yes,No,0.1764,1,37.84706,-122.4884
+CUST-10907,Robert Williams,robert.williams@example.com,13,21.47,279.11,Month-to-month,Mailed check,1,No,No,0.7962,1,37.74224,-122.31996
+CUST-10908,Charles Hernandez,charles.hernandez@example.com,13,29.97,389.61,Month-to-month,Credit card,1,No,No,0.8224,1,37.69158,-122.4475
+CUST-10909,Thomas Thomas,thomas.thomas@example.com,12,119.32,1431.84,Month-to-month,Credit card,0,No,No,0.9673,1,37.83927,-122.43372
+CUST-10910,Sarah Smith,sarah.smith@example.com,6,84.28,505.68,Month-to-month,Bank transfer,1,No,No,0.9563,1,37.64999,-122.40113
+CUST-10911,Richard Thomas,richard.thomas@example.com,22,72.34,1591.48,One year,Mailed check,1,Yes,No,0.3729,0,37.74846,-122.34725
+CUST-10912,William Johnson,william.johnson@example.com,10,89.04,890.4,Month-to-month,Credit card,1,No,Yes,0.9179,1,37.8205,-122.47285
+CUST-10913,Barbara Taylor,barbara.taylor@example.com,48,62.57,3003.36,One year,Electronic check,1,No,No internet service,0.1045,0,37.67353,-122.34496
+CUST-10914,David Miller,david.miller@example.com,20,37.07,741.4,Month-to-month,Credit card,1,Yes,No,0.6006,0,37.75034,-122.56662
+CUST-10915,Michael Wilson,michael.wilson@example.com,47,52.24,2455.28,Two year,Bank transfer,1,No,Yes,0.0921,0,37.71196,-122.36389
+CUST-10916,Karen Lopez,karen.lopez@example.com,31,112.71,3494.01,One year,Mailed check,1,Yes,No internet service,0.3074,0,37.76706,-122.47409
+CUST-10917,David Jones,david.jones@example.com,22,39.93,878.46,Month-to-month,Electronic check,1,Yes,No,0.5822,1,37.64323,-122.42879
+CUST-10918,David Williams,david.williams@example.com,10,112.79,1127.9,Month-to-month,Bank transfer,1,Yes,No,0.9302,1,37.75275,-122.3506
+CUST-10919,Patricia Martin,patricia.martin@example.com,60,40.26,2415.6,One year,Mailed check,1,Yes,No,0.0242,0,37.6784,-122.4003
+CUST-10920,William Taylor,william.taylor@example.com,49,79.22,3881.78,One year,Bank transfer,0,Yes,No,0.1014,0,37.80967,-122.29663
+CUST-10921,Richard Garcia,richard.garcia@example.com,6,81.49,488.94,Month-to-month,Mailed check,1,Yes,No internet service,0.8494,0,37.7219,-122.30061
+CUST-10922,John Jones,john.jones@example.com,37,70.04,2591.48,One year,Electronic check,1,No,Yes,0.22,0,37.85708,-122.35753
+CUST-10923,Patricia Martinez,patricia.martinez@example.com,33,41.39,1365.87,Two year,Mailed check,0,Yes,No,0.1333,0,37.8383,-122.31744
+CUST-10924,Jessica Anderson,jessica.anderson@example.com,14,63.54,889.56,Month-to-month,Bank transfer,1,No,No,0.8945,1,37.88151,-122.33818
+CUST-10925,Patricia Wilson,patricia.wilson@example.com,10,58.25,582.5,Month-to-month,Mailed check,0,No internet service,No internet service,0.7307,0,37.68365,-122.4611
+CUST-10926,Richard Smith,richard.smith@example.com,33,70.28,2319.24,One year,Electronic check,0,No internet service,No internet service,0.1425,1,37.70739,-122.42578
+CUST-10927,John Rodriguez,john.rodriguez@example.com,3,91.8,275.4,Month-to-month,Credit card,0,No,Yes,0.9496,1,37.77199,-122.42737
+CUST-10928,Jessica Brown,jessica.brown@example.com,2,93.62,187.24,Month-to-month,Mailed check,1,No,Yes,0.9543,1,37.66073,-122.43639
+CUST-10929,John Hernandez,john.hernandez@example.com,10,81.4,814.0,Month-to-month,Electronic check,1,No internet service,Yes,0.8117,1,37.8948,-122.30008
+CUST-10930,David Jackson,david.jackson@example.com,34,61.64,2095.76,One year,Electronic check,1,Yes,No,0.1774,0,37.77536,-122.35071
+CUST-10931,Robert Garcia,robert.garcia@example.com,6,37.3,223.8,Month-to-month,Electronic check,1,Yes,No,0.7935,1,37.66021,-122.42952
+CUST-10932,Robert Jackson,robert.jackson@example.com,23,28.64,658.72,Two year,Bank transfer,1,No internet service,Yes,0.1234,0,37.85492,-122.33278
+CUST-10933,Richard Lopez,richard.lopez@example.com,16,88.09,1409.44,Month-to-month,Mailed check,0,No internet service,No,0.8449,1,37.71805,-122.45561
+CUST-10934,Charles Garcia,charles.garcia@example.com,10,47.28,472.8,Month-to-month,Mailed check,1,No,No,0.8888,1,37.83417,-122.49004
+CUST-10935,Barbara Lopez,barbara.lopez@example.com,34,83.1,2825.4,One year,Mailed check,1,No,Yes,0.309,0,37.7406,-122.40802
+CUST-10936,Richard Wilson,richard.wilson@example.com,15,89.97,1349.55,Month-to-month,Bank transfer,1,No,Yes,0.8908,1,37.70236,-122.42909
+CUST-10937,John Brown,john.brown@example.com,43,52.3,2248.9,One year,Credit card,0,Yes,Yes,0.0562,0,37.72161,-122.53802
+CUST-10938,Patricia Smith,patricia.smith@example.com,9,38.71,348.39,Month-to-month,Bank transfer,1,No,No internet service,0.8137,1,37.68075,-122.56288
+CUST-10939,Karen Anderson,karen.anderson@example.com,46,44.36,2040.56,One year,Bank transfer,0,No,Yes,0.0848,0,37.74525,-122.55736
+CUST-10940,Joseph Taylor,joseph.taylor@example.com,8,79.31,634.48,Month-to-month,Mailed check,1,Yes,No,0.8862,0,37.89088,-122.27983
+CUST-10941,Susan Miller,susan.miller@example.com,41,98.86,4053.26,Two year,Electronic check,0,Yes,No,0.2216,0,37.85465,-122.32895
+CUST-10942,Elizabeth Gonzalez,elizabeth.gonzalez@example.com,1,50.13,50.13,Month-to-month,Electronic check,1,Yes,No,0.8739,1,37.75586,-122.35216
+CUST-10943,William Moore,william.moore@example.com,35,67.08,2347.8,Two year,Credit card,0,Yes,Yes,0.1201,0,37.82543,-122.32
+CUST-10944,Joseph Brown,joseph.brown@example.com,7,52.71,368.97,Month-to-month,Bank transfer,0,No internet service,No,0.8303,1,37.75228,-122.45124
+CUST-10945,Robert Lopez,robert.lopez@example.com,13,80.85,1051.05,Month-to-month,Mailed check,1,No,Yes,0.886,1,37.87187,-122.38623
+CUST-10946,Jennifer Williams,jennifer.williams@example.com,26,63.54,1652.04,One year,Bank transfer,1,Yes,Yes,0.1881,1,37.67012,-122.47607
+CUST-10947,Barbara Johnson,barbara.johnson@example.com,19,71.73,1362.87,Month-to-month,Electronic check,1,Yes,No,0.7628,1,37.83072,-122.53898
+CUST-10948,Jennifer Smith,jennifer.smith@example.com,4,21.16,84.64,Month-to-month,Credit card,1,No,No,0.8762,1,37.75239,-122.34678
+CUST-10949,Michael Martin,michael.martin@example.com,57,91.2,5198.4,Two year,Bank transfer,1,Yes,No,0.0776,0,37.75212,-122.34152
+CUST-10950,Robert Jones,robert.jones@example.com,19,71.49,1358.31,Month-to-month,Credit card,1,No,Yes,0.812,1,37.63685,-122.30903
+CUST-10951,Elizabeth Lopez,elizabeth.lopez@example.com,11,87.5,962.5,Month-to-month,Electronic check,1,No,No,0.9436,1,37.73197,-122.56414
+CUST-10952,Mary Martinez,mary.martinez@example.com,42,93.87,3942.54,One year,Mailed check,1,Yes,Yes,0.1276,0,37.66272,-122.52601
+CUST-10953,Barbara Wilson,barbara.wilson@example.com,34,111.88,3803.92,Two year,Credit card,1,Yes,No,0.3707,1,37.63639,-122.38659
+CUST-10954,Michael Gonzalez,michael.gonzalez@example.com,47,50.2,2359.4,One year,Credit card,1,Yes,No,0.0673,0,37.70196,-122.37353
+CUST-10955,Robert Wilson,robert.wilson@example.com,50,81.56,4078.0,Two year,Mailed check,0,Yes,No internet service,0.0628,1,37.7969,-122.50484
+CUST-10956,Linda Rodriguez,linda.rodriguez@example.com,50,80.46,4023.0,One year,Mailed check,0,Yes,No,0.0976,0,37.74705,-122.56378
+CUST-10957,Linda Jones,linda.jones@example.com,9,29.71,267.39,Month-to-month,Mailed check,1,No,No,0.8574,1,37.64402,-122.48305
+CUST-10958,Karen Anderson,karen.anderson@example.com,43,112.99,4858.57,One year,Electronic check,1,Yes,Yes,0.167,0,37.87169,-122.52387
+CUST-10959,Barbara Miller,barbara.miller@example.com,27,86.07,2323.89,One year,Electronic check,0,Yes,Yes,0.2538,0,37.72849,-122.50713
+CUST-10960,Susan Lopez,susan.lopez@example.com,13,35.59,462.67,Month-to-month,Mailed check,0,No,No,0.8382,1,37.74952,-122.33992
+CUST-10961,Charles Moore,charles.moore@example.com,67,57.84,3875.28,One year,Electronic check,1,Yes,Yes,0.0133,0,37.92254,-122.39818
+CUST-10962,David Garcia,david.garcia@example.com,66,55.2,3643.2,One year,Mailed check,1,No internet service,Yes,0.0134,0,37.72072,-122.46045
+CUST-10963,Michael Hernandez,michael.hernandez@example.com,40,95.68,3827.2,One year,Bank transfer,0,Yes,Yes,0.1477,0,37.90207,-122.51611
+CUST-10964,Charles Smith,charles.smith@example.com,33,110.73,3654.09,One year,Credit card,1,Yes,Yes,0.2718,0,37.75038,-122.51274
+CUST-10965,James Martin,james.martin@example.com,11,77.06,847.66,Month-to-month,Credit card,0,No,Yes,0.8917,1,37.69988,-122.39861
+CUST-10966,Barbara Williams,barbara.williams@example.com,17,58.93,1001.81,Two year,Mailed check,0,No,No,0.5855,1,37.73562,-122.307
+CUST-10967,David Thomas,david.thomas@example.com,58,109.44,6347.52,Two year,Mailed check,1,Yes,Yes,0.0643,0,37.83,-122.4363
+CUST-10968,Joseph Garcia,joseph.garcia@example.com,39,53.13,2072.07,Two year,Mailed check,1,Yes,No,0.1153,0,37.64585,-122.34482
+CUST-10969,Linda Taylor,linda.taylor@example.com,54,46.0,2484.0,Two year,Electronic check,0,Yes,Yes,0.0246,0,37.92166,-122.35497
+CUST-10970,Elizabeth Thomas,elizabeth.thomas@example.com,21,92.52,1942.92,Two year,Electronic check,1,No,No,0.6793,0,37.77837,-122.37451
+CUST-10971,Linda Brown,linda.brown@example.com,16,99.16,1586.56,Month-to-month,Mailed check,1,No,No,0.938,1,37.66749,-122.49648
+CUST-10972,Barbara Miller,barbara.miller@example.com,7,90.91,636.37,Month-to-month,Mailed check,0,No,No,0.959,1,37.83166,-122.4702
+CUST-10973,Elizabeth Rodriguez,elizabeth.rodriguez@example.com,42,48.84,2051.28,One year,Mailed check,0,No,Yes,0.1168,0,37.83904,-122.4774
+CUST-10974,David Jackson,david.jackson@example.com,38,94.37,3586.06,One year,Mailed check,1,Yes,Yes,0.1617,0,37.74017,-122.37837
+CUST-10975,James Miller,james.miller@example.com,26,70.86,1842.36,One year,Credit card,1,Yes,Yes,0.2115,0,37.91662,-122.37624
+CUST-10976,Sarah Taylor,sarah.taylor@example.com,7,36.91,258.37,Month-to-month,Credit card,1,No,No,0.8881,0,37.62917,-122.28532
+CUST-10977,Mary Davis,mary.davis@example.com,6,98.93,593.58,Month-to-month,Mailed check,1,Yes,No,0.9295,1,37.89871,-122.29751
+CUST-10978,Susan Davis,susan.davis@example.com,34,115.2,3916.8,One year,Electronic check,1,Yes,No,0.3864,0,37.87888,-122.40808
+CUST-10979,Robert Johnson,robert.johnson@example.com,9,38.27,344.43,Month-to-month,Mailed check,1,Yes,No,0.7623,1,37.67813,-122.27559
+CUST-10980,Thomas Moore,thomas.moore@example.com,13,110.61,1437.93,Month-to-month,Mailed check,1,No,No internet service,0.9337,1,37.69318,-122.3937
+CUST-10981,Sarah Thomas,sarah.thomas@example.com,10,83.39,833.9,Month-to-month,Mailed check,1,No,No,0.9427,1,37.76771,-122.53944
+CUST-10982,Sarah Miller,sarah.miller@example.com,32,110.5,3536.0,One year,Credit card,0,Yes,Yes,0.2843,1,37.86663,-122.38508
+CUST-10983,Elizabeth Smith,elizabeth.smith@example.com,8,52.86,422.88,Month-to-month,Credit card,1,Yes,No,0.8211,0,37.71479,-122.30922
+CUST-10984,Joseph Hernandez,joseph.hernandez@example.com,10,117.72,1177.2,Month-to-month,Mailed check,1,No,No,0.9703,1,37.91721,-122.42825
+CUST-10985,David Garcia,david.garcia@example.com,8,64.32,514.56,Month-to-month,Mailed check,1,No,No internet service,0.8863,1,37.69444,-122.47724
+CUST-10986,Charles Hernandez,charles.hernandez@example.com,38,41.03,1559.14,One year,Mailed check,1,No,No internet service,0.1287,0,37.74377,-122.51787
+CUST-10987,David Martin,david.martin@example.com,33,79.52,2624.16,One year,Credit card,0,Yes,Yes,0.1666,0,37.90475,-122.42781
+CUST-10988,Charles Lopez,charles.lopez@example.com,7,64.97,454.79,Month-to-month,Credit card,1,No,No,0.9329,1,37.6266,-122.2874
+CUST-10989,John Wilson,john.wilson@example.com,15,21.95,329.25,Month-to-month,Mailed check,1,No internet service,No,0.608,0,37.71334,-122.45736
+CUST-10990,Mary Wilson,mary.wilson@example.com,33,41.5,1369.5,One year,Credit card,0,Yes,Yes,0.0855,0,37.69784,-122.47176
+CUST-10991,Barbara Jackson,barbara.jackson@example.com,20,88.78,1775.6,Month-to-month,Credit card,1,Yes,No,0.8088,0,37.80073,-122.5516
+CUST-10992,John Hernandez,john.hernandez@example.com,7,33.43,234.01,Month-to-month,Electronic check,1,No internet service,Yes,0.6686,0,37.74903,-122.52387
+CUST-10993,William Jackson,william.jackson@example.com,5,77.27,386.35,Month-to-month,Bank transfer,1,Yes,Yes,0.8471,1,37.83177,-122.52726
+CUST-10994,Robert Hernandez,robert.hernandez@example.com,34,41.48,1410.32,Two year,Bank transfer,1,No,No,0.2429,0,37.7248,-122.3661
+CUST-10995,Thomas Rodriguez,thomas.rodriguez@example.com,59,62.73,3701.07,One year,Credit card,0,Yes,No,0.04,0,37.64299,-122.27251
+CUST-10996,Patricia Smith,patricia.smith@example.com,68,52.71,3584.28,One year,Credit card,1,No internet service,No,0.0184,0,37.64503,-122.54673
+CUST-10997,Robert Moore,robert.moore@example.com,40,28.77,1150.8,One year,Credit card,0,No,No,0.1429,0,37.85047,-122.33927
+CUST-10998,Linda Rodriguez,linda.rodriguez@example.com,17,53.04,901.68,Month-to-month,Mailed check,0,No internet service,Yes,0.6053,1,37.78321,-122.36162
+CUST-10999,Linda Smith,linda.smith@example.com,6,20.85,125.1,Month-to-month,Bank transfer,1,No,No,0.8602,1,37.69177,-122.36704
