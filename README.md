@@ -1233,11 +1233,11 @@ B --> C[Data Cleaning]
 
 C --> D[Feature Engineering]
 
-D --> E[Train/Test Split]
+D --> E[Train Test Split]
 
-E --> F1[XGBoost Churn Model]
+E --> F1[XGBoost Model]
 
-E --> F2[Random Forest Fraud Model]
+E --> F2[Random Forest Model]
 
 E --> F3[Revenue Forecast Model]
 
@@ -1247,7 +1247,7 @@ F2 --> G
 
 F3 --> G
 
-G --> H[Model Serialization (.pkl)]
+G --> H[Model Registry]
 
 H --> I[MCP Server]
 
@@ -1255,8 +1255,6 @@ I --> J[AI Agents]
 
 J --> K[Business Intelligence Dashboard]
 ```
-
----
 
 # 📊 Pipeline Stages
 
