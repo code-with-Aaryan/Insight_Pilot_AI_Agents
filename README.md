@@ -503,22 +503,6 @@ This design minimizes complexity while allowing agents to remain domain-focused.
 
 ---
 
-# 🔒 Secure Agent Execution
-
-InsightPilot follows several principles for secure multi-agent execution:
-
-* Deterministic task routing
-* Controlled tool invocation
-* Validated MCP requests
-* Input sanitization
-* Structured audit logging
-* Local execution
-* No direct database access from agents
-
-These safeguards reduce the risk of unintended behavior while improving observability and reproducibility.
-
----
-
 
 
 Each new capability can be integrated by implementing a new specialized agent and exposing the required functionality through additional MCP tools.
@@ -897,19 +881,6 @@ This prevents a single failure from stopping the entire workflow.
 
 ---
 
-# 📈 Benefits of the Workflow
-
-| Capability              | Benefit                                                                             |
-| ----------------------- | ----------------------------------------------------------------------------------- |
-| Intelligent Routing     | Only relevant agents are activated.                                                 |
-| Parallel Task Execution | Independent analyses can run concurrently.                                          |
-| Modular Design          | New agents can be added without changing existing workflows.                        |
-| Explainability          | Every prediction is accompanied by reasoning and recommendations.                   |
-| Fault Tolerance         | Agent failures are isolated and logged.                                             |
-| Security                | All data access occurs through MCP tools.                                           |
-| Executive Focus         | Results are synthesized into business-ready insights rather than raw model outputs. |
-
----
 ## 10.---
 
 # 🔌 Model Context Protocol (MCP) Server
@@ -1139,38 +1110,7 @@ All MCP responses follow a structured schema to simplify downstream processing.
 
 ---
 
-# 🔒 Security & Governance
 
-Enterprise AI systems require controlled access to business resources.
-
-The MCP Server implements several safeguards:
-
-* ✅ Input validation
-* ✅ Request schema validation
-* ✅ Tool-level access control
-* ✅ Structured logging
-* ✅ Exception handling
-* ✅ Local execution
-* ✅ Deterministic tool routing
-* ✅ Audit-ready responses
-
-Security researchers have noted that MCP deployments should validate schemas, control tool permissions, and maintain observability because tool misuse and prompt injection are important risks in agent systems.
-
----
-
-# 📊 Benefits of MCP
-
-| Traditional Integration          | MCP-Based Integration              |
-| -------------------------------- | ---------------------------------- |
-| Custom connectors for every tool | Standardized tool interface        |
-| Tight coupling                   | Loose coupling                     |
-| Difficult maintenance            | Modular architecture               |
-| Limited interoperability         | Cross-platform compatibility       |
-| Manual integration logic         | Reusable tool definitions          |
-| Inconsistent APIs                | Unified execution model            |
-| Harder auditing                  | Centralized logging and governance |
-
----
 
 # 🚀 Extensibility
 
@@ -1535,31 +1475,7 @@ This separation of reasoning and prediction improves modularity and simplifies m
 
 ---
 
-# 🧠 Explainable AI
 
-InsightPilot emphasizes transparency by pairing predictions with business explanations.
-
-For example:
-
-### Churn Prediction
-
-Prediction:
-
-> High Churn Risk
-
-Reasoning:
-
-* Reduced platform usage
-* Multiple unresolved support tickets
-* Subscription renewal approaching
-
-Recommendation:
-
-* Offer proactive customer retention campaign.
-
-Explainability helps business users understand *why* a prediction was made rather than simply receiving a probability score.
-
----
 
 # 🔄 Retraining Workflow
 
@@ -1601,28 +1517,8 @@ This workflow allows organizations to continuously improve model accuracy as new
 
 ---
 
-# 🚀 Benefits of the Machine Learning Pipeline
 
-| Capability              | Business Value                        |
-| ----------------------- | ------------------------------------- |
-| Modular Models          | Independent updates and maintenance   |
-| Feature Engineering     | Improved predictive accuracy          |
-| Explainable AI          | Increased trust and transparency      |
-| Serialized Models       | Faster production inference           |
-| Standardized Evaluation | Reliable performance assessment       |
-| MCP Integration         | Secure and reusable model access      |
-| Reproducible Workflow   | Easier experimentation and deployment |
-| Local Execution         | Enhanced privacy and data control     |
 
----
-
-# 🎯 Pipeline Summary
-
-The Machine Learning Pipeline transforms enterprise data into predictive intelligence by combining robust preprocessing, feature engineering, specialized models, and explainable outputs.
-
-By integrating trained models with the MCP Server and Multi-Agent Architecture, InsightPilot enables autonomous AI agents to deliver accurate, transparent, and actionable business insights while maintaining a modular and production-ready design.
-
-> **InsightPilot's Machine Learning Pipeline converts raw business data into trusted predictive intelligence—empowering AI agents to support faster, smarter, and more informed business decisions.**
 
 
 
