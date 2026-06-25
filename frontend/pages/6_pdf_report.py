@@ -6,12 +6,11 @@ import streamlit as st
 
 # Add project root to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+from config import DB_PATH, PDF_REPORT_PATH, TXT_REPORT_PATH
 
 from agents.executive_agent import ExecutiveReportAgent
 
 st.set_page_config(page_title="PDF Report Generator | InsightPilot", page_icon="📝", layout="wide")
-
-DB_PATH = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/database/insightpilot.db"
 
 st.markdown("""
     <style>
@@ -50,9 +49,8 @@ if gen_btn:
         st.markdown(report_md)
         st.markdown("</div>", unsafe_allow_html=True)
         
-        # Look for the generated files (PDF or TXT fallback)
-        pdf_path = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/data/executive_report.pdf"
-        txt_path = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/data/executive_report.txt"
+        pdf_path = PDF_REPORT_PATH
+        txt_path = TXT_REPORT_PATH
         
         if os.path.exists(pdf_path):
             with open(pdf_path, "rb") as f:

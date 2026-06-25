@@ -1,4 +1,5 @@
 import os
+import sys
 import csv
 import random
 import sqlite3
@@ -6,8 +7,12 @@ import datetime
 import pandas as pd
 import numpy as np
 
+# Add project root to sys.path to allow config import
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from config import DB_PATH, CHURN_DATA_PATH, FRAUD_DATA_PATH
+
 # Ensure data directory exists
-os.makedirs("c:/Users/aryan kumar kannojia/Music/Caposton_write_2/data", exist_ok=True)
+os.makedirs(os.path.dirname(CHURN_DATA_PATH), exist_ok=True)
 
 # Set random seeds for reproducibility
 random.seed(42)
@@ -89,7 +94,7 @@ def generate_saas_churn_data(n_customers=1000):
         })
         
     df = pd.DataFrame(customers)
-    df.to_csv("c:/Users/aryan kumar kannojia/Music/Caposton_write_2/data/saas_churn.csv", index=False)
+    df.to_csv(CHURN_DATA_PATH, index=False)
     print("SaaS customer churn data generated.")
     return customers
 
@@ -226,7 +231,7 @@ def generate_transaction_data(customers, n_transactions=5000):
         })
         
     df = pd.DataFrame(transactions)
-    df.to_csv("c:/Users/aryan kumar kannojia/Music/Caposton_write_2/data/financial_transactions.csv", index=False)
+    df.to_csv(FRAUD_DATA_PATH, index=False)
     print("Financial transactions generated.")
     return transactions
 
@@ -259,7 +264,7 @@ def generate_revenue_forecast_history():
 
 def seed_database():
     print("Seeding database...")
-    db_path = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/database/insightpilot.db"
+    db_path = DB_PATH
     
     # Load database manager
     from database.db_manager import DatabaseManager
@@ -301,7 +306,4 @@ def seed_database():
     print("Database seeding completed successfully.")
 
 if __name__ == "__main__":
-    # Add root folder to python path to import database modules
-    import sys
-    sys.path.append("c:/Users/aryan kumar kannojia/Music/Caposton_write_2")
     seed_database()

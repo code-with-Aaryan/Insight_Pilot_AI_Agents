@@ -5,6 +5,7 @@ import streamlit as st
 
 # Add project root to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from config import DB_PATH
 
 # Configure page parameters
 st.set_page_config(
@@ -130,8 +131,7 @@ inject_custom_css()
 st.sidebar.markdown("<h2 style='text-align:center;'>InsightPilot Telemetry</h2>", unsafe_allow_html=True)
 st.sidebar.image("https://img.icons8.com/nolan/128/artificial-intelligence.png", width=100)
 
-# Fetch DB Stats safely
-DB_PATH = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/database/insightpilot.db"
+# Fetch DB Stats safely (DB_PATH is imported from config)
 if os.path.exists(DB_PATH):
     try:
         conn = sqlite3.connect(DB_PATH)

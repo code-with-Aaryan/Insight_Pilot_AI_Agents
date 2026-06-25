@@ -8,13 +8,12 @@ import streamlit as st
 
 # Add project root to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+from config import DB_PATH, CHURN_MODEL_PATH
 
 from agents.churn_agent import ChurnIntelligenceAgent
 
 # Configuration
 st.set_page_config(page_title="Customer Churn Analytics | InsightPilot", page_icon="📈", layout="wide")
-
-DB_PATH = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/database/insightpilot.db"
 
 st.markdown("""
     <style>
@@ -158,9 +157,8 @@ else:
     # Load feature importances from pickled model
     import pickle
     import os
-    model_path = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/models/churn_model.pkl"
-    if os.path.exists(model_path):
-        with open(model_path, 'rb') as f:
+    if os.path.exists(CHURN_MODEL_PATH):
+        with open(CHURN_MODEL_PATH, 'rb') as f:
             artifact = pickle.load(f)
         shap_data = artifact.get("shap_explanations", {})
         

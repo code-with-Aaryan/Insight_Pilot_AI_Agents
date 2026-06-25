@@ -1,11 +1,16 @@
 import os
+import sys
 import sqlite3
 import datetime
 from typing import List, Dict, Any, Optional
 
+# Add project root to sys.path to allow config import
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from config import DB_PATH, SCHEMA_PATH
+
 class DatabaseManager:
-    def __init__(self, db_path: str = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/database/insightpilot.db"):
-        self.db_path = db_path
+    def __init__(self, db_path: str = None):
+        self.db_path = db_path or DB_PATH
         # Ensure database directory exists
         os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
         self.init_db()
@@ -16,7 +21,7 @@ class DatabaseManager:
         return conn
 
     def init_db(self):
-        schema_path = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/database/schema.sql"
+        schema_path = SCHEMA_PATH
         if not os.path.exists(schema_path):
             raise FileNotFoundError(f"Schema file not found at {schema_path}")
         

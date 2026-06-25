@@ -108,6 +108,7 @@ class OrchestratorAgent(SimulatedAgent):
 
 if __name__ == "__main__":
     import sys
-    sys.path.append("c:/Users/aryan kumar kannojia/Music/Caposton_write_2")
+    import os
+    sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
     orchestrator = OrchestratorAgent()
     print(orchestrator.run("What is the churn risk for customer CUST-10005?"))

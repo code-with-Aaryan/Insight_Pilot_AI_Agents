@@ -3,15 +3,15 @@ import sys
 import sqlite3
 import pandas as pd
 import streamlit as st
+import textwrap
 
 # Add project root to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+from config import DB_PATH
 
 from agents.orchestrator import OrchestratorAgent
 
 st.set_page_config(page_title="Agent Chat Console | InsightPilot", page_icon="💬", layout="wide")
-
-DB_PATH = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/database/insightpilot.db"
 
 st.markdown("""
     <style>
@@ -65,19 +65,47 @@ for p in prompts:
 chat_col, log_col = st.columns([3, 2])
 
 with chat_col:
-    st.markdown("<div class='glass-card' style='height: 520px; overflow-y: auto;'>", unsafe_allow_html=True)
-    st.markdown("<h3>💬 Conversation</h3>", unsafe_allow_html=True)
-    
-    # Display previous history
-    for role, text in st.session_state.chat_history:
-        if role == "user":
-            st.markdown(f"**👤 You:** {text}")
-        else:
-            st.markdown(f"**🤖 Orchestrator:**")
-            st.markdown(text)
-        st.markdown("<hr style='border-color:rgba(255,255,255,0.02); margin:8px 0;'/>", unsafe_allow_html=True)
-        
-    st.markdown("</div>", unsafe_allow_html=True)
+    # Compile the entire conversation content into a single HTML string
+    chat_content = "<h3>💬 Conversation</h3>"
+    if not st.session_state.chat_history:
+        chat_content += "<div style='color: #94A3B8; font-style: italic; padding: 10px;'>No messages yet. Send a query below or select a quick prompt to start.</div>"
+    else:
+        for role, text in st.session_state.chat_history:
+            if role == "user":
+                chat_content += textwrap.dedent(f"""
+                <div style="margin-bottom: 12px; padding: 10px; background: rgba(56, 189, 248, 0.05); border-radius: 8px; border-left: 3px solid #38BDF8;">
+                    <div style="color: #38BDF8; font-weight: 600; font-size: 0.85rem; margin-bottom: 4px;">👤 YOU</div>
+                    <div style="color: #E2E8F0; font-size: 0.95rem;">{text}</div>
+                </div>
+                """)
+            else:
+                # Basic markdown conversion (e.g. bold to <strong>, newlines to <br/>)
+                import re
+                formatted = text
+                # Escape HTML tags first
+                import html
+                formatted = html.escape(formatted)
+                # Convert **bold**
+                formatted = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', formatted)
+                # Convert *italic*
+                formatted = re.sub(r'\*(.*?)\*', r'<em>\1</em>', formatted)
+                # Convert `code`
+                formatted = re.sub(r'`(.*?)`', r'<code style="background: rgba(0,0,0,0.3); padding: 2px 4px; border-radius: 4px; color: #F59E0B;">\1</code>', formatted)
+                # Convert newlines to <br/>
+                formatted = formatted.replace('\n', '<br/>')
+                
+                chat_content += textwrap.dedent(f"""
+                <div style="margin-bottom: 12px; padding: 10px; background: rgba(129, 140, 248, 0.05); border-radius: 8px; border-left: 3px solid #818CF8;">
+                    <div style="color: #818CF8; font-weight: 600; font-size: 0.85rem; margin-bottom: 4px;">🤖 ORCHESTRATOR</div>
+                    <div style="color: #E2E8F0; font-size: 0.95rem; line-height: 1.5;">{formatted}</div>
+                </div>
+                """)
+                
+    st.markdown(textwrap.dedent(f"""
+    <div class="glass-card" style="height: 520px; overflow-y: auto;">
+        {chat_content}
+    </div>
+    """), unsafe_allow_html=True)
 
     # Input Box
     user_input = ""
@@ -101,9 +129,8 @@ with chat_col:
         st.rerun()
 
 with log_col:
-    st.markdown("<div class='glass-card' style='height: 600px; overflow-y: auto;'>", unsafe_allow_html=True)
-    st.markdown("<h3>👁️ Live Multi-Agent Cognitive Trace</h3>", unsafe_allow_html=True)
-    st.markdown("<p style='color:#94A3B8; font-size:0.8rem;'>Step-by-step reasoning logs (Thoughts, Actions, and Observations) recorded in SQLite database.</p>", unsafe_allow_html=True)
+    log_content = "<h3>👁️ Live Multi-Agent Cognitive Trace</h3>"
+    log_content += "<p style='color:#94A3B8; font-size:0.8rem; margin-bottom: 15px;'>Step-by-step reasoning logs (Thoughts, Actions, and Observations) recorded in SQLite database.</p>"
     
     # Fetch logs from DB for the current session
     conn = sqlite3.connect(DB_PATH)
@@ -114,17 +141,30 @@ with log_col:
     conn.close()
     
     if df_logs.empty:
-        st.info("No active session trace logs. Submit a query to inspect agent cognitive steps.")
+        log_content += textwrap.dedent("""
+        <div style="background: rgba(15, 23, 42, 0.4); padding: 15px; border-radius: 8px; border: 1px dashed rgba(255,255,255,0.1); color: #94A3B8; text-align: center; font-size: 0.9rem;">
+            No active session trace logs. Submit a query to inspect agent cognitive steps.
+        </div>
+        """)
     else:
         for idx, row in df_logs.iterrows():
-            st.markdown(f"""
-            <div style="background: rgba(15, 23, 42, 0.7); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); margin-bottom: 12px;">
-                <div class="agent-header">🤖 {row['agent_name']}</div>
-                <div style="font-size: 0.75rem; color:#94A3B8; margin-bottom:8px;">{row['timestamp']} | Tokens: {row['token_usage']} | Est. Cost: ${row['cost']:.6f}</div>
-                <p><span class="thought-label">Thought:</span><br/><code style="color:#E2E8F0;">{row['thought']}</code></p>
-                <p><span class="action-label">Action/Tool Call:</span><br/><code style="color:#F59E0B;">{row['action']}</code></p>
-                <p><span class="obs-label">Observation:</span><br/><code style="color:#10B981;">{row['observation'][:200]}...</code></p>
-            </div>
-            """, unsafe_allow_html=True)
+            import html
+            thought_escaped = html.escape(str(row['thought'] or ''))
+            action_escaped = html.escape(str(row['action'] or ''))
+            obs_escaped = html.escape(str((row['observation'] or '')[:200]))
             
-    st.markdown("</div>", unsafe_allow_html=True)
+            log_content += textwrap.dedent(f"""
+            <div style="background: rgba(15, 23, 42, 0.7); padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); margin-bottom: 12px;">
+                <div style="font-family: 'Outfit', sans-serif; color: #38BDF8; font-weight: 700; margin-bottom: 5px;">🤖 {row['agent_name']}</div>
+                <div style="font-size: 0.75rem; color:#94A3B8; margin-bottom:8px;">{row['timestamp']} | Tokens: {row['token_usage']} | Est. Cost: ${row['cost']:.6f}</div>
+                <p style="margin-bottom: 4px;"><span style="color:#818CF8; font-weight:600;">Thought:</span><br/><code style="color:#E2E8F0; font-size:0.85rem; white-space: pre-wrap; word-break: break-all;">{thought_escaped}</code></p>
+                <p style="margin-bottom: 4px;"><span style="color:#F59E0B; font-weight:600;">Action/Tool Call:</span><br/><code style="color:#F59E0B; font-size:0.85rem; white-space: pre-wrap; word-break: break-all;">{action_escaped}</code></p>
+                <p style="margin-bottom: 4px;"><span style="color:#10B981; font-weight:600;">Observation:</span><br/><code style="color:#10B981; font-size:0.85rem; white-space: pre-wrap; word-break: break-all;">{obs_escaped}...</code></p>
+            </div>
+            """)
+            
+    st.markdown(textwrap.dedent(f"""
+    <div class="glass-card" style="height: 600px; overflow-y: auto;">
+        {log_content}
+    </div>
+    """), unsafe_allow_html=True)

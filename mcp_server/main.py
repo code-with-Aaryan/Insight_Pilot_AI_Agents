@@ -1,4 +1,5 @@
 import os
+import sys
 import pickle
 import sqlite3
 import base64
@@ -9,17 +10,21 @@ from typing import Dict, Any, List, Optional
 import pandas as pd
 import numpy as np
 
+# Add project root to sys.path to allow config import
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from config import (
+    DB_PATH, CHURN_MODEL_PATH, FRAUD_MODEL_PATH, REVENUE_MODEL_PATH,
+    PDF_REPORT_PATH, TXT_REPORT_PATH
+)
+
 app = FastAPI(
     title="InsightPilot Model Context Protocol (MCP) Server",
     description="Offline BI Tools and Machine Learning Inference API for SaaS Customer Churn, Transaction Fraud, and Revenue Forecasts.",
     version="1.0.0"
 )
 
-# Constants
-DB_PATH = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/database/insightpilot.db"
-CHURN_MODEL_PATH = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/models/churn_model.pkl"
-FRAUD_MODEL_PATH = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/models/fraud_model.pkl"
-REVENUE_MODEL_PATH = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/models/revenue_forecast.pkl"
+# Constants (imported from config.py)
+
 
 # Helper for Database connection
 def get_db():
@@ -362,7 +367,7 @@ def create_pdf_report(report: PDFReportInput):
             from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
             from reportlab.lib import colors
             
-            pdf_filename = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/data/executive_report.pdf"
+            pdf_filename = PDF_REPORT_PATH
             os.makedirs(os.path.dirname(pdf_filename), exist_ok=True)
             
             doc = SimpleDocTemplate(pdf_filename, pagesize=letter,
@@ -444,7 +449,7 @@ def create_pdf_report(report: PDFReportInput):
             
         except ImportError:
             # Fallback when reportlab is not installed
-            fallback_filename = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/data/executive_report.txt"
+            fallback_filename = TXT_REPORT_PATH
             os.makedirs(os.path.dirname(fallback_filename), exist_ok=True)
             
             text_content = f"""

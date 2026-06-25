@@ -1,4 +1,5 @@
 import os
+import sys
 import pickle
 import datetime
 import pandas as pd
@@ -9,15 +10,22 @@ from sklearn.linear_model import Ridge
 from sklearn.metrics import classification_report, roc_auc_score, mean_squared_error
 from xgboost import XGBClassifier
 
+# Add project root to sys.path to allow config import
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from config import (
+    DB_PATH, CHURN_MODEL_PATH, FRAUD_MODEL_PATH, REVENUE_MODEL_PATH,
+    CHURN_DATA_PATH, FRAUD_DATA_PATH
+)
+
 # Ensure models directory exists
-os.makedirs("c:/Users/aryan kumar kannojia/Music/Caposton_write_2/models", exist_ok=True)
+os.makedirs(os.path.dirname(CHURN_MODEL_PATH), exist_ok=True)
 
 # -----------------
 # 1. Churn Prediction Model (XGBoost)
 # -----------------
 def train_churn_model():
     print("--- Training Churn Model (XGBoost) ---")
-    data_path = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/data/saas_churn.csv"
+    data_path = CHURN_DATA_PATH
     if not os.path.exists(data_path):
         raise FileNotFoundError(f"Dataset not found at {data_path}. Please run generate_data.py first.")
         
@@ -83,7 +91,7 @@ def train_churn_model():
         "feature_cols_raw": feature_cols
     }
     
-    model_path = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/models/churn_model.pkl"
+    model_path = CHURN_MODEL_PATH
     with open(model_path, "wb") as f:
         pickle.dump(artifact, f)
     print(f"Churn model saved to {model_path}\n")
@@ -93,7 +101,7 @@ def train_churn_model():
 # -----------------
 def train_fraud_model():
     print("--- Training Fraud Model (Random Forest) ---")
-    data_path = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/data/financial_transactions.csv"
+    data_path = FRAUD_DATA_PATH
     if not os.path.exists(data_path):
         raise FileNotFoundError(f"Dataset not found at {data_path}.")
         
@@ -150,7 +158,7 @@ def train_fraud_model():
         "feature_cols_raw": feature_cols
     }
     
-    model_path = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/models/fraud_model.pkl"
+    model_path = FRAUD_MODEL_PATH
     with open(model_path, "wb") as f:
         pickle.dump(artifact, f)
     print(f"Fraud model saved to {model_path}\n")
@@ -160,7 +168,7 @@ def train_fraud_model():
 # -----------------
 def train_revenue_forecast_model():
     print("--- Training Revenue Forecasting Model ---")
-    db_path = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/database/insightpilot.db"
+    db_path = DB_PATH
     
     from database.db_manager import DatabaseManager
     db = DatabaseManager(db_path)
@@ -240,14 +248,12 @@ def train_revenue_forecast_model():
         "last_date": last_date.strftime("%Y-%m-%d")
     }
     
-    model_path = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/models/revenue_forecast.pkl"
+    model_path = REVENUE_MODEL_PATH
     with open(model_path, "wb") as f:
         pickle.dump(artifact, f)
     print(f"Revenue forecast model saved to {model_path}\n")
 
 if __name__ == "__main__":
-    import sys
-    sys.path.append("c:/Users/aryan kumar kannojia/Music/Caposton_write_2")
     train_churn_model()
     train_fraud_model()
     train_revenue_forecast_model()

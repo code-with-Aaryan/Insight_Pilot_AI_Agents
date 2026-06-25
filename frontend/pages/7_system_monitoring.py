@@ -6,10 +6,9 @@ import streamlit as st
 
 # Add project root to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+from config import DB_PATH
 
 st.set_page_config(page_title="System Monitoring | InsightPilot", page_icon="⚙️", layout="wide")
-
-DB_PATH = "c:/Users/aryan kumar kannojia/Music/Caposton_write_2/database/insightpilot.db"
 
 st.markdown("""
     <style>
