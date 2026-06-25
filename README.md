@@ -292,39 +292,6 @@ Research on multi-agent systems consistently shows that decomposing complex task
 
 ---
 
-# 🏛 Multi-Agent Ecosystem
-
-```mermaid
-graph TD
-
-User([👤 Business User])
-
-User --> O[🧭 Orchestrator Agent]
-
-O --> C[📈 Churn Intelligence Agent]
-O --> F[🛡 Fraud Investigation Agent]
-O --> R[💰 Revenue Forecast Agent]
-O --> E[📄 Executive Report Agent]
-
-C --> MCP[MCP Tool Server]
-F --> MCP
-R --> MCP
-E --> MCP
-
-MCP --> DB[(SQLite Database)]
-MCP --> ML[Machine Learning Models]
-
-ML --> XGB[XGBoost]
-ML --> RF[Random Forest]
-ML --> REG[Revenue Forecast Model]
-
-DB --> MCP
-
-E --> PDF[Executive PDF Generator]
-
-PDF --> User
-```
-
 ---
 
 # 🧭 Orchestrator Agent
