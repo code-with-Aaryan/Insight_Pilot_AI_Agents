@@ -229,7 +229,8 @@ uvicorn mcp_server.main:app --host 127.0.0.1 --port 8000
 ✅ Provide explainable AI insights for business decision-making
 
   
-## 7. # 🤖 Why AI Agents?
+## 7.
+# 🤖 Why AI Agents?
 
 ## Beyond Traditional Business Intelligence
 
