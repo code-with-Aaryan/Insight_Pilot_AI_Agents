@@ -159,10 +159,7 @@ uvicorn mcp_server.main:app --host 127.0.0.1 --port 8000
 
 > Coming Soon *(YouTube – 5 Minute Walkthrough)*
 
-🌐 **Live Demo**
 
-> https://insight-pilot-frontend.onrender.com
-> https://insightpilot-backend-j43w.onrender.com
 
 📂 **GitHub Repository**
 
