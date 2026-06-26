@@ -149,7 +149,6 @@ uvicorn mcp_server.main:app --host 127.0.0.1 --port 8000
 *   **Local LLM Integration:** Bind simulated agent behaviors to local LLMs (e.g., Llama-3 or Gemma-2 via Ollama).
 *   **Graph Database Integration:** Incorporate graph neural networks (GNNs) for transaction relation modeling.
 
-
 ---
 
 # 🎬 Live Demo & Resources
@@ -162,81 +161,42 @@ uvicorn mcp_server.main:app --host 127.0.0.1 --port 8000
 
 🌐 **Live Demo**
 
-> Coming Soon *(Streamlit Cloud / Render)*
-
-🏆 **Kaggle Capstone Submission**
-
-> Coming Soon
+> https://insight-pilot-frontend.onrender.com
+> https://insightpilot-backend-j43w.onrender.com
 
 📂 **GitHub Repository**
 
 > https://github.com/yourusername/InsightPilot
 
-📄 **Project Documentation**
 
-> `/docs`
-
-</div>
-
----
 
 # 📸 Platform Preview
+--
+[
 
-> **Executive Dashboard**
+<img width="1919" height="1001" alt="Image" src="https://github.com/user-attachments/assets/05948cb3-7e16-47a4-b7e7-b3cfb99f8ab0" />
 
-<p align="center">
-<img src="assets/screenshots/dashboard.png" width="95%">
-</p>
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/af82dd40-795a-4386-8a12-13fa9038c6f6" />
+<img width="1919" height="1017" alt="Image" src="https://github.com/user-attachments/assets/cf9d6673-88cf-4ba3-922d-31e2b3d069e6" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/0b09fd77-f06d-4b0d-a1a9-3d566a70e251" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/b4ce0562-32bc-426e-87de-db8fa175d740" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/db612c94-0511-4cff-b685-90ff13b4fba4" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/8b903350-e720-4818-b8b7-bce40fb605a9" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/d5d3ad59-d3cd-4924-9e56-539eecb4b4f7" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/24a8c3c2-bed9-4df6-9506-4598a4827b41" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/e7f79535-0895-49ba-8a50-98b384ec1d1d" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/ac3b1355-0561-452a-b528-097fc07d56f9" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/4bd5e7ce-45b0-43d8-99d6-25945f06cffe" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/3ffe2d81-8b8c-4a3d-aab0-bca8390eb643" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/705a30c3-9e51-437e-a027-77f267d74b28" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/8b587743-13b7-4b8b-bff6-7c0e7e0a244a" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/945f8f91-f219-47c2-879e-ab51d5f142db" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/6ce78d1f-23a4-4af7-8473-c097ca1ea5f4" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/98fd598d-ad27-4658-a940-5eb8e9690b66" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/b057558a-d4e8-4089-9706-ddac032af2a5" />
+<img width="1267" height="830" alt="Image" src="https://github.com/user-attachments/assets/486406c0-7df2-4eac-8a2e-773b4a6e12ab" />
 
----
-
-> **Customer Churn Intelligence**
-
-<p align="center">
-<img src="assets/screenshots/churn_dashboard.png" width="95%">
-</p>
-
----
-
-> **Fraud Investigation Center**
-
-<p align="center">
-<img src="assets/screenshots/fraud_dashboard.png" width="95%">
-</p>
-
----
-
-> **Revenue Forecast Dashboard**
-
-<p align="center">
-<img src="assets/screenshots/revenue_dashboard.png" width="95%">
-</p>
-
----
-
-> **Multi-Agent Business Chat**
-
-<p align="center">
-<img src="assets/screenshots/chat_agent.png" width="95%">
-</p>
-
----
-
-> **Executive PDF Report**
-
-<p align="center">
-<img src="assets/screenshots/report.png" width="95%">
-</p>
-
----
-
-> **System Monitoring Dashboard**
-
-<p align="center">
-<img src="assets/screenshots/system_monitor.png" width="95%">
-</p>
-
----
+--
 
 # ⚡ Quick Highlights
 
@@ -270,37 +230,6 @@ uvicorn mcp_server.main:app --host 127.0.0.1 --port 8000
 ✅ Operate completely offline with locally trained ML models
 
 ✅ Provide explainable AI insights for business decision-making
-
-
-
-
-[
-
-<img width="1919" height="1001" alt="Image" src="https://github.com/user-attachments/assets/05948cb3-7e16-47a4-b7e7-b3cfb99f8ab0" />
-
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/af82dd40-795a-4386-8a12-13fa9038c6f6" />
-<img width="1919" height="1017" alt="Image" src="https://github.com/user-attachments/assets/cf9d6673-88cf-4ba3-922d-31e2b3d069e6" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/0b09fd77-f06d-4b0d-a1a9-3d566a70e251" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/b4ce0562-32bc-426e-87de-db8fa175d740" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/db612c94-0511-4cff-b685-90ff13b4fba4" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/8b903350-e720-4818-b8b7-bce40fb605a9" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/d5d3ad59-d3cd-4924-9e56-539eecb4b4f7" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/24a8c3c2-bed9-4df6-9506-4598a4827b41" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/e7f79535-0895-49ba-8a50-98b384ec1d1d" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/ac3b1355-0561-452a-b528-097fc07d56f9" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/4bd5e7ce-45b0-43d8-99d6-25945f06cffe" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/3ffe2d81-8b8c-4a3d-aab0-bca8390eb643" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/705a30c3-9e51-437e-a027-77f267d74b28" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/8b587743-13b7-4b8b-bff6-7c0e7e0a244a" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/945f8f91-f219-47c2-879e-ab51d5f142db" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/6ce78d1f-23a4-4af7-8473-c097ca1ea5f4" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/98fd598d-ad27-4658-a940-5eb8e9690b66" />
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/b057558a-d4e8-4089-9706-ddac032af2a5" />
-<img width="1267" height="830" alt="Image" src="https://github.com/user-attachments/assets/486406c0-7df2-4eac-8a2e-773b4a6e12ab" />
-
-
-
-
 
   
 ## 7. # 🤖 Why AI Agents?
